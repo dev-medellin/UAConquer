@@ -35,7 +35,7 @@ namespace TheChosenProject.Game.MsgEvents
                 Started = true;
                 AcceptingPlayers = true;
                 Thread T = new Thread(new ThreadStart(Execute));
-                T.Name = "LastManStanding";
+                T.Name = "CrownConquest";
                 MacJoin.Clear();
                 T.Start();
             }
@@ -53,10 +53,10 @@ namespace TheChosenProject.Game.MsgEvents
                         if (!AwaitingPlayers.Contains(client))
                         {
                             AwaitingPlayers.Add(client);
-                            client.SendSysMesage("You are now in Queue for a LastManStanding event.");
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to LastManStanding.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
+                            client.SendSysMesage("You are now in Queue for a CrownConquest event.");
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to CrownConquest.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
                         }
-                        else client.SendSysMesage("You are now in Queue for a LastManStanding event.");
+                        else client.SendSysMesage("You are now in Queue for a CrownConquest event.");
                     }
                 }
             }
@@ -92,15 +92,15 @@ namespace TheChosenProject.Game.MsgEvents
 
                 foreach (var client in Server.GamePoll.Values)
                 {
-                    client.Player.MessageBox("SiegeChampion Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
+                    client.Player.MessageBox("ThroneSiege Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
                 }
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SiegeChampion Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("ThroneSiege Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(30000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SiegeChampion Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("ThroneSiege Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(20000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before SiegeChampion starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before ThroneSiege starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before SiegeChampion starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before ThroneSiege starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
                 AcceptingPlayers = false;
                 #endregion
@@ -163,7 +163,7 @@ namespace TheChosenProject.Game.MsgEvents
                     _chrz = GetPlayers();
                     foreach (var client in _chrz)
                     {
-                        client.SendSysMesage($"---------LastManStanding---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
+                        client.SendSysMesage($"---------CrownConquest---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
                         client.SendSysMesage($"Players  : {_chrz.Length}", MsgServer.MsgMessage.ChatMode.ContinueRightCorner);
                     }
                     Thread.Sleep(2000);
@@ -189,22 +189,23 @@ namespace TheChosenProject.Game.MsgEvents
 
                         }
 
-                        //if (hero.Player.Level < 137)
-                        //    hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
-                        //if (hero.Inventory.HaveSpace(1))
-                        //{
-                        //    hero.Inventory.Add(stream, 730003, 1);//+3
-                        //}
-                        //else
-                        //{
-                        //    hero.Inventory.AddReturnedItem(stream, 730003, 1);
-                        //}
-                        Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won SiegeChampion Tournament and [SurpriseBox] and received a 150,000 ConquerMoney and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                        if (hero.Player.Level < 137)
+                            hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+
+                        if (hero.Inventory.HaveSpace(1))
+                        {
+                            hero.Inventory.Add(stream, 730002, 1);//+3
+                        }
+                        else
+                        {
+                            hero.Inventory.AddReturnedItem(stream, 730002, 1);
+                        }
+                        Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won ThroneSiege Tournament and [SurpriseBox] and received a 150,000 ConquerMoney and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                     }
                     #endregion
-                    //Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won LastManStanding!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-                    hero.SendSysMesage("You won in SiegeChampion check your Inventory.");
+                    //Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won CrownConquest!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                    hero.SendSysMesage("You won in ThroneSiege check your Inventory.");
                   
 
 

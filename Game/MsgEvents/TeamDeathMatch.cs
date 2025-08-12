@@ -35,12 +35,12 @@ namespace TheChosenProject.Game.MsgEvents
         {
             Started = true;
             Thread T = new Thread(new ThreadStart(Execute));
-            T.Name = "SquadShowDown";
+            T.Name = "WarOfTitans";
             MacJoin.Clear();
             T.Start();
             foreach(var client in Server.GamePoll.Values)
             {
-                client.Player.MessageBox("SquadShowDown Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002); }), null, 60);
+                client.Player.MessageBox("WarOfTitans Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002); }), null, 60);
             }
         }
 
@@ -59,11 +59,11 @@ namespace TheChosenProject.Game.MsgEvents
                         {
                             AwaitingPlayers.Add(client);
                             LastPlayerUID = client.Player.UID;
-                            client.SendSysMesage("You are now in Queue for a SquadShowDown event.");
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to SquadShowDown.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
+                            client.SendSysMesage("You are now in Queue for a WarOfTitans event.");
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to WarOfTitans.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
 
                         }
-                        else client.SendSysMesage("You are now in Queue for a SquadShowDown event.");
+                        else client.SendSysMesage("You are now in Queue for a WarOfTitans event.");
                     }
                 }
             }
@@ -83,15 +83,15 @@ namespace TheChosenProject.Game.MsgEvents
                 var stream = rec.GetStream();
                 #region Sign Ups
                 AcceptingPlayers = true;
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SquadShowDown Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("WarOfTitans Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(30000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SquadShowDown Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("WarOfTitans Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(20000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("Ten Seconds left before SquadShowDown starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("Ten Seconds left before WarOfTitans starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("Five Seconds left before SquadShowDown starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("Five Seconds left before WarOfTitans starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                //Program.DiscordEventsAPI.Enqueue("SquadShowDown Has Started");
+                //Program.DiscordEventsAPI.Enqueue("WarOfTitans Has Started");
                 AcceptingPlayers = false;
                 
                 #endregion
@@ -283,17 +283,17 @@ namespace TheChosenProject.Game.MsgEvents
                                 client.Player.TournamentsPoints++;
                             }
 
-                            //if (client.Player.Level < 137)
-                            //    client.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
-                            //if (client.Inventory.HaveSpace(1))
-                            //{
-                            //    client.Inventory.Add(stream, 730003, 1);//+2
-                            //}
-                            //else
-                            //{
-                            //    client.Inventory.AddReturnedItem(stream, 730003, 1);
-                            //}
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"The Blue Team Won SquadShowDown Tournament and received a 50,000 Conquer Money and [SurpriseBox] and (1) Tournament Points !", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            if (client.Player.Level < 137)
+                                client.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+                            if (client.Inventory.HaveSpace(1))
+                            {
+                                client.Inventory.Add(stream, 730002, 1);//+2
+                            }
+                            else
+                            {
+                                client.Inventory.AddReturnedItem(stream, 730002, 1);
+                            }
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"The Blue Team Won WarOfTitans Tournament and received a 50,000 Conquer Money and [SurpriseBox] and (1) Tournament Points !", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         }
                             #endregion
                             
@@ -314,17 +314,17 @@ namespace TheChosenProject.Game.MsgEvents
                                 client.Player.TournamentsPoints++;
                             }
 
-                            //if (client.Player.Level < 137)
-                            //    client.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
-                            //if (client.Inventory.HaveSpace(1))
-                            //{
-                            //    client.Inventory.Add(stream, 730003, 1);//+2
-                            //}
-                            //else
-                            //{
-                            //    client.Inventory.AddReturnedItem(stream, 730004, 1);
-                            //}
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"The Red Team Won SquadShowDown Tournament and received a 150,000 Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            if (client.Player.Level < 137)
+                                client.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+                            if (client.Inventory.HaveSpace(1))
+                            {
+                                client.Inventory.Add(stream, 730002, 1);//+2
+                            }
+                            else
+                            {
+                                client.Inventory.AddReturnedItem(stream, 730002, 1);
+                            }
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"The Red Team Won WarOfTitans Tournament and received a 150,000 Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
 
 
@@ -332,7 +332,7 @@ namespace TheChosenProject.Game.MsgEvents
                         #endregion                       
                     }
                     #endregion
-                    client.SendSysMesage("You won in SquadShowDown check your Inventory.");
+                    client.SendSysMesage("You won in WarOfTitans check your Inventory.");
                 }
                 #endregion
 

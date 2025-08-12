@@ -383,15 +383,15 @@ namespace TheChosenProject.Game.MsgTournaments
 
 
                         if (StoneThree == true)
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won SiegeChampion Tournament and received a +3Stone and 5,000,000 Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won ThroneSiege Tournament and received a +3Stone and 5,000,000 Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         if (PowerExpBall == true)
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won SiegeChampion Tournament and received a 2xPowerExpBall and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won ThroneSiege Tournament and received a 2xPowerExpBall and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         if (DragonBall == true)
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won SiegeChampion Tournament and received a 5xDragonBalls and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won ThroneSiege Tournament and received a 5xDragonBalls and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         if (StoneTwo == true)
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won SiegeChampion Tournament and received a +2Stone and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won ThroneSiege Tournament and received a +2Stone and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         if (packstone == true)
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won SiegeChampion Tournament and received a +1PackStone and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{user.Player.Name} Won ThroneSiege Tournament and received a +1PackStone and 5,000,000  Gold!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                         //else
                         //    Broadcast($"{ client.Player.Name} has won the hourly " + EventTitle + " Tournament!", BroadCastLoc.World);

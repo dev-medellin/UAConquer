@@ -108,14 +108,14 @@ namespace TheChosenProject.Game.MsgTournaments
             {
                 if (DateTime.Now > StartTimer.AddMinutes(1.0))
                 {
-                    MsgSchedules.SendSysMesage("SiegeChampion has started! signup are now closed.", MsgMessage.ChatMode.Center);
+                    MsgSchedules.SendSysMesage("ThroneSiege has started! signup are now closed.", MsgMessage.ChatMode.Center);
                     Process = ProcesType.Alive;
                     StartTimer = DateTime.Now;
                 }
                 else if (DateTime.Now > InfoTimer.AddSeconds(10.0))
                 {
                     Seconds -= 10u;
-                    MsgSchedules.SendSysMesage("[SiegeChampion] Fight starts in " + Seconds + " Seconds.", MsgMessage.ChatMode.Center);
+                    MsgSchedules.SendSysMesage("[ThroneSiege] Fight starts in " + Seconds + " Seconds.", MsgMessage.ChatMode.Center);
                     InfoTimer = DateTime.Now;
                 }
             }
@@ -129,7 +129,7 @@ namespace TheChosenProject.Game.MsgTournaments
                 {
                     user.Teleport(430, 388, 1002u);
                 }
-                MsgSchedules.SendSysMesage("SiegeChampion has ended. All Players of LastManStand has teleported to TwinCity.", MsgMessage.ChatMode.Center);
+                MsgSchedules.SendSysMesage("ThroneSiege has ended. All Players of LastManStand has teleported to TwinCity.", MsgMessage.ChatMode.Center);
                 Process = ProcesType.Dead;
                 try
                 {
@@ -146,7 +146,7 @@ namespace TheChosenProject.Game.MsgTournaments
                 winner = Map.Values.Where((GameClient p) => p.Player.DynamicID == DinamicMap && p.Player.Map == Map.ID).FirstOrDefault();
                 if (winner == null)
                     return;
-                MsgSchedules.SendSysMesage(winner.Player.Name + " has Won  SiegeChampion. ", MsgMessage.ChatMode.BroadcastMessage, MsgMessage.MsgColor.white);
+                MsgSchedules.SendSysMesage(winner.Player.Name + " has Won  ThroneSiege. ", MsgMessage.ChatMode.BroadcastMessage, MsgMessage.MsgColor.white);
                 using (RecycledPacket rec = new RecycledPacket())
                 {
                     Packet stream;

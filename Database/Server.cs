@@ -43,7 +43,7 @@ namespace TheChosenProject.Database
         private static Dictionary<int, string> dailyEventSchedule = new Dictionary<int, string>();
         private static int lastScheduledDay = -1;
         private static readonly string dailyEventSchedulePath = "Config/DailyEventSchedule.txt";
-        private static readonly string[] allEvents = { "SkillsTournament", "TeamDeathMatch", "Get5HitOut", "DivineDetonation", "SiegeChampion", "CycloneRace", "Theif" };
+        private static readonly string[] allEvents = { "SkillsTournament", "TeamDeathMatch", "Get5HitOut", "DivineDetonation", "ThroneSiege", "CycloneRace", "Theif" };
 
         public static ushort[] PriceUpdatePorf = new ushort[20]
         {

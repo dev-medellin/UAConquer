@@ -253,7 +253,8 @@ namespace TheChosenProject.Game.MsgMonster
             }
             ClearFlags();
             HitPoints = 0u;
-            killer.OnAutoAttack = false;
+            if (killer != null)
+                killer.OnAutoAttack = false;
             AddFlag(MsgUpdate.Flags.Dead, 2592000, true);
             DeadStamp = Time32.Now;
             var Pet = Database.Server.GamePoll.Values.Where(p => p != null && p.Pet != null && p.Pet.monster.UID == aUID).FirstOrDefault();

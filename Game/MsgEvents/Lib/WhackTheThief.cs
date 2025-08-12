@@ -16,7 +16,7 @@ namespace TheChosenProject.Game.MsgEvents
         {
             IDEvent = 11;
             IDMessage = MsgStaticMessage.Messages.WhackTheThief;
-            EventTitle = "ThiefsReckoning";
+            EventTitle = "ShadowHeist";
             Duration = 10;
             BaseMap = 11266;
             NoDamage = true;

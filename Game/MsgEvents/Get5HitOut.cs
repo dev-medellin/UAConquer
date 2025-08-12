@@ -32,7 +32,7 @@ namespace TheChosenProject.Game.MsgEvents
         {
             Started = true;
             Thread T = new Thread(new ThreadStart(Execute));
-            T.Name = "SacredStrikeOut";
+            T.Name = "FiveFuryTrial";
             MacJoin.Clear();
             T.Start();
         }
@@ -50,10 +50,10 @@ namespace TheChosenProject.Game.MsgEvents
                         if (!AwaitingPlayers.Contains(client))
                         {
                             AwaitingPlayers.Add(client);
-                            client.SendSysMesage("You are now in Queue for a SacredStrikeOut event.");
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to SacredStrikeOut.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Talk).GetArray(stream));
+                            client.SendSysMesage("You are now in Queue for a FiveFuryTrial event.");
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to FiveFuryTrial.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Talk).GetArray(stream));
                         }
-                        else client.SendSysMesage("You are now in Queue for a SacredStrikeOut event.");
+                        else client.SendSysMesage("You are now in Queue for a FiveFuryTrial event.");
                     }
                 }
             }
@@ -91,17 +91,17 @@ namespace TheChosenProject.Game.MsgEvents
                 AcceptingPlayers = true;
                 foreach (var client in Server.GamePoll.Values)
                 {
-                    client.Player.MessageBox("SacredStrikeOut Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
+                    client.Player.MessageBox("FiveFuryTrial Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
                 }
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SacredStrikeOut Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("FiveFuryTrial Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(30000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("SacredStrikeOut Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("FiveFuryTrial Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(20000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before SacredStrikeOut starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before FiveFuryTrial starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before SacredStrikeOut starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before FiveFuryTrial starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                //Program.DiscordEventsAPI.Enqueue("SacredStrikeOut Has Started");
+                //Program.DiscordEventsAPI.Enqueue("FiveFuryTrial Has Started");
                 AcceptingPlayers = false;
                 #endregion
 
@@ -177,7 +177,7 @@ namespace TheChosenProject.Game.MsgEvents
                     _chrz = GetPlayers();
                     foreach (var client in _chrz)
                     {
-                        client.SendSysMesage($"---------SacredStrikeOut---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
+                        client.SendSysMesage($"---------FiveFuryTrial---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
                         client.SendSysMesage($"Players  : {_chrz.Length}", MsgServer.MsgMessage.ChatMode.ContinueRightCorner);
                         client.SendSysMesage($"Hits Left: {Math.Min(MaxHits, MaxHits - client.FIveOutHits)}", MsgServer.MsgMessage.ChatMode.ContinueRightCorner);
                     }
@@ -202,18 +202,18 @@ namespace TheChosenProject.Game.MsgEvents
 
                         }
 
-                        //if (hero.Player.Level < 137)
-                        //    hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+                        if (hero.Player.Level < 137)
+                            hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
 
-                        //if (hero.Inventory.HaveSpace(1))
-                        //{
-                        //    hero.Inventory.Add(stream, 730003, 1);//+3
-                        //}
-                        //else
-                        //{
-                        //    hero.Inventory.AddReturnedItem(stream, 730003, 1);
-                        //}
-                        Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won SacredStrikeOut Tournament and received a 50,000 Gold and [SurpriseBox] and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                        if (hero.Inventory.HaveSpace(1))
+                        {
+                            hero.Inventory.Add(stream, 730002, 1);//+3
+                        }
+                        else
+                        {
+                            hero.Inventory.AddReturnedItem(stream, 730002, 1);
+                        }
+                        Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won FiveFuryTrial Tournament and received a 50,000 Gold and [SurpriseBox] and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                         
                     }
                     #endregion
@@ -246,7 +246,7 @@ namespace TheChosenProject.Game.MsgEvents
                         }
                     }
                     //Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won Get5HitOut!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-                    hero.SendSysMesage("You won in SacredStrikeOut check your Inventory.");
+                    hero.SendSysMesage("You won in FiveFuryTrial check your Inventory.");
                 }
                 #endregion
 

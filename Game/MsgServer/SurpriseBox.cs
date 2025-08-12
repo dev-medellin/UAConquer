@@ -16,7 +16,7 @@ namespace TheChosenProject.Game.MsgServer
             754099,//999Tulips
             //780010,//1D-VIP
             720027,//MeteorScroll
-            //722057,//PowerEXPBall
+            722057,//PowerEXPBall
             721080,
             721258,
             //1200000,
@@ -27,16 +27,16 @@ namespace TheChosenProject.Game.MsgServer
             191305,//goodluck
             751099,//999Tulips
             723727,//PenitenceAmulet
-            //720547,//MegaMetsPack
+            720547,//MegaMetsPack
             //720135,//SuperGem
             //723410,
         };
 
         static List<uint> Mid = new List<uint>()
         {
-            //720028,//DBScroll
+            720028,//DBScroll
             720027,//MeteorScroll
-            //722057,//PowerEXPBall
+            722057,//PowerEXPBall
             //1200000,
             //1200001,
             //1200002,

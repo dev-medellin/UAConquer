@@ -1,0 +1,65 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+## Ignore Visual Studio temporary files, build results, and cache
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.apk
+*.ap_
+*.appx
+*.appxbundle
+*.appxupload
+
+## NuGet packages
+*.nupkg
+*.snupkg
+# Uncomment if you have NuGet package files in source control
+# packages/
+
+## Microsoft Visual Studio cache files
+*.pdb
+*.cache
+*.ilk
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+TestResults/
+
+## Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+# Ignore build output
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore nested Debug/Release in subfolders
+**/bin/
+**/obj/
+**/Debug/
+**/Release/

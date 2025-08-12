@@ -20,7 +20,7 @@ namespace TheChosenProject.Game.MsgEvents
         public CycloneRace()
         {
             IDEvent = 1;
-            EventTitle = "CelestialRush";
+            EventTitle = "TempestRush";
             IDMessage = MsgStaticMessage.Messages.CycloneRace;
             NoDamage = true;
             MagicAllowed = false;

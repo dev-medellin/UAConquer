@@ -12,8 +12,8 @@ namespace TheChosenProject.Game.MsgTournaments
         private static int lastScheduledDay = -1;
 
         private static readonly string[] allEvents = {
-            "SkillsTournament", "TeamDeathMatch", "Get5HitOut", "DivineDetonation",
-            "SiegeChampion", "CycloneRace", "Theif"
+            "ClashOfLegends", "WarOfTitans", "FiveFuryTrial", "InfernoDetonation",
+            "CrownConquest", "TempestRush", "ShadowHeist"
         };
 
         public static void Tick(DateTime Now64)
@@ -63,28 +63,28 @@ namespace TheChosenProject.Game.MsgTournaments
                 {
                     switch (eventName)
                     {
-                        case "SkillsTournament":
+                        case "ClashOfLegends":
                             if (!SkillsTournament.Started) new SkillsTournament();
                             break;
-                        case "TeamDeathMatch":
+                        case "WarOfTitans":
                             if (!TeamDeathMatch.Started) new TeamDeathMatch();
                             break;
-                        case "Get5HitOut":
+                        case "FiveFuryTrial":
                             if (!Get5HitOut.Started) new Get5HitOut();
                             break;
-                        case "DivineDetonation":
+                        case "InfernoDetonation":
                             if (!PassTheBomb.Started) new PassTheBomb();
                             break;
-                        case "SiegeChampion":
+                        case "CrownConquest":
                             if (!LastManStanding.Started) new LastManStanding();
                             break;
-                        case "CycloneRace":
+                        case "TempestRush":
                             {
                                 Game.MsgEvents.Events e = new CycloneRace();
                                 e.StartTournament();
                             }
                             break;
-                        case "Theif":
+                        case "ShadowHeist":
                             {
                                 Game.MsgEvents.Events e = new WhackTheThief();
                                 e.StartTournament();

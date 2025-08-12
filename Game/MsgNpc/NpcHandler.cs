@@ -2489,14 +2489,16 @@ namespace TheChosenProject.Game.MsgNpc
                 case 100:
                 case 0:
                     {
-                        data.AddText("Hello! I hope you are doing well.\nAllow me to introduce you to the TournamentsPoints Manager.");
-                        data.AddText("\n# TournamentsPoints are not collected with Auto/offline modes #");
-                        data.AddText("\nEvery time you participate tournaments events and won the rewards on our server.");
-                        data.AddText("\nOnce you've accumulated enough minutes,\nyou can claim your awesome rewards.");
-                        data.AddText("\n# Remember, you have limited attempts #");
-                        data.AddText("\n# ------------------------------------------------------- #.");
-                        data.AddText("\n          #You have: [" + client.Player.TournamentsPoints + "] TournamentsPoints#");
-                        data.AddText("\n# ------------------------------------------------------- #.");
+                        data.AddText("Greetings, champion! Welcome to the Tournament Points Manager.");
+                        data.AddText("\n----- How to Earn Tournament Points -----");
+                        data.AddText("\nCompete in tournament events and claim victory to earn Tournament Points.");
+                        data.AddText("\nEach win brings you closer to unlocking powerful rewards.");
+                        data.AddText("\n----- Claiming Rewards -----");
+                        data.AddText("\nOnce you’ve gathered enough Tournament Points, you can exchange them for epic prizes.");
+                        data.AddText("\nRemember, you have limited claim attempts, so spend them wisely!");
+                        data.AddText("\n=================== TOURNAMENT STATUS ===================");
+                        data.AddText("\n         >> You have: " + client.Player.TournamentsPoints + " Tournament Points <<");
+                        data.AddText("\n==========================================================");
                         //data.AddOption("Claim PromotionStones:[" + client.TournamentsManager.PromotionStonesTimes + "/3]", 1);
                         data.AddOption("Claim DragonBall:[" + client.TournamentsManager.DBPiecesTimes + "/5]", 4);
                         data.AddOption("Claim PenetienceAmulet:[" + client.TournamentsManager.PenitenceTimes + "/3]", 28);
@@ -3067,7 +3069,7 @@ namespace TheChosenProject.Game.MsgNpc
             switch (Option)
             {
                 case 0:
-                    dialog.Text("Welcome! We're excited to see you. It looks like you haven't heard about the SiegeChampion tournament.\nLet me tell you about this thrilling event.");
+                    dialog.Text("Welcome! We're excited to see you. It looks like you haven't heard about the ThroneSiege tournament.\nLet me tell you about this thrilling event.");
                     dialog.Text("\nAll players compete, and the last one standing wins. Prepare for an exhilarating experience!");
                     dialog.AddText("\n# ======================================================= #");
                     dialog.AddText("\n Required Inventory Space: 5 slots");
@@ -3090,7 +3092,7 @@ namespace TheChosenProject.Game.MsgNpc
                     }
                     if (!MsgEvents.LastManStanding.Started)
                     {
-                        dialog.AddText("Hey " + client.Player.Name + ", SiegeChampion not running at the moment, come back later");
+                        dialog.AddText("Hey " + client.Player.Name + ", ThroneSiege not running at the moment, come back later");
                         dialog.AddOption("I see. ", byte.MaxValue);
                         dialog.AddAvatar(76).FinalizeDialog();
                     }
@@ -3837,13 +3839,16 @@ namespace TheChosenProject.Game.MsgNpc
                 case 100:
                 case 0:
                     {
-                        data.AddText("Hello! I hope you are doing well.\nLet me introduce you to the OP Manager.");
-                        data.AddText("\n# OP collection is not applicable with Auto/offline modes #");
-                        data.AddText("\nEvery 5 Minutes you spend online earns you rewards in our server.");
-                        data.AddText("\nOnce you've accumulated enough minutes, you can claim your awesome rewards.");
-                        data.AddText("\n# Remember, your attempts are limited #");
-                        data.AddText("\n# ------------------------------------------------------- #.");
-                        data.AddText("\n# You have: [" + client.Player.OnlinePoints + "] Online Points #");
+                        data.AddText("Greetings, warrior! Welcome to the OnlinePointsHandler.");
+                        data.AddText("\n ----- How to Earn Online Points -------");
+                        data.AddText("\n 1. Stay online and active — every 5 minutes you spend online will earn you OP (Online Points).");
+                        data.AddText("\n 2. You must be Level 120 or higher AND have completed your 2nd Rebirth to earn OP.");
+                        data.AddText("\nThis requirement is to prevent abuse from low-level or idle accounts.");
+                        data.AddText("\n ----- Important Notes -------");
+                        data.AddText("\n• OP is not earned while in Auto/Offline modes.");
+                        data.AddText("\n• Once you have enough OP, you can claim amazing rewards.");
+                        data.AddText("\n• Claim attempts are limited, so choose wisely.");
+                        data.AddText("\n---- You have: [" + client.Player.OnlinePoints + "] Online Points ----");
                         data.AddOption("Claim Guild Certificates [" + client.OnlinePointsManager.GuildCertificate + "/1]", 1);
                         data.AddOption("Claim Clan Certificates [" + client.OnlinePointsManager.ClanCertificate + "/1]", 11);
                         data.AddOption("Claim Promotion Stone [" + client.OnlinePointsManager.PromotionStonesTimes + "/3]", 4);
@@ -8366,16 +8371,17 @@ namespace TheChosenProject.Game.MsgNpc
             {
                 case 0:
                     {
-                        data.AddText("Greetings, adventurer! I hope you're doing well. Let me introduce you to the thrilling hunting quests.");
-                        data.AddText("\n# Each City Holds a Secret Card #");
-                        data.AddText("\nFind a key in each city to complete the stage and advance to the next.");
-                        data.AddText("\nCollect all 5 types of cards to claim your awesome rewards.");
-                        data.AddText("\n# Rewards from All Cities #");
-                        data.AddText("\n# ------------------------------------------------------- #");
-                        data.AddText("\n(+5) Stone, 2x (Super) Tortoise Gem, 5x Class5 Money Bag,");
-                        data.AddText("\n2x MegaDBPack, 3x MegaMetsPack, 3x UltimatePack,");
-                        data.AddText("\n5x PowerExpBall, 1x (1-Day) VIP6.");
-                        data.AddText("\n# ------------------------------------------------------- #");
+                        data.AddText("Hello, adventurer! Hope you’re doing great. Let me tell you about our exciting Hunting Quests!");
+                        data.AddText("\n------- How It Works ------");
+                        data.AddText("\nEach city hides a special key. Find the key in a city to complete that stage and move to the next one.");
+                        data.AddText("\nCollect all 5 unique cards from the cities to earn amazing rewards!");
+                        data.AddText("\n-----------------REWARDS----------------------");
+                        data.AddText("\n• 2x (+3) Stone");
+                        data.AddText("\n• 3x Class 5 Money Bag");
+                        data.AddText("\n• 2x MegaDBPack");
+                        data.AddText("\n• 3x MegaMetsPack");
+                        data.AddText("\n• 5x PowerExpBall");
+                        data.AddText("\n• 1x (1-Day) VIP6 Access");
                         data.AddOption("TwinCity Stage", 1);
                         data.AddOption("PhoenixCity Stage", 4);
                         data.AddOption("ApeCity Stage", 7);

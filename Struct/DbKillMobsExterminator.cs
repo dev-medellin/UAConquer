@@ -152,7 +152,6 @@ namespace TheChosenProject.Struct
 
         public static void Reward(Client.GameClient client, uint id)
         {
-            return;
             switch (id)
             {
                 case 1002:

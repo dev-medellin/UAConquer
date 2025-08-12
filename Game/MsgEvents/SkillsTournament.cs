@@ -52,7 +52,7 @@ namespace TheChosenProject.Game.MsgEvents
                 Started = true;
                 AcceptingPlayers = true;
                 Thread T = new Thread(new ThreadStart(Execute));
-                T.Name = "[SupremeDuelist]Tournament";
+                T.Name = "ClashOfLegends";
                 MacJoin.Clear();
                 T.Start();
             }
@@ -72,10 +72,10 @@ namespace TheChosenProject.Game.MsgEvents
                         if (!AwaitingPlayers.Contains(client))
                         {
                             AwaitingPlayers.Add(client);
-                            client.SendSysMesage("You are now in Queue for a [SupremeDuelist]Tournament event.");
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to [SupremeDuelist]Tournament.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
+                            client.SendSysMesage("You are now in Queue for a ClashOfLegends event.");
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to ClashOfLegends.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
                         }
-                        else client.SendSysMesage("You are now in Queue for a [SupremeDuelist]Tournament event.");
+                        else client.SendSysMesage("You are now in Queue for a ClashOfLegends event.");
                     }
                 }
 
@@ -134,15 +134,15 @@ namespace TheChosenProject.Game.MsgEvents
                 AcceptingPlayers = true;
                 foreach (var client in Server.GamePoll.Values)
                 {
-                    client.Player.MessageBox("[SupremeDuelist]Tournament Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
+                    client.Player.MessageBox("ClashOfLegends Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
                 }
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[SupremeDuelist]Tournament Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("ClashOfLegends Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(30000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[SupremeDuelist]Tournament Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("ClashOfLegends Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(20000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before [SupremeDuelist]Tournament starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before ClashOfLegends starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before [SupremeDuelist]Tournament starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before ClashOfLegends starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
                 //Program.DiscordEventsAPI.Enqueue("SupremeDuelist Has Started");
                 AcceptingPlayers = false;
@@ -244,7 +244,7 @@ namespace TheChosenProject.Game.MsgEvents
                     }
                     foreach (var client in _chrz)
                     {
-                        client.SendSysMesage($"---------[SupremeDuelist]Tournament---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
+                        client.SendSysMesage($"---------ClashOfLegends---------", MsgServer.MsgMessage.ChatMode.FirstRightCorner);
                         for (var i = 0; i < list.Count; i++)
                         {
                             client.SendSysMesage(list[i], MsgServer.MsgMessage.ChatMode.ContinueRightCorner);
@@ -293,17 +293,17 @@ namespace TheChosenProject.Game.MsgEvents
 
                                             }
 
-                                            //if (hero.Player.Level < 137)
-                                            //    hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
-                                            //if (hero.Inventory.HaveSpace(1))
-                                            //{
-                                            //    hero.Inventory.Add(stream, 730003, 1);//+2
-                                            //}
-                                            //else
-                                            //{
-                                            //    hero.Inventory.AddReturnedItem(stream, 730003, 1);
-                                            //}
-                                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won [SupremeDuelist]Tournament Tournament and received a 150,000 Conquer Money and [SurpriseBox] and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                            if (hero.Player.Level < 137)
+                                                hero.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+                                            if (hero.Inventory.HaveSpace(1))
+                                            {
+                                                hero.Inventory.Add(stream, 730002, 1);//+2
+                                            }
+                                            else
+                                            {
+                                                hero.Inventory.AddReturnedItem(stream, 730002, 1);
+                                            }
+                                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{hero.Player.Name} Won ClashOfLegends Tournament and received a 150,000 Conquer Money and [SurpriseBox] and (1) Tournament Points!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                                             
                                         }
@@ -336,7 +336,7 @@ namespace TheChosenProject.Game.MsgEvents
 
                                             }
                                         }
-                                        hero.SendSysMesage("You won in [SupremeDuelist]Tournament check your Inventory.");
+                                        hero.SendSysMesage("You won in ClashOfLegends check your Inventory.");
                                         break;
                                     }
                                 //case 2:
@@ -379,16 +379,18 @@ namespace TheChosenProject.Game.MsgEvents
         public static string GetKillerMessage()
         {
             List<string> stringList = new List<string>()
-      {
-        "LOL U CANT AIM FOR SHIT! #10 #00",
-        "You are too damn slow o_O #04",
-        "Why Swing that Sword like that who is your mentor #01",
-        "bruh put that blade down! #18 #39",
-        "Better luck next time buddie! #19 #39",
-        "Only 1 Truth Divine Player HERE PUNK! #28 #16",
-        "BETTER LUCK NEXT TIME BUDDIE! GO PLAY REALCO! #06",
-        "bring me someone who can help u your dog shit#54 #58"
-      };
+          {
+                "Is that all you've got? My grandma hits harder! #12 #30",
+                "You swing like you're underwater! #25 #05",
+                "Stop running! This ain't a marathon! #07 #29",
+                "Even the training dummy has better aim! #18 #39",
+                "Were you even trying, or was that a warm-up? #04 #14",
+                "I’ve seen chickens fight braver than you! #16 #00",
+                "Call that an attack? My pet rock is scarier! #22 #13",
+                "Your moves are so slow, I took a nap mid-fight! #19 #27",
+                "Go back to the tutorial, rookie! #06 #28",
+                "You fight like you’re asking for mercy! #31 #02"
+          };
             int index = new Random().Next(stringList.Count);
             return stringList[index];
         }

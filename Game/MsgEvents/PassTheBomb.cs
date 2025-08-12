@@ -54,7 +54,7 @@ namespace TheChosenProject.Game.MsgEvents
                 Started = true;
                 AcceptingPlayers = true;
                 Thread T = new Thread(new ThreadStart(Execute));
-                T.Name = "DivineDetonation";
+                T.Name = "InfernoDetonation";
                 MacJoin.Clear();
                 T.Start();
             }
@@ -73,10 +73,10 @@ namespace TheChosenProject.Game.MsgEvents
                         if (!AwaitingPlayers.Contains(client))
                         {
                             AwaitingPlayers.Add(client);
-                            client.SendSysMesage("You are now in Queue for a DivineDetonation event.");
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to DivineDetonation.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
+                            client.SendSysMesage("You are now in Queue for a InfernoDetonation event.");
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage($"{client.Player.Name} join to InfernoDetonation.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.TopLeft).GetArray(stream));
                         }
-                        else client.SendSysMesage("You are now in Queue for a DivineDetonation event.");
+                        else client.SendSysMesage("You are now in Queue for a InfernoDetonation event.");
                     }
                 }
             }
@@ -98,7 +98,7 @@ namespace TheChosenProject.Game.MsgEvents
                 if (NewBomber != null)
                 {
                     NewBomber.Player.AddFlag(MsgUpdate.Flags.BlueBall, 6666666, true);
-                    NewBomber.SendSysMesage("You now have the bomb. You must hit someone with DivineDetonation to get rid of it.", MsgMessage.ChatMode.TopLeft);
+                    NewBomber.SendSysMesage("You now have the bomb. You must hit someone with InfernoDetonation to get rid of it.", MsgMessage.ChatMode.TopLeft);
                 }
                 if (MacJoin.ContainsKey(NewBomber.OnLogin.MacAddress))
                     MacJoin.Remove(NewBomber.OnLogin.MacAddress);
@@ -130,18 +130,18 @@ namespace TheChosenProject.Game.MsgEvents
                 AcceptingPlayers = true;
                 foreach (var client in Server.GamePoll.Values)
                 {
-                    client.Player.MessageBox("DivineDetonation Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
+                    client.Player.MessageBox("InfernoDetonation Event will be starting, Do you want to join", new Action<Client.GameClient>(p => { p.Teleport(457, 352, 1002);  /*JoinClient(p);*/ }), null, 60);
                 }
 
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("DivineDetonation Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("InfernoDetonation Event will be starting in 60 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(30000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("DivineDetonation Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("InfernoDetonation Event will be starting in 30 seconds!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(20000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before DivineDetonation starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("10 Seconds left before InfernoDetonation starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before DivineDetonation starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("5 Seconds left before InfernoDetonation starts!", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
                 Thread.Sleep(5000);
-                //Program.DiscordEventsAPI.Enqueue("DivineDetonation Has Started");
+                //Program.DiscordEventsAPI.Enqueue("InfernoDetonation Has Started");
                 AcceptingPlayers = false;
                 #endregion
 
@@ -274,17 +274,17 @@ namespace TheChosenProject.Game.MsgEvents
                                 Bomber.Player.Money += 50000;
                                 Bomber.Player.SendUpdate(stream, Bomber.Player.Money, Game.MsgServer.MsgUpdate.DataType.Money);
 
-                           //if (Bomber.Player.Level < 137)
-                           //Bomber.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+                            if (Bomber.Player.Level < 137)
+                                Bomber.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
 
-                            //if (Bomber.Inventory.HaveSpace(1))
-                            //{
-                            //    Bomber.Inventory.Add(stream, 730002, 1);//+3
-                            //}
-                            //else
-                            //{
-                            //    Bomber.Inventory.AddReturnedItem(stream, 730002, 1);
-                            //}
+                            if (Bomber.Inventory.HaveSpace(1))
+                            {
+                                Bomber.Inventory.Add(stream, 730002, 1);//+3
+                            }
+                            else
+                            {
+                                Bomber.Inventory.AddReturnedItem(stream, 730002, 1);
+                            }
 
                             Bomber.SendSysMesage("You took 3rd place in PTB and were rewarded 50,000 Conquer Money", MsgMessage.ChatMode.Talk);
                         }
@@ -292,16 +292,17 @@ namespace TheChosenProject.Game.MsgEvents
                         {
                             Bomber.Player.Money += 100000;
                             Bomber.Player.SendUpdate(stream, Bomber.Player.Money, Game.MsgServer.MsgUpdate.DataType.Money);
-                            //if (Bomber.Player.Level < 137)
-                            //    Bomber.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
-                            //if (Bomber.Inventory.HaveSpace(1))
-                            //{
-                            //    Bomber.Inventory.Add(stream, 730002, 2);//+3
-                            //}
-                            //else
-                            //{
-                            //    Bomber.Inventory.AddReturnedItem(stream, 730002, 2);
-                            //}
+                            if (Bomber.Player.Level < 137)
+                                Bomber.GainExpBall(3600, false, Role.Flags.ExperienceEffect.angelwing);
+
+                            if (Bomber.Inventory.HaveSpace(1))
+                            {
+                                Bomber.Inventory.Add(stream, 730001, 1);//+3
+                            }
+                            else
+                            {
+                                Bomber.Inventory.AddReturnedItem(stream, 730001, 1);
+                            }
                             Bomber.SendSysMesage("You took 2nd place in PTB and were rewarded 100,000 Conquer Money.", MsgMessage.ChatMode.Talk);
 
                         }
