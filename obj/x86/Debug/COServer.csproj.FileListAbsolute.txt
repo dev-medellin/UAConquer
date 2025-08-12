@@ -1,0 +1,105 @@
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe.config
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.application
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.pdb
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.application
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.pdb
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\COServer.exe.config
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\COServer.application
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\COServer.pdb
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.application
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\COServer.pdb
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x86\Debug\COServer.csprojAssemblyReference.cache
+C:\Users\bahaa\Desktop\5517_\Game Server\bin\Debug\COServer.exe.config
+C:\Users\bahaa\Desktop\5517_\Game Server\obj\x86\Debug\COServer.exe
+C:\Users\bahaa\Desktop\5517_\Game Server\obj\x86\Debug\COServer.pdb
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\COServer.exe.config
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.exe
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.pdb
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\COServer.exe.manifest
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\COServer.application
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\COServer.exe
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\COServer.pdb
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\System.Web.Entity.dll
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.csprojResolveAssemblyReference.cache
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.Cache
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.exe.manifest
+C:\Users\bahaa\Desktop\5517_Mordor\Game Server\obj\x86\Debug\COServer.application
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\COServer.exe.config
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.exe
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.pdb
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\COServer.exe.manifest
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\COServer.application
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\COServer.exe
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\COServer.pdb
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\System.Web.Entity.dll
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.Cache
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.exe.manifest
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.application
+C:\Users\bahaa\Desktop\conquer-heroes\Game Server\obj\x86\Debug\COServer.csprojResolveAssemblyReference.cache
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\COServer.exe.config
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.exe
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.pdb
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\COServer.exe.manifest
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\COServer.application
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\COServer.exe
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\COServer.pdb
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\conquer-heroes\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.exe.manifest
+D:\Conquer Projects work\conquer-heroes\Game Server\obj\x86\Debug\COServer.application
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\COServer.exe.config
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.exe
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.pdb
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\COServer.exe.manifest
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\COServer.application
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\COServer.exe
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\COServer.pdb
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\conquer-heroes - local\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.exe.manifest
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.application
+D:\Conquer Projects work\conquer-heroes - local\Game Server\obj\x86\Debug\COServer.csprojResolveAssemblyReference.cache
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\COServer.exe.config
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\COServer.exe.manifest
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\COServer.application
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\COServer.exe
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\COServer.pdb
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.Properties.Resources.resources
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.exe.manifest
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.application
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.exe
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.pdb
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\fr\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\pt-PT\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\ru\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\bin\Debug\tr\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Mordor conquer source\Game Server\obj\x86\Debug\COServer.csprojResolveAssemblyReference.cache
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\COServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\COServer.exe
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\COServer.pdb

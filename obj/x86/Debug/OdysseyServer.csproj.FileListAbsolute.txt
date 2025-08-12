@@ -1,0 +1,91 @@
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\OdysseyServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\OdysseyServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\OdysseyServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\OdysseyServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\OdysseyServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\en\OdysseyServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Bson.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Driver.Core.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Driver.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Panels.AccountsForm.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Chi.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Controlpanel.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Properties.Resources.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.en.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\en\OdysseyServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\OdysseyServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\en\OdysseyServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.AccountsForm.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Chi.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Controlpanel.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Properties.Resources.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.en.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\en\OdysseyServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe.config
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe.manifest
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.application
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.exe
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\OdysseyServer.pdb
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\bin\Debug\en\OdysseyServer.resources.dll
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.AccountsForm.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Chi.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Controlpanel.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.en.resources
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\en\OdysseyServer.resources.dll
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.exe.manifest
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.application
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.exe
+C:\Users\Administrator\Desktop\Game Server_last without attack_new\Game Server_last without attack\Game Server\obj\x86\Debug\OdysseyServer.pdb
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Panels.AccountsForm.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Chi.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Controlpanel.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Properties.Resources.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.Panels.ChatPanal.en.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.csproj.GenerateResource.cache
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.csproj.CoreCompileInputs.cache
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\OdysseyServer.exe.config
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\OdysseyServer.exe.manifest
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\OdysseyServer.application
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\OdysseyServer.exe
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\OdysseyServer.pdb
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\bin\Debug\en\OdysseyServer.resources.dll
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\en\OdysseyServer.resources.dll
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.exe.manifest
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.application
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.csproj.CopyComplete
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.exe
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.pdb
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\OdysseyServer.csprojAssemblyReference.cache
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.AccountsForm.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\TheChosenProject.Chi.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\TheChosenProject.Controlpanel.resources
+G:\Conquer Projects work\#Hydra Conquer source 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.en.resources

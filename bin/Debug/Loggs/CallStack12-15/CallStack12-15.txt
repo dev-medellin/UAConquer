@@ -1,0 +1,17 @@
+[CallStack]Luka get 215 he have 35639
+[CallStack]Mael get 215 he have 114768
+[CallStack]Mael get 1163 he have 114981
+[CallStack]Mael get 1075 he have 116144
+[CallStack]Luka get 215 he have 35853
+[CallStack]Luka lost 5000 he have 36068
+[CallStack]Luka lost 5000 he have 31068
+[CallStack]Luka lost 5000 he have 26068
+[CallStack]Luka lost 5000 he have 21068
+[CallStack]Luka get 215 he have 16068
+[CallStack]Luka lost 5000 he have 16283
+[CallStack]Luka get 215 he have 11283
+[CallStack]Luka get 215 he have 11496
+[CallStack]Luka get 215 he have 11711
+[CallStack]Luka get 215 he have 11926
+[CallStack]Luka get 215 he have 12141
+[CallStack]Luka get 215 he have 12356

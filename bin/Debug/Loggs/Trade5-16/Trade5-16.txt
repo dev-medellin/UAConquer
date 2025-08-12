@@ -1,0 +1,3 @@
+[Trade]DSConquer[PM] to asdfasdf22 trade item = ExpPill - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]DSConquer[PM] to asdfasdf22 trade item = ExpPill - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]DSConquer[PM] to asdfasdf22 trade item = ExpAmrita - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]

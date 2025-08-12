@@ -1,0 +1,15 @@
+[CallStack]Luka lost 20000 he have 70960
+[CallStack]1231 get 215 he have 0
+[CallStack]Luka get 215 he have 50959
+[CallStack]Luka get 215 he have 51174
+[CallStack]1231 get 1999788 he have 212
+[CallStack]1231 lost 20000 he have 2000000
+[CallStack]Luka lost 20000 he have 51388
+[CallStack]Test[PM] lost 20000 he have 90980
+[CallStack]1231 get 215 he have 1980000
+[CallStack]1231 lost 20000 he have 1980215
+[CallStack]Howecer get 1875 he have 2197676
+[CallStack]Luka get 1459 he have 31388
+[CallStack]Howecer get 1075 he have 2199551
+[CallStack]Howecer get 215 he have 2200625
+[CallStack]Luka get 215 he have 32845

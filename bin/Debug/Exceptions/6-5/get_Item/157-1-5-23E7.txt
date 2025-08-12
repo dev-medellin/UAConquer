@@ -1,0 +1,11 @@
+----Exception message----
+The given key was not present in the dictionary.
+----End of exception message----
+
+----Stack trace----
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at TheChosenProject.Database.SubProfessionInfo.GetDamage(Sort ID, Byte level) in E:\Conquer Projects work\# Source 5517 Emerald\Game Server\Database\SubProfessionInfo.cs:line 12
+   at TheChosenProject.Role.Instance.SubClass.UpdateStatus(GameClient client) in E:\Conquer Projects work\# Source 5517 Emerald\Game Server\Role\Instance\SubClass.cs:line 57
+   at TheChosenProject.Role.Instance.Equip.UpdateStats(MsgGameItem[] MyGear, Packet stream) in E:\Conquer Projects work\# Source 5517 Emerald\Game Server\Role\Instance\Equip.cs:line 870
+----End of stack trace----
+

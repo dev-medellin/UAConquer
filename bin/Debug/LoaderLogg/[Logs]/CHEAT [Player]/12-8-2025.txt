@@ -1,0 +1,2 @@
+[04:33:56 am]: UA[OWNER] -- REASON: Change FILES[ magictype.dat MagicEffect.ini StrRes.ini]
+please download game patches or last patch

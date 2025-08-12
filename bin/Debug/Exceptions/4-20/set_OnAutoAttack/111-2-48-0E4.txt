@@ -1,0 +1,10 @@
+----Exception message----
+Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Client.GameClient.set_OnAutoAttack(Boolean value)
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.PlayerJump(GameClient client, Packet msg, ActionQuery* data)
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.Process(GameClient user, Packet stream)
+----End of stack trace----
+

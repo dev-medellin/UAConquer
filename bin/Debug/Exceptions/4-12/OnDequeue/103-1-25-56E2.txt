@@ -1,0 +1,8 @@
+----Exception message----
+Object reference not set to an instance of an object.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Database.ServerDatabase.ExecuteLogin.OnDequeue(Object obj, Int32 time)
+----End of stack trace----
+

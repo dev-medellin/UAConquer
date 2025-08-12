@@ -1,0 +1,6 @@
+[CallStack]UA[OWNER] get 1000 he have 0
+[CallStack]UA[OWNER] get 1000 he have 1000
+[CallStack]UA[OWNER] get 1000 he have 2000
+[CallStack]UA[OWNER] get 1000 he have 3000
+[CallStack]UA[OWNER] get 1000 he have 4000
+[CallStack]UA[OWNER] lost 5182 he have 5182

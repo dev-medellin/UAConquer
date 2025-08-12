@@ -1,0 +1,50 @@
+cheatengine-i386.exe, Cheat Engine, 52f561d, 1232169478, 3607738439
+cheatengine-x86_64.exe,Cheat Engine, 1748f639, 948506417, 2375131334
+cheatengine-i386.exe, Cheat Engine, 56b684a5, 2414736536, 3619998275
+cheatengine-x86_64.exe, Cheat Engine, f8c759f9, 3853331845, 2156977258
+cheatengine-x86_64-SSE4-AVX2.exe, Cheat Engine, 36730c5c, 2221435780, 2019753064
+cheatengine-i386.exe, Cheat Engine, f3c64c15, 523124561, 1797474267
+cheatengine-x86_64.exe, Cheat Engine, f65d9c87, 85380210, 2893964019
+cheatengine-x86_64-SSE4-AVX2.exe, Cheat Engine, 936624b7, 4254509892, 835954124
+cheatengine.exe, Cheat Engine, f393210e, 2121406126, 607173152
+cheatengine.exe, Cheat Engine, 6664f7d7, 3748784978, 2650212900
+cheatengine.exe, Cheat Engine, a65c2911, 1990945897, 3600828608
+cheatengine.exe, Cheat Engine, 886da3e8, 2029285320, 3516579320
+cheatengine.exe, Cheat Engine, d4030a4c, 3748784978, 47561484
+TMX.exe, TMX, c32f15b5, 2469607487, 2063942172
+ProcessHacker.exe, Process Hacker, b365af31, 2258617348, 2258617348
+ProcessHacker.exe, Process Hacker, 68f9b528, 2850242328, 1759229931
+GS-Auto-Click.exe, GS Auton Click, 6862f65b, 2210884354, 3573616885
+OllyDBG.EXE, OllyDBG, 1df91200, 1890926764, 4178935653
+idaq32.exe, idaq32, 15aee9e, 1232288990, 228925790
+am745.exe, Art Money, ca0813e4, 96857363, 1451500396
+AutoClicker.exe, AutoClicker, c5040298, 322495921, 322495921
+Au3Info.exe, Au3Info, e74b9dc, 1675452662, 480778032
+Au3Info_x64.exe, Au3Info_x64, 600587fc, 344177110, 344177110
+XMouseButtonControl.exe, XMouseButtonControl, 9350c5cf, 3376116874, 3376116874
+title-Window-Changer.exe, title-Window-Changer, 9dd94ca6, 2677415422, 2677415422
+AutoIt3.exe, AutoIt3, c56b5f02, 2856642745, 3446049840
+AutoIt3_x64.exe, AutoIt3_x64, c45b1af, 1446448709, 1446448709
+AutoClicker.exe, AutoClicker, d50110f5, 2210884354, 3573616885
+GH Injector - x64.exe, GH Injector, 6aa23570, 1789015408, 1789015408
+AutoMet.exe, AutoMet, 98b9d217, 2562314775, 2562314775
+MetSpamv2.exe, MetSpamv2, 8ef2cb58, 2398276440, 2398276440
+SpeedAutoClicker.exe, SpeedAutoClicker, 24aeac9, 38464201, 38464201
+AutoClickerV3.0.exe, AutoClicker, bd96074a, 3180726090, 3180726090
+AUTO CLICKER.exe, AUTO CLICKER, 751edff9, 3510515110, 1964957689
+autoclick.exe, autoclick, a66db41c, 744115510, 2792207388
+AutoClicker v2.eXe, AutoClicker v2.eXe, d50110f5, 2491838294, 3573616885
+MacroRecorder.exe, MacroRecorder, 4d326b10, 1295149840, 1295149840
+NadaSospechoso3.exe, NadaSospechoso3, 3d825463, 1031951459, 1031951459
+Toxic Fog lvler BACKGROUND, Toxic Fog lvler BACKGROUND, 3ee501fc, 3569221698, 1055195644
+gAutoClick_v2.exe, gAutoClick_v2, 65dab956, 1708833110, 1708833110
+AutoHotkeyUX.exe, AutoHotkeyUX, ae92cbad, 2928855981, 2928855981
+MacroRecorder.exe, MacroRecorder, ab4f0996, 2874083734, 2874083734
+AutoHotkey_1.1.36.02_setup.exe, AutoHotkey, 8605a7e3, 965204642, 2248517603
+hh.exe, hh, 4d69d9e3, 1298782691, 1298782691
+AutoHotkey.exe, AutoHotkey, 20bb9be, 1516712264, 34322878
+AutoHotkey.exe, AutoHotkey, cc9e2f97, 3432918935, 3432918935
+urbanvpn-gui.exe, urbanvpn-gui, e3e8d5c9, 3823687113, 3823687113
+urbanvpnserv.exe, urbanvpnserv, 8699d691, 2258228881, 2258228881
+Spammer.exe, Spammer, ebf54443, 812180515, 3958719555
+CheatEngine.exe, Cheat Engine, 4ee80f55, 2526895636, 1323831125

@@ -1,0 +1,8 @@
+[Trade]Mohamoud[PM] to Trojan trade money = 1000000
+[Trade]Mohamoud[PM] to Raven[PM] trade item = OneHandCosmetic(48) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Mohamoud[PM] to Raven[PM] trade item = OneHandCosmetic(48) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Mohamoud[PM] to Raven[PM] trade item = TwoHandCosmetic(13) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Mohamoud[PM] to Raven[PM] trade item = TwoHandCosmetic(13) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Mohamoud[PM] to Raven[PM] trade item = TwoHandCosmetic(02) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Mohamoud[PM] to Raven[PM] trade item = OneHandCosmetic(10) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Raven[PM] to Mohamoud[PM] trade item = TwoHandCosmetic(13) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]

@@ -1,0 +1,12 @@
+[CallStack]DSConquer[PM] get 99999 he have 0
+[CallStack]DSConquer[PM] lost 5000 he have 99972
+[CallStack]DSConquer[PM] lost 20000 he have 94972
+[CallStack]Mohamoud[PM] get 2101 he have 0
+[CallStack]Mohamoud[PM] get 1075 he have 2101
+[CallStack]Mohamoud[PM] get 1000 he have 3176
+[CallStack]Mohamoud[PM] get 3395824 he have 4176
+[CallStack]Mohamoud[PM] lost 20000 he have 3400000
+[CallStack]Mohamoud[PM] get 20000 he have 3380000
+[CallStack]Mohamoud[PM] get 1455 he have 3400000
+[CallStack]Mohamoud[PM] get 1075 he have 3401455
+[CallStack]Mohamoud[PM] lost 3402530 he have 3402530

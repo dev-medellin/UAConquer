@@ -1,0 +1,7 @@
+[01:35:17 AM]: RyuHayabusa[PM] -- REASON: ERROR Changed Loader Version
+please download game patches or last patch
+[01:44:26 AM]: RyuHayabusa[PM] -- REASON: AutoClick (Left)
+[07:00:31 PM]: |Sekiro -- REASON: Change FILES[ magictype.dat GuardShield.dll]
+please download game patches or last patch
+[07:38:36 PM]: Karim[PM] -- REASON: AutoClick (Left)
+[07:45:26 PM]: Karim[PM] -- REASON: AutoClick (Left)

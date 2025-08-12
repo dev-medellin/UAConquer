@@ -1,0 +1,2205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EA497D7-7FB4-4900-A25A-C4DB528E58A6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheChosenProject</RootNamespace>
+    <AssemblyName>TheChosenProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Jiang, PROTECTION_SPEEDHACK, Poker</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Jiang, PROTECTION_SPEEDHACK, Poker</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Jiang, PROTECTION_SPEEDHACK, Poker</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FC57B12D3D0538F9C88022BE7F3DD1700F2B7F09</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Project_Terror_v2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Jiang, PROTECTION_SPEEDHACK, Poker</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;Jiang, PROTECTION_SPEEDHACK, Poker</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Optimize>true</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TheChosenProject.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Data.Desktop.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Drawing.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Pdf.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v22.2.Drawing, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Printing.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Game Server_Hard_US\bin\Debug\DevExpress.Printing.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\#Trinity Conquer Project 5000+(6609)\GameServer_2D_6609\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DotNetEnv, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DotNetEnv.3.1.1\lib\netstandard1.3\DotNetEnv.dll</HintPath>
+    </Reference>
+    <Reference Include="Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.30.2.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.30.2\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedOpenSsl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Duke\Desktop\Source_5165_12-2\Source 5165\bin\Debug\ManagedOpenSsl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.9.0.4\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.Abstractions.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\#RiVia conquer source 600+\GameServer\bin\Debug\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\#RiVia conquer source 600+\GameServer\bin\Debug\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\..\#RiVia conquer source 600+\GameServer\bin\Debug\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.9.3.0\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.1.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bahaa\OneDrive\Desktop\Source Bin\New folder\المفكوك\GameServer\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\..\..\new desktop\ocean-6129\ocean-6129\ServerGroup\Test\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.File">
+      <HintPath>..\..\..\new desktop\ocean-6129\ocean-6129\ServerGroup\Test\Serilog.Sinks.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Sprache, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Sprache.2.3.1\lib\net45\Sprache.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.9.0.4\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=9.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.9.0.4\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.9.0.4\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Entity">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZstdSharp, Version=0.8.5.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ai\DataVendor.cs" />
+    <Compile Include="Ai\Equipment.cs" />
+    <Compile Include="Ai\Object.cs" />
+    <Compile Include="BaseFunc.cs" />
+    <Compile Include="CachedAttributeInvocation.cs" />
+    <Compile Include="DatabaseConfig.cs" />
+    <Compile Include="Database\ArenaTable.cs" />
+    <Compile Include="DiscordBot\DiscordCBosses.cs" />
+    <Compile Include="DiscordBot\DiscordDIBosses.cs" />
+    <Compile Include="DiscordBot\DiscordDonation.cs" />
+    <Compile Include="DiscordBot\DiscordEvents.cs" />
+    <Compile Include="DiscordBot\DiscordMarket.cs" />
+    <Compile Include="DiscordBot\DiscordOnline.cs" />
+    <Compile Include="DiscordBot\DiscordSystem.cs" />
+    <Compile Include="DiscordBot\DiscordWorld.cs" />
+    <Compile Include="Game\MsgTournaments\HourlyTournament.cs" />
+    <Compile Include="Game\MsgTournaments\MsgCityWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgScoresWar.cs" />
+    <Compile Include="GuardShield\GuardShield.cs" />
+    <Compile Include="GuardShield\MsgCheatingPacket.cs" />
+    <Compile Include="GuardShield\MsgGuardShield.cs" />
+    <Compile Include="GuardShield\MsgMachineInfo.cs" />
+    <Compile Include="GuardShield\MsgOpenedProcesses.cs" />
+    <Compile Include="GuardShield\Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardShield\Panel.Designer.cs">
+      <DependentUpon>Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuardShield\SystemBannedPC.cs" />
+    <Compile Include="Role\Bot\AI.cs" />
+    <Compile Include="Role\Bot\BotProcessring.cs" />
+    <Compile Include="Role\Bot\Enumerator.cs" />
+    <Compile Include="Role\Instance\DemonExterminator.cs" />
+    <Compile Include="TestWebhook.cs" />
+    <Compile Include="Client\GameClient.cs" />
+    <Compile Include="Client\PoolProcesor.cs" />
+    <Compile Include="Client\ServerFlag.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Cryptography\AuthCryptography.cs" />
+    <Compile Include="Cryptography\BigInteger.cs" />
+    <Compile Include="Cryptography\CAST5.cs" />
+    <Compile Include="Cryptography\DHKeyExchange.cs" />
+    <Compile Include="Cryptography\DiffieHellman.cs" />
+    <Compile Include="Cryptography\RivestCipher5.cs" />
+    <Compile Include="Cryptography\TQCast5.cs" />
+    <Compile Include="Cryptography\TransferCipher.cs" />
+    <Compile Include="Database\AttackCompatetor.cs" />
+    <Compile Include="Database\DBEffects.cs" />
+    <Compile Include="Database\LotteryEffect.cs" />
+    <Compile Include="Database\LotteryTable.cs" />
+    <Compile Include="Database\MapRegions.cs" />
+    <Compile Include="Database\MiningTable.cs" />
+    <Compile Include="Database\ShareVIP.cs" />
+    <Compile Include="Database\SilentWords.cs" />
+    <Compile Include="Database\SpecialTitles.cs" />
+    <Compile Include="Database\SystemBannedAccountLoader.cs" />
+    <Compile Include="Database\SystemBannedPC.cs" />
+    <Compile Include="Database\VIPExperience.cs" />
+    <Compile Include="Discord.cs" />
+    <Compile Include="DropRule.cs" />
+    <Compile Include="Game\AI\AIEnum.cs" />
+    <Compile Include="Game\AI\AIBuffer.cs" />
+    <Compile Include="Game\AI\AIHunting.cs" />
+    <Compile Include="Game\AI\AILeveling.cs" />
+    <Compile Include="Game\AI\AIPKFighting.cs" />
+    <Compile Include="Game\AI\AIStructures.cs" />
+    <Compile Include="Game\AI\AIThread.cs" />
+    <Compile Include="Game\AI\AITrainingGroup.cs" />
+    <Compile Include="Game\AI\Artificialintelligence.cs" />
+    <Compile Include="Game\Anniversary.cs" />
+    <Compile Include="Game\ConquerStructures\MsgAutoHunting\AutoHunting.cs" />
+    <Compile Include="Game\ConquerStructures\MsgAutoHunting\AutoStructures.cs" />
+    <Compile Include="Game\ConquerStructures\MsgAutoHunting\AutoTheard.cs" />
+    <Compile Include="Game\ConquerStructures\PathFinding\PathFinder.cs" />
+    <Compile Include="Game\ConquerStructures\PathFinding\Position.cs" />
+    <Compile Include="Game\MsgEvents\Easter\Commander.cs" />
+    <Compile Include="Game\MsgEvents\Easter\EasterBuddy.cs" />
+    <Compile Include="Game\MsgEvents\Easter\EasterEgg.cs" />
+    <Compile Include="Game\MsgEvents\Easter\Tracy.cs" />
+    <Compile Include="Game\MsgEvents\Get5HitOut.cs" />
+    <Compile Include="Game\MsgEvents\Halloween\KingJack.cs" />
+    <Compile Include="Game\MsgEvents\Halloween\Pumpkin.cs" />
+    <Compile Include="Game\MsgEvents\PassTheBomb.cs" />
+    <Compile Include="Game\MsgEvents\SkillsTournament.cs" />
+    <Compile Include="Game\MsgEvents\LastManStanding.cs" />
+    <Compile Include="Game\MsgEvents\Lib\DragonWar.cs" />
+    <Compile Include="Game\MsgEvents\Lib\FreezeWar.cs" />
+    <Compile Include="Game\MsgEvents\Lib\Get5Out.cs" />
+    <Compile Include="Game\MsgEvents\Lib\LadderTournament.cs" />
+    <Compile Include="Game\MsgEvents\Lib\LastManStand.cs" />
+    <Compile Include="Game\MsgEvents\Lib\PassTheBomb.cs" />
+    <Compile Include="Game\MsgEvents\Lib\WhackTheThief.cs" />
+    <Compile Include="Game\MsgEvents\Base.cs" />
+    <Compile Include="Game\MsgEvents\Lib\CycloneRace.cs" />
+    <Compile Include="Game\MsgEvents\Lib\KillTheCaptain.cs" />
+    <Compile Include="Game\MsgEvents\Lib\HeroOfGame.cs" />
+    <Compile Include="Game\MsgEvents\Lib\Spacelnvasion.cs" />
+    <Compile Include="Game\MsgEvents\Lib\TDM.cs" />
+    <Compile Include="Game\MsgEvents\TeamDeathMatch.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Base.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[3120] GuildBeast.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[3130] Ganoderma.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[3737] CornDevil .cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[3738] MummySkeleton.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[3739] DarkSpearman.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\City\[4145] DarkmoonDemon.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\[20060] TeratoDragon.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\[20070] SnowBanshee.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\[20160] ThrillingSpook.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\[20300] NemesisTyrant.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\Boss\[6643] SowrdMaster.cs" />
+    <Compile Include="Game\MsgMonster\Mobs\MobsHandler.cs" />
+    <Compile Include="Game\MsgMonster\MonsterPet.cs" />
+    <Compile Include="Game\MsgNpc\Scripts\FruitTree.cs" />
+    <Compile Include="Game\MsgNpc\Scripts\HunterOfEvil.cs" />
+    <Compile Include="Game\MsgNpc\Scripts\SantaClaus.cs" />
+    <Compile Include="Game\MsgNpc\Scripts\Solomon.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\SummonGuard.cs" />
+    <Compile Include="Game\MsgServer\InteractQuery.cs" />
+    <Compile Include="Game\MsgServer\SurpriseEventBox.cs" />
+    <Compile Include="Game\MsgTournaments\Citywar\MsgCitywarAC.cs" />
+    <Compile Include="Game\MsgTournaments\Citywar\MsgCitywarBI.cs" />
+    <Compile Include="Game\MsgTournaments\Citywar\MsgCitywarDC.cs" />
+    <Compile Include="Game\MsgTournaments\Citywar\MsgCitywarTC.cs" />
+    <Compile Include="Game\MsgTournaments\Citywar\MsgCitywarPC.cs" />
+    <Compile Include="Game\MsgTournaments\MsgBossDomination.cs" />
+    <Compile Include="Game\MsgTournaments\MsgCityPole.cs" />
+    <Compile Include="Game\MsgTournaments\MsgFreezeWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgGuildDeathMatch.cs" />
+    <Compile Include="Game\MsgTournaments\MsgMrConquer.cs" />
+    <Compile Include="Game\MsgTournaments\MsgMsConquer.cs" />
+    <Compile Include="Game\MsgTournaments\MsgSmallCityGuilWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgSchedules.cs" />
+    <Compile Include="Game\MsgFloorItem\FloorTraps.cs" />
+    <Compile Include="Game\MsgMonster\Boss.cs" />
+    <Compile Include="Game\MsgMonster\BossDatabase.cs" />
+    <Compile Include="Game\MsgMonster\BossesManagement.cs" />
+    <Compile Include="Game\MsgMonster\LookFace.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgOfflineTraining.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\Extensions.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\AzureShield.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\BackDmg.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\Base.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\FastRandom.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\Magic.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\Physical.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\Range.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Calculate\Time32.cs" />
+    <Compile Include="Game\MsgServer\MsgAutoHunt.cs" />
+    <Compile Include="Game\MsgServer\MsgTick.cs" />
+    <Compile Include="Game\MsgServer\MsgMailList.cs" />
+    <Compile Include="Game\MsgServer\MsgMemoryAgate.cs" />
+    <Compile Include="Game\MsgServer\SurpriseBox.cs" />
+    <Compile Include="Game\MsgTournaments\ISchedule.cs" />
+    <Compile Include="Game\MsgTournaments\ITournamentsAlive.cs" />
+    <Compile Include="Game\MsgTournaments\MsgChristmasAnimation.cs" />
+    <Compile Include="Game\MsgTournaments\MsgEliteGuildWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgHeroOfGame.cs" />
+    <Compile Include="Game\MsgTournaments\MsgLastManStand.cs" />
+    <Compile Include="Game\MsgTournaments\MsgMonthlyPkWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgClanWar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\AtributesStatus.cs" />
+    <Compile Include="Database\ClanTable.cs" />
+    <Compile Include="Database\ClientItems.cs" />
+    <Compile Include="Database\ClientProficiency.cs" />
+    <Compile Include="Database\ClientSpells.cs" />
+    <Compile Include="Database\ConfiscatorTable.cs" />
+    <Compile Include="Database\DataCore.cs" />
+    <Compile Include="Database\DBActions\Read.cs" />
+    <Compile Include="Database\DBActions\ReadLine.cs" />
+    <Compile Include="Database\DBActions\Write.cs" />
+    <Compile Include="Database\DBActions\WriteLine.cs" />
+    <Compile Include="Database\DBLevExp.cs" />
+    <Compile Include="Database\Disdain.cs" />
+    <Compile Include="Database\FlowersTable.cs" />
+    <Compile Include="Database\GroupServerList.cs" />
+    <Compile Include="Database\GuildTable.cs" />
+    <Compile Include="Database\HouseTable.cs" />
+    <Compile Include="Database\InfoDemonExterminators.cs" />
+    <Compile Include="Database\ItemType.cs" />
+    <Compile Include="Database\MagicType.cs" />
+    <Compile Include="Database\NpcServer.cs" />
+    <Compile Include="Database\QuestInfo.cs" />
+    <Compile Include="Database\QuizShow.cs" />
+    <Compile Include="Database\RebornInfomations.cs" />
+    <Compile Include="Database\RoleQuests.cs" />
+    <Compile Include="Database\Server.cs" />
+    <Compile Include="Database\ServerDatabase.cs" />
+    <Compile Include="Database\Shops\ChampionShop.cs" />
+    <Compile Include="Database\Shops\EShopFile.cs" />
+    <Compile Include="Database\Shops\EShopV2File.cs" />
+    <Compile Include="Database\Shops\HonorShop.cs" />
+    <Compile Include="Database\Shops\RacePointShop.cs" />
+    <Compile Include="Database\Shops\ShopFile.cs" />
+    <Compile Include="Database\SubProfessionInfo.cs" />
+    <Compile Include="Database\SystemBannedAccount.cs" />
+    <Compile Include="Database\TeamArenaTable.cs" />
+    <Compile Include="Database\TheCrimeTable.cs" />
+    <Compile Include="Database\Tranformation.cs" />
+    <Compile Include="Database\TutorInfo.cs" />
+    <Compile Include="Game\GamePackets.cs" />
+    <Compile Include="Game\MsgFloorItem\MsgDropID.cs" />
+    <Compile Include="Game\MsgFloorItem\MsgItem.cs" />
+    <Compile Include="Game\MsgFloorItem\MsgItemPacket.cs" />
+    <Compile Include="Game\MsgMonster\ActionHandler.cs" />
+    <Compile Include="Game\MsgMonster\MobCollection.cs" />
+    <Compile Include="Game\MsgMonster\MobItemGenerator.cs" />
+    <Compile Include="Game\MsgMonster\MobStatus.cs" />
+    <Compile Include="Game\MsgMonster\MonsterFamily.cs" />
+    <Compile Include="Game\MsgMonster\MonsterSettings.cs" />
+    <Compile Include="Game\MsgMonster\MonsterRole.cs" />
+    <Compile Include="Game\MsgMonster\MonsterView.cs" />
+    <Compile Include="Game\MsgMonster\PoolProcesor.cs" />
+    <Compile Include="Game\MsgNpc\Dialog.cs" />
+    <Compile Include="Game\MsgNpc\Npc.cs" />
+    <Compile Include="Game\MsgNpc\NpcAttribute.cs" />
+    <Compile Include="Game\MsgNpc\NpcHandler.cs" />
+    <Compile Include="Game\MsgNpc\NpcID.cs" />
+    <Compile Include="Game\MsgNpc\NpcReply.cs" />
+    <Compile Include="Game\MsgNpc\NpcServerReplay.cs" />
+    <Compile Include="Game\MsgNpc\Procesor.cs" />
+    <Compile Include="Game\MsgNpc\StaticGUI.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\Line.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\Rectangle.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\ProcessColdTime.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\AddMana.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\Fan.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\InLineAlgorithm.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\LayTrapThree.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\MoveCoords.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\RandomFourLayTraps.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Algoritms\Sector.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\AttachStatus.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Attack.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\AttackStatus.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\BlackSpot.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Bomb.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\BombLine.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CannonBarrage.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ChainBolt.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ChargingVortex.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\BlockRefect.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CanAttackMonster.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CanAttackPlayer.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CanUseSpell.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CheckFloors.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CheckGemEffects.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CheckItems.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\CheckAttack\CheckLineSpells.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Collide.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\DecLife.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\DetachStatus.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\DispatchXp.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\DragonWhirl.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\EffectShield.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\EffectStigma.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\EffectMP.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\KrakensRevenge.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Line.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\MortalDrag.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\MoveLine.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Perimeter.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Pounce.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaInfo.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaMatches.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaMatchScore.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaRank10.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaRanking.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaSignup.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgArenaWatchers.cs" />
+    <Compile Include="Game\MsgServer\MsgAtributeSet.cs" />
+    <Compile Include="Game\MsgServer\MsgBroadcast.cs" />
+    <Compile Include="Game\MsgServer\MsgBroadcastlist.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgCaptureTheFlagRankings.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgCaptureTheFlagUpdate.cs" />
+    <Compile Include="Game\MsgServer\MsgCountryFlag.cs" />
+    <Compile Include="Game\MsgServer\MsgDetainedItem.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgElitePKBrackets.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgElitePKMatchStats.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgElitePKMatchUI.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgElitePkRanking.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgElitePKWatch.cs" />
+    <Compile Include="Game\MsgServer\MsgEmbedSocket.cs" />
+    <Compile Include="Game\MsgServer\MsgEnlight.cs" />
+    <Compile Include="Game\MsgServer\MsgGameUpdate.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildFastArsenal.cs" />
+    <Compile Include="Game\MsgServer\MsgInterServerIdentifier.cs" />
+    <Compile Include="Game\MsgServer\MsgItemLock.cs" />
+    <Compile Include="Game\MsgServer\MsgMapTraps.cs" />
+    <Compile Include="Game\MsgServer\MsgNameChange.cs" />
+    <Compile Include="Game\MsgServer\MsgOfflineTG.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Oblivion.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\PhysicalSpells.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\PirateXpSkill.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Poison.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ReceiveAttack\Monster.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ReceiveAttack\Npc.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ReceiveAttack\Player.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Recruit.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\RemoveBuffers.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Riding.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ScurvyBomb.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Sector.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ShieldBlock.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\ShurikenVortex.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Spook.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\StarArrow.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\TargetInLine.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Toxic.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Transform.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Updates\GetWeaponSpell.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Updates\IncreaseExperience.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\Updates\UpdateSpell.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\WarCry.cs" />
+    <Compile Include="Game\MsgServer\AttackHandler\WhirlwindKick.cs" />
+    <Compile Include="Game\MsgServer\MsgAdvertise.cs" />
+    <Compile Include="Game\MsgServer\MsgAdvertiseGui.cs" />
+    <Compile Include="Game\MsgServer\MsgAdvertiseOpenGui.cs" />
+    <Compile Include="Game\MsgServer\MsgApprenticeInformation.cs" />
+    <Compile Include="Game\MsgServer\MsgAttackPacket.cs" />
+    <Compile Include="Game\MsgServer\MsgBlackspot.cs" />
+    <Compile Include="Game\MsgServer\MsgClan.cs" />
+    <Compile Include="Game\MsgServer\MsgClientInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgDataPacket.cs" />
+    <Compile Include="Game\MsgServer\MsgFlagIcon.cs" />
+    <Compile Include="Game\MsgServer\MsgFlower.cs" />
+    <Compile Include="Game\MsgServer\MsgGameItem.cs" />
+    <Compile Include="Game\MsgServer\MsgGenericRanking.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildArsenalInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildArsenalList.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildInformation.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildMembers.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildMinDonations.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildProfile.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildRanks.cs" />
+    <Compile Include="Game\MsgServer\MsgHandShake.cs" />
+    <Compile Include="Game\MsgServer\MsgInterAction.cs" />
+    <Compile Include="Game\MsgServer\MsgItemExtra.cs" />
+    <Compile Include="Game\MsgServer\MsgItemUsuagePacket.cs" />
+    <Compile Include="Game\MsgServer\MsgItemView.cs" />
+    <Compile Include="Game\MsgServer\MsgKnownPersonInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgKnowPersons.cs" />
+    <Compile Include="Game\MsgServer\MsgLoginClient.cs" />
+    <Compile Include="Game\MsgServer\MsgLoginHandler.cs" />
+    <Compile Include="Game\MsgServer\MsgMapStatus.cs" />
+    <Compile Include="Game\MsgServer\MsgMentorApprentice.cs" />
+    <Compile Include="Game\MsgServer\MsgMessage.cs" />
+    <Compile Include="Game\MsgServer\MsgMovement.cs" />
+    <Compile Include="Game\MsgServer\MsgNewRole.cs" />
+    <Compile Include="Game\MsgServer\MsgNobility.cs" />
+    <Compile Include="Game\MsgServer\MsgOfflineTGStats.cs" />
+    <Compile Include="Game\MsgServer\MsgPkExploit.cs" />
+    <Compile Include="Game\MsgServer\MsgPopupInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgGuildProces.cs" />
+    <Compile Include="Game\MsgServer\MsgProficiency.cs" />
+    <Compile Include="Game\MsgServer\MsgQuestData.cs" />
+    <Compile Include="Game\MsgServer\MsgQuestList.cs" />
+    <Compile Include="Game\MsgServer\MsgRaceRecord.cs" />
+    <Compile Include="Game\MsgServer\MsgReincarnation.cs" />
+    <Compile Include="Game\MsgServer\MsgSecondaryPassword.cs" />
+    <Compile Include="Game\MsgServer\MsgServerConfig.cs" />
+    <Compile Include="Game\MsgServer\MsgServerInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgServerTimer.cs" />
+    <Compile Include="Game\MsgServer\MsgShowEquipment.cs" />
+    <Compile Include="Game\MsgServer\MsgSpell.cs" />
+    <Compile Include="Game\MsgServer\MsgSpellAnimation.cs" />
+    <Compile Include="Game\MsgServer\MsgStaticMessage.cs" />
+    <Compile Include="Game\MsgServer\MsgStatus.cs" />
+    <Compile Include="Game\MsgServer\MsgStringPacket.cs" />
+    <Compile Include="Game\MsgServer\MsgSubClass.cs" />
+    <Compile Include="Game\MsgServer\MsgTeam.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaInfo.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaInfoPlayers.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaMatches.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaMatchScore.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaRank10.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaRanking.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamArenaSignup.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamElitePKBrackets.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamElitePKMatchStats.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamElitePKMatchUI.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamElitePkRanking.cs" />
+    <Compile Include="Game\MsgServer\Arena Gui\MsgTeamEliteSetTeamName.cs" />
+    <Compile Include="Game\MsgServer\MsgTeamLeadership.cs" />
+    <Compile Include="Game\MsgServer\MsgTeamMemberInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgTitle.cs" />
+    <Compile Include="Game\MsgServer\MsgTrade.cs" />
+    <Compile Include="Game\MsgServer\MsgTradePartner.cs" />
+    <Compile Include="Game\MsgServer\MsgTradePartnerInfo.cs" />
+    <Compile Include="Game\MsgServer\MsgTransformFairy.cs" />
+    <Compile Include="Game\MsgServer\MsgUpdateItem.cs" />
+    <Compile Include="Game\MsgServer\MsgUpdatePacket.cs" />
+    <Compile Include="Game\MsgServer\MsgUpdateProfExperience.cs" />
+    <Compile Include="Game\MsgServer\MsgVipHandler.cs" />
+    <Compile Include="Game\MsgServer\MsgVipStatus.cs" />
+    <Compile Include="Game\MsgServer\MsgWarehouse.cs" />
+    <Compile Include="Game\MsgServer\MsgWeather.cs" />
+    <Compile Include="Game\MsgTournaments\ITournament.cs" />
+    <Compile Include="Game\MsgTournaments\KillerSystem.cs" />
+    <Compile Include="Game\MsgTournaments\MsgCheckLine.cs" />
+    <Compile Include="Game\MsgTournaments\MsgArena.cs" />
+    <Compile Include="Game\MsgTournaments\MsgBroadcast.cs" />
+    <Compile Include="Game\MsgTournaments\MsgCaptureTheFlag.cs" />
+    <Compile Include="Game\MsgTournaments\MsgClassPKWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgEliteTournament.cs" />
+    <Compile Include="Game\MsgTournaments\MsgGuildWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgCouples.cs" />
+    <Compile Include="Game\MsgTournaments\MsgNone.cs" />
+    <Compile Include="Game\MsgTournaments\MsgPkWar.cs" />
+    <Compile Include="Game\MsgTournaments\MsgPoleDomination.cs" />
+    <Compile Include="Game\MsgTournaments\MsgSkillTournament.cs" />
+    <Compile Include="Game\MsgTournaments\MsgFindTheBox.cs" />
+    <Compile Include="Game\MsgTournaments\MsgSquama.cs" />
+    <Compile Include="Game\MsgTournaments\MsgTreasureThief.cs" />
+    <Compile Include="Game\MsgTournaments\MsgTeamArena.cs" />
+    <Compile Include="Game\MsgTournaments\MsgTeamPkTournament.cs" />
+    <Compile Include="Game\MsgTournaments\NobilityWar\MsgNobilityPole.cs" />
+    <Compile Include="Game\MsgTournaments\NobilityWar\MsgNobilityPole1.cs" />
+    <Compile Include="Game\MsgTournaments\NobilityWar\MsgNobilityPole2.cs" />
+    <Compile Include="Game\MsgTournaments\NobilityWar\MsgNobilityPole3.cs" />
+    <Compile Include="Game\MsgTournaments\ProcesType.cs" />
+    <Compile Include="Game\MsgTournaments\TournamentType.cs" />
+    <Compile Include="Game\Rayzo\ChatBanned.cs" />
+    <Compile Include="Game\Rayzo\Rayzo_Panle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\Rayzo\Rayzo_Panle.Designer.cs">
+      <DependentUpon>Rayzo_Panle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gems.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="RewardsFunctions.cs" />
+    <Compile Include="KernelThread.cs" />
+    <Compile Include="MapDictionary.cs" />
+    <Compile Include="MapGroupThread.cs" />
+    <Compile Include="Multithreading\InsultManager.cs" />
+    <Compile Include="Multithreading\NetworkMonitor.cs" />
+    <Compile Include="MyConsole.cs" />
+    <Compile Include="MyLogger.cs" />
+    <Compile Include="MyRandom.cs" />
+    <Compile Include="PacketAttribute.cs" />
+    <Compile Include="PayPalHandler.cs" />
+    <Compile Include="Poker\Database.cs" />
+    <Compile Include="Poker\Enums.cs" />
+    <Compile Include="Poker\HandEvaluator.cs" />
+    <Compile Include="Poker\HighCard.cs" />
+    <Compile Include="Poker\Packets\General.cs" />
+    <Compile Include="Poker\Packets\MsgShowHandCallAction.cs" />
+    <Compile Include="Poker\Packets\MsgShowHandEnter.cs" />
+    <Compile Include="Poker\Packets\MsgShowHandExit.cs" />
+    <Compile Include="Poker\Packets\MsgTexasInteractive.cs" />
+    <Compile Include="Poker\Packets\Packet.cs" />
+    <Compile Include="Poker\Structures\PokerStructs.cs" />
+    <Compile Include="Poker\Structures\PokerTable.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Role\ChatClient.cs" />
+    <Compile Include="Role\ClientTransform.cs" />
+    <Compile Include="Role\Core.cs" />
+    <Compile Include="Role\EventRewards.cs" />
+    <Compile Include="Role\Flags.cs" />
+    <Compile Include="Role\FloorSpell.cs" />
+    <Compile Include="Role\GameMap.cs" />
+    <Compile Include="Role\IMapObj.cs" />
+    <Compile Include="Role\Instance\AddMode.cs" />
+    <Compile Include="Role\Instance\Associate.cs" />
+    <Compile Include="Role\Instance\Clan.cs" />
+    <Compile Include="Role\Instance\Confiscator.cs" />
+    <Compile Include="Role\Instance\Equip.cs" />
+    <Compile Include="Role\Instance\Flowers.cs" />
+    <Compile Include="Role\Instance\Guild.cs" />
+    <Compile Include="Role\Instance\House.cs" />
+    <Compile Include="Role\Instance\Inventory.cs" />
+    <Compile Include="Role\Instance\Nobility.cs" />
+    <Compile Include="Role\Instance\Proficiency.cs" />
+    <Compile Include="Role\Instance\Quests.cs" />
+    <Compile Include="Role\KOBoard.cs" />
+    <Compile Include="Role\MyMath.cs" />
+    <Compile Include="Role\Regions.cs" />
+    <Compile Include="Role\RoleStatus.cs" />
+    <Compile Include="Role\Instance\Spell.cs" />
+    <Compile Include="Role\Instance\SubClass.cs" />
+    <Compile Include="Role\Instance\Team.cs" />
+    <Compile Include="Role\Instance\Trade.cs" />
+    <Compile Include="Role\Instance\Vendor.cs" />
+    <Compile Include="Role\Instance\Warehouse.cs" />
+    <Compile Include="Role\MapObjectType.cs" />
+    <Compile Include="Role\Player.cs" />
+    <Compile Include="Role\RoleView.cs" />
+    <Compile Include="Role\SkillLearn.cs" />
+    <Compile Include="Role\SobNpc.cs" />
+    <Compile Include="Role\StaticRole.cs" />
+    <Compile Include="Role\Statue.cs" />
+    <Compile Include="Role\StatusFlagsBigVector32.cs" />
+    <Compile Include="ConcurrentSmartThreadQueue.cs" />
+    <Compile Include="ServerCore\EncryptFiles.cs" />
+    <Compile Include="ServerCore\LogType.cs" />
+    <Compile Include="ServerCore\LogWriter.cs" />
+    <Compile Include="ServerCore\Translator\Translation.cs" />
+    <Compile Include="ServerCore\Translator\Translator.cs" />
+    <Compile Include="ServerCore\Website\DataHolderTable.cs" />
+    <Compile Include="ServerCore\Website\MySqlCommand.cs" />
+    <Compile Include="ServerCore\Website\MySqlExtensions.cs" />
+    <Compile Include="ServerCore\Website\MySqlReader.cs" />
+    <Compile Include="ServerCore\Website\TopRanking.cs" />
+    <Compile Include="ServerCore\Website\WebsiteHandler.cs" />
+    <Compile Include="ServerKernel.cs" />
+    <Compile Include="Live.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerEquipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerSockets\BruteforceProtection.cs" />
+    <Compile Include="ServerSockets\Packet.cs" />
+    <Compile Include="ServerSockets\PacketRecycle.cs" />
+    <Compile Include="ServerSockets\ReceiveBuffer.cs" />
+    <Compile Include="ServerSockets\SecuritySocket.cs" />
+    <Compile Include="ServerSockets\ServerSocket.cs" />
+    <Compile Include="ServerSockets\SocketThread.cs" />
+    <Compile Include="ServerString.cs" />
+    <Compile Include="SharedExtensions.cs" />
+    <Compile Include="ShowChatItems.cs" />
+    <Compile Include="Struct\DbDailyTraining.cs" />
+    <Compile Include="Struct\LimitedDailyTimes.cs" />
+    <Compile Include="Struct\RoyalPassManager.cs" />
+    <Compile Include="Struct\TournamentsManager.cs" />
+    <Compile Include="Struct\OnlinePointsManager.cs" />
+    <Compile Include="Struct\DbKillMobsExterminator.cs" />
+    <Compile Include="Struct\Insult.cs" />
+    <Compile Include="ThreadPoll.cs" />
+    <Compile Include="ThreadSafeRandom.cs" />
+    <Compile Include="UnlimitedArena.cs" />
+    <Compile Include="VoteSystem\ThreadBase.cs" />
+    <Compile Include="VoteSystem\ThreadEX.cs" />
+    <Compile Include="VoteSystem\VoteRank.cs" />
+    <Compile Include="VoteSystem\VoteSystem.cs" />
+    <Compile Include="WindowsAPI\BinaryFile.cs" />
+    <Compile Include="WindowsAPI\CryptoRandom.cs" />
+    <Compile Include="WindowsAPI\Extensions\FastRandom.cs" />
+    <Compile Include="WindowsAPI\IniFile.cs" />
+    <Compile Include="WindowsAPI\Kernel32.cs" />
+    <Compile Include="WindowsAPI\MyString.cs" />
+    <Compile Include="SendGlobalPacket.cs" />
+    <Compile Include="WindowsAPI\ws2_32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".env" />
+    <None Include="app.config" />
+    <Compile Include="Game\MsgServer\AttackHandler\Auras.cs" />
+    <Compile Include="Database\NobilityTable.cs" />
+    <None Include="app.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Game\Rayzo\Rayzo_Panle.resx.bak" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Rayzo\Rayzo_Panle.resx">
+      <DependentUpon>Rayzo_Panle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuardShield\Panel.resx">
+      <DependentUpon>Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerManager.resx">
+      <DependentUpon>ServerManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\_0.jpg" />
+    <None Include="bin\Debug\Resources\_1.jpg" />
+    <None Include="bin\Debug\Resources\_2.jpg" />
+    <None Include="bin\Debug\Resources\_3.jpg" />
+    <None Include="bin\Debug\Resources\_4.jpg" />
+    <None Include="bin\Debug\Resources\_5.jpg" />
+    <None Include="bin\Debug\Resources\_6.jpg" />
+    <None Include="bin\Debug\Resources\_7.jpg" />
+    <None Include="bin\Debug\Resources\_8.jpg" />
+    <None Include="bin\Debug\Resources\_9.jpg" />
+    <None Include="bin\Debug\Resources\_10.jpg" />
+    <None Include="bin\Debug\Resources\_11.jpg" />
+    <None Include="bin\Debug\Resources\_12.jpg" />
+    <None Include="bin\Debug\Resources\_13.jpg" />
+    <None Include="bin\Debug\Resources\_14.jpg" />
+    <None Include="bin\Debug\Resources\_15.jpg" />
+    <None Include="bin\Debug\Resources\_16.jpg" />
+    <None Include="bin\Debug\Resources\_17.jpg" />
+    <None Include="bin\Debug\Resources\_18.jpg" />
+    <None Include="bin\Debug\Resources\_19.jpg" />
+    <None Include="bin\Debug\Resources\_20.jpg" />
+    <None Include="bin\Debug\Resources\_21.jpg" />
+    <None Include="bin\Debug\Resources\_22.jpg" />
+    <None Include="bin\Debug\Resources\_23.jpg" />
+    <None Include="bin\Debug\Resources\_24.jpg" />
+    <None Include="bin\Debug\Resources\_25.jpg" />
+    <None Include="bin\Debug\Resources\_26.jpg" />
+    <None Include="bin\Debug\Resources\_27.jpg" />
+    <None Include="bin\Debug\Resources\_28.jpg" />
+    <None Include="bin\Debug\Resources\_29.jpg" />
+    <None Include="bin\Debug\Resources\_30.jpg" />
+    <None Include="bin\Debug\Resources\_31.jpg" />
+    <None Include="bin\Debug\Resources\_32.jpg" />
+    <None Include="bin\Debug\Resources\_33.jpg" />
+    <None Include="bin\Debug\Resources\_34.jpg" />
+    <None Include="bin\Debug\Resources\_35.jpg" />
+    <None Include="bin\Debug\Resources\_36.jpg" />
+    <None Include="bin\Debug\Resources\_37.jpg" />
+    <None Include="bin\Debug\Resources\_38.jpg" />
+    <None Include="bin\Debug\Resources\_39.jpg" />
+    <None Include="bin\Debug\Resources\_40.jpg" />
+    <None Include="bin\Debug\Resources\_41.jpg" />
+    <None Include="bin\Debug\Resources\_42.jpg" />
+    <None Include="bin\Debug\Resources\_43.jpg" />
+    <None Include="bin\Debug\Resources\_44.jpg" />
+    <None Include="bin\Debug\Resources\_45.jpg" />
+    <None Include="bin\Debug\Resources\_46.jpg" />
+    <None Include="bin\Debug\Resources\_47.jpg" />
+    <None Include="bin\Debug\Resources\_48.jpg" />
+    <None Include="bin\Debug\Resources\_49.jpg" />
+    <None Include="bin\Debug\Resources\_50.jpg" />
+    <None Include="bin\Debug\Resources\_51.jpg" />
+    <None Include="bin\Debug\Resources\_52.jpg" />
+    <None Include="bin\Debug\Resources\_53.jpg" />
+    <None Include="bin\Debug\Resources\_54.jpg" />
+    <None Include="bin\Debug\Resources\_55.jpg" />
+    <None Include="bin\Debug\Resources\_56.jpg" />
+    <None Include="bin\Debug\Resources\_57.jpg" />
+    <None Include="bin\Debug\Resources\_58.jpg" />
+    <None Include="bin\Debug\Resources\_59.jpg" />
+    <None Include="bin\Debug\Resources\_60.jpg" />
+    <None Include="bin\Debug\Resources\_61.jpg" />
+    <None Include="bin\Debug\Resources\_62.jpg" />
+    <None Include="bin\Debug\Resources\_63.jpg" />
+    <None Include="bin\Debug\Resources\_64.jpg" />
+    <None Include="bin\Debug\Resources\_65.jpg" />
+    <None Include="bin\Debug\Resources\_66.jpg" />
+    <None Include="bin\Debug\Resources\_67.jpg" />
+    <None Include="bin\Debug\Resources\_68.jpg" />
+    <None Include="bin\Debug\Resources\_69.jpg" />
+    <None Include="bin\Debug\Resources\_70.jpg" />
+    <None Include="bin\Debug\Resources\_71.jpg" />
+    <None Include="bin\Debug\Resources\_72.jpg" />
+    <None Include="bin\Debug\Resources\_73.jpg" />
+    <None Include="bin\Debug\Resources\_74.jpg" />
+    <None Include="bin\Debug\Resources\_75.jpg" />
+    <None Include="bin\Debug\Resources\_76.jpg" />
+    <None Include="bin\Debug\Resources\_77.jpg" />
+    <None Include="bin\Debug\Resources\_78.jpg" />
+    <None Include="bin\Debug\Resources\_79.jpg" />
+    <None Include="bin\Debug\Resources\_80.jpg" />
+    <None Include="bin\Debug\Resources\_81.jpg" />
+    <None Include="bin\Debug\Resources\_82.jpg" />
+    <None Include="bin\Debug\Resources\_83.jpg" />
+    <None Include="bin\Debug\Resources\_84.jpg" />
+    <None Include="bin\Debug\Resources\_85.jpg" />
+    <None Include="bin\Debug\Resources\_86.jpg" />
+    <None Include="bin\Debug\Resources\_87.jpg" />
+    <None Include="bin\Debug\Resources\_88.jpg" />
+    <None Include="bin\Debug\Resources\_89.jpg" />
+    <None Include="bin\Debug\Resources\_90.jpg" />
+    <None Include="bin\Debug\Resources\_91.jpg" />
+    <None Include="bin\Debug\Resources\_92.jpg" />
+    <None Include="bin\Debug\Resources\_93.jpg" />
+    <None Include="bin\Debug\Resources\_94.jpg" />
+    <None Include="bin\Debug\Resources\_95.jpg" />
+    <None Include="bin\Debug\Resources\_96.jpg" />
+    <None Include="bin\Debug\Resources\_97.jpg" />
+    <None Include="bin\Debug\Resources\_98.jpg" />
+    <None Include="bin\Debug\Resources\_99.jpg" />
+    <None Include="bin\Debug\Resources\_100.jpg" />
+    <None Include="bin\Debug\Resources\_101.jpg" />
+    <None Include="bin\Debug\Resources\_102.jpg" />
+    <None Include="bin\Debug\Resources\_103.jpg" />
+    <None Include="bin\Debug\Resources\_104.jpg" />
+    <None Include="bin\Debug\Resources\_105.jpg" />
+    <None Include="bin\Debug\Resources\_106.jpg" />
+    <None Include="bin\Debug\Resources\_107.jpg" />
+    <None Include="bin\Debug\Resources\_109.jpg" />
+    <None Include="bin\Debug\Resources\_110.jpg" />
+    <None Include="bin\Debug\Resources\_111.jpg" />
+    <None Include="bin\Debug\Resources\_112.jpg" />
+    <None Include="bin\Debug\Resources\_113.jpg" />
+    <None Include="bin\Debug\Resources\_129.jpg" />
+    <None Include="bin\Debug\Resources\_130.jpg" />
+    <None Include="bin\Debug\Resources\_131.jpg" />
+    <None Include="bin\Debug\Resources\_132.jpg" />
+    <None Include="bin\Debug\Resources\_133.jpg" />
+    <None Include="bin\Debug\Resources\_134.jpg" />
+    <None Include="bin\Debug\Resources\_135.jpg" />
+    <None Include="bin\Debug\Resources\_136.jpg" />
+    <None Include="bin\Debug\Resources\_137.jpg" />
+    <None Include="bin\Debug\Resources\_138.jpg" />
+    <None Include="bin\Debug\Resources\_139.jpg" />
+    <None Include="bin\Debug\Resources\_140.jpg" />
+    <None Include="bin\Debug\Resources\_141.jpg" />
+    <None Include="bin\Debug\Resources\_142.jpg" />
+    <None Include="bin\Debug\Resources\_143.jpg" />
+    <None Include="bin\Debug\Resources\_144.jpg" />
+    <None Include="bin\Debug\Resources\_145.jpg" />
+    <None Include="bin\Debug\Resources\_146.jpg" />
+    <None Include="bin\Debug\Resources\_147.jpg" />
+    <None Include="bin\Debug\Resources\_148.jpg" />
+    <None Include="bin\Debug\Resources\_149.jpg" />
+    <None Include="bin\Debug\Resources\_150.jpg" />
+    <None Include="bin\Debug\Resources\_151.jpg" />
+    <None Include="bin\Debug\Resources\_152.jpg" />
+    <None Include="bin\Debug\Resources\_153.jpg" />
+    <None Include="bin\Debug\Resources\_201.jpg" />
+    <None Include="bin\Debug\Resources\_202.jpg" />
+    <None Include="bin\Debug\Resources\_203.jpg" />
+    <None Include="bin\Debug\Resources\_204.jpg" />
+    <None Include="bin\Debug\Resources\_205.jpg" />
+    <None Include="bin\Debug\Resources\_206.jpg" />
+    <None Include="bin\Debug\Resources\_207.jpg" />
+    <None Include="bin\Debug\Resources\_208.jpg" />
+    <None Include="bin\Debug\Resources\_209.jpg" />
+    <None Include="bin\Debug\Resources\_210.jpg" />
+    <None Include="bin\Debug\Resources\_211.jpg" />
+    <None Include="bin\Debug\Resources\_212.jpg" />
+    <None Include="bin\Debug\Resources\_213.jpg" />
+    <None Include="bin\Debug\Resources\_214.jpg" />
+    <None Include="bin\Debug\Resources\_215.jpg" />
+    <None Include="bin\Debug\Resources\_216.jpg" />
+    <None Include="bin\Debug\Resources\_217.jpg" />
+    <None Include="bin\Debug\Resources\_218.jpg" />
+    <None Include="bin\Debug\Resources\_219.jpg" />
+    <None Include="bin\Debug\Resources\_220.jpg" />
+    <None Include="bin\Debug\Resources\_221.jpg" />
+    <None Include="bin\Debug\Resources\_222.jpg" />
+    <None Include="bin\Debug\Resources\_223.jpg" />
+    <None Include="bin\Debug\Resources\_224.jpg" />
+    <None Include="bin\Debug\Resources\_225.jpg" />
+    <None Include="bin\Debug\Resources\_226.jpg" />
+    <None Include="bin\Debug\Resources\_227.jpg" />
+    <None Include="bin\Debug\Resources\_228.jpg" />
+    <None Include="bin\Debug\Resources\_229.jpg" />
+    <None Include="bin\Debug\Resources\_230.jpg" />
+    <None Include="bin\Debug\Resources\_231.jpg" />
+    <None Include="bin\Debug\Resources\_232.jpg" />
+    <None Include="bin\Debug\Resources\_233.jpg" />
+    <None Include="bin\Debug\Resources\_234.jpg" />
+    <None Include="bin\Debug\Resources\_235.jpg" />
+    <None Include="bin\Debug\Resources\_236.jpg" />
+    <None Include="bin\Debug\Resources\_237.jpg" />
+    <None Include="bin\Debug\Resources\_238.jpg" />
+    <None Include="bin\Debug\Resources\_239.jpg" />
+    <None Include="bin\Debug\Resources\_240.jpg" />
+    <None Include="bin\Debug\Resources\_241.jpg" />
+    <None Include="bin\Debug\Resources\_242.jpg" />
+    <None Include="bin\Debug\Resources\_243.jpg" />
+    <None Include="bin\Debug\Resources\_244.jpg" />
+    <None Include="bin\Debug\Resources\_245.jpg" />
+    <None Include="bin\Debug\Resources\_246.jpg" />
+    <None Include="bin\Debug\Resources\_247.jpg" />
+    <None Include="bin\Debug\Resources\_248.jpg" />
+    <None Include="bin\Debug\Resources\_249.jpg" />
+    <None Include="bin\Debug\Resources\_250.jpg" />
+    <None Include="bin\Debug\Resources\_251.jpg" />
+    <None Include="bin\Debug\Resources\_252.jpg" />
+    <None Include="bin\Debug\Resources\_253.jpg" />
+    <None Include="bin\Debug\Resources\_254.jpg" />
+    <None Include="bin\Debug\Resources\_255.jpg" />
+    <None Include="bin\Debug\Resources\_256.jpg" />
+    <None Include="bin\Debug\Resources\_257.jpg" />
+    <None Include="bin\Debug\Resources\_258.jpg" />
+    <None Include="bin\Debug\Resources\_259.jpg" />
+    <None Include="bin\Debug\Resources\_260.jpg" />
+    <None Include="bin\Debug\Resources\_261.jpg" />
+    <None Include="bin\Debug\Resources\_262.jpg" />
+    <None Include="bin\Debug\Resources\_263.jpg" />
+    <None Include="bin\Debug\Resources\_264.jpg" />
+    <None Include="bin\Debug\Resources\_265.jpg" />
+    <None Include="bin\Debug\Resources\_266.jpg" />
+    <None Include="bin\Debug\Resources\_267.jpg" />
+    <None Include="bin\Debug\Resources\_268.jpg" />
+    <None Include="bin\Debug\Resources\_269.jpg" />
+    <None Include="bin\Debug\Resources\_270.jpg" />
+    <None Include="bin\Debug\Resources\_271.jpg" />
+    <None Include="bin\Debug\Resources\_272.jpg" />
+    <None Include="bin\Debug\Resources\_273.jpg" />
+    <None Include="bin\Debug\Resources\_274.jpg" />
+    <None Include="bin\Debug\Resources\_275.jpg" />
+    <None Include="bin\Debug\Resources\_276.jpg" />
+    <None Include="bin\Debug\Resources\_277.jpg" />
+    <None Include="bin\Debug\Resources\_278.jpg" />
+    <None Include="bin\Debug\Resources\_279.jpg" />
+    <None Include="bin\Debug\Resources\_280.jpg" />
+    <None Include="bin\Debug\Resources\_281.jpg" />
+    <None Include="bin\Debug\Resources\_282.jpg" />
+    <None Include="bin\Debug\Resources\_283.jpg" />
+    <None Include="bin\Debug\Resources\_284.jpg" />
+    <None Include="bin\Debug\Resources\_285.jpg" />
+    <None Include="bin\Debug\Resources\_286.jpg" />
+    <None Include="bin\Debug\Resources\_287.jpg" />
+    <None Include="bin\Debug\Resources\_288.jpg" />
+    <None Include="bin\Debug\Resources\_289.jpg" />
+    <None Include="bin\Debug\Resources\_290.jpg" />
+    <None Include="bin\Debug\Resources\_291.jpg" />
+    <None Include="bin\Debug\Resources\_292.jpg" />
+    <None Include="bin\Debug\Resources\_293.jpg" />
+    <None Include="bin\Debug\Resources\_294.jpg" />
+    <None Include="bin\Debug\Resources\_295.jpg" />
+    <None Include="bin\Debug\Resources\_296.jpg" />
+    <None Include="bin\Debug\Resources\_300.jpg" />
+    <None Include="bin\Debug\Resources\_301.jpg" />
+    <None Include="bin\Debug\Resources\_302.jpg" />
+    <None Include="bin\Debug\Resources\_303.jpg" />
+    <None Include="bin\Debug\Resources\_304.jpg" />
+    <None Include="bin\Debug\Resources\_320.jpg" />
+    <None Include="bin\Debug\Resources\_321.jpg" />
+    <None Include="bin\Debug\Resources\_322.jpg" />
+    <None Include="bin\Debug\Resources\_323.jpg" />
+    <None Include="bin\Debug\Resources\_324.jpg" />
+    <None Include="bin\Debug\Resources\_325.jpg" />
+    <None Include="bin\Debug\Resources\_326.jpg" />
+    <None Include="bin\Debug\Resources\_327.jpg" />
+    <None Include="bin\Debug\Resources\_328.jpg" />
+    <None Include="bin\Debug\Resources\_329.jpg" />
+    <None Include="bin\Debug\Resources\_330.jpg" />
+    <None Include="bin\Debug\Resources\_331.jpg" />
+    <None Include="bin\Debug\Resources\_332.jpg" />
+    <None Include="bin\Debug\Resources\_333.jpg" />
+    <None Include="bin\Debug\Resources\_334.jpg" />
+    <None Include="bin\Debug\Resources\_335.jpg" />
+    <None Include="bin\Debug\Resources\_336.jpg" />
+    <None Include="bin\Debug\Resources\_337.jpg" />
+    <None Include="bin\Debug\Resources\_338.jpg" />
+    <None Include="bin\Debug\Resources\_339.jpg" />
+    <None Include="bin\Debug\Resources\_340.jpg" />
+    <None Include="bin\Debug\Resources\_341.jpg" />
+    <None Include="bin\Debug\Resources\_342.jpg" />
+    <None Include="bin\Debug\Resources\_343.jpg" />
+    <None Include="bin\Debug\Resources\_344.jpg" />
+    <None Include="bin\Debug\Resources\_2511.jpg" />
+    <None Include="bin\Debug\Resources\DialogNpcEquip1BG.jpg" />
+    <None Include="bin\Debug\Resources\DialogNpcEquip1BG.png" />
+    <None Include="bin\Debug\Resources\equipment.png" />
+    <None Include="bin\Debug\Resources\information.png" />
+    <None Include="bin\Debug\Resources\0.jpg" />
+    <None Include="bin\Debug\Resources\1 %281%29.png" />
+    <None Include="bin\Debug\Resources\1.jpg" />
+    <None Include="bin\Debug\Resources\2.jpg" />
+    <None Include="bin\Debug\Resources\3.jpg" />
+    <None Include="bin\Debug\Resources\4.jpg" />
+    <None Include="bin\Debug\Resources\5.jpg" />
+    <None Include="bin\Debug\Resources\6.jpg" />
+    <None Include="bin\Debug\Resources\7.jpg" />
+    <None Include="bin\Debug\Resources\8.jpg" />
+    <None Include="bin\Debug\Resources\9.jpg" />
+    <None Include="bin\Debug\Resources\10.jpg" />
+    <None Include="bin\Debug\Resources\11.jpg" />
+    <None Include="bin\Debug\Resources\12.jpg" />
+    <None Include="bin\Debug\Resources\13.jpg" />
+    <None Include="bin\Debug\Resources\14.jpg" />
+    <None Include="bin\Debug\Resources\15.jpg" />
+    <None Include="bin\Debug\Resources\16.jpg" />
+    <None Include="bin\Debug\Resources\17.jpg" />
+    <None Include="bin\Debug\Resources\18.jpg" />
+    <None Include="bin\Debug\Resources\19.jpg" />
+    <None Include="bin\Debug\Resources\20.jpg" />
+    <None Include="bin\Debug\Resources\21.jpg" />
+    <None Include="bin\Debug\Resources\22.jpg" />
+    <None Include="bin\Debug\Resources\23.jpg" />
+    <None Include="bin\Debug\Resources\24.jpg" />
+    <None Include="bin\Debug\Resources\25.jpg" />
+    <None Include="bin\Debug\Resources\26.jpg" />
+    <None Include="bin\Debug\Resources\27.jpg" />
+    <None Include="bin\Debug\Resources\28.jpg" />
+    <None Include="bin\Debug\Resources\29.jpg" />
+    <None Include="bin\Debug\Resources\30.jpg" />
+    <None Include="bin\Debug\Resources\31.jpg" />
+    <None Include="bin\Debug\Resources\32.jpg" />
+    <None Include="bin\Debug\Resources\33.jpg" />
+    <None Include="bin\Debug\Resources\34.jpg" />
+    <None Include="bin\Debug\Resources\35.jpg" />
+    <None Include="bin\Debug\Resources\36.jpg" />
+    <None Include="bin\Debug\Resources\37.jpg" />
+    <None Include="bin\Debug\Resources\38.jpg" />
+    <None Include="bin\Debug\Resources\39.jpg" />
+    <None Include="bin\Debug\Resources\40.jpg" />
+    <None Include="bin\Debug\Resources\41.jpg" />
+    <None Include="bin\Debug\Resources\42.jpg" />
+    <None Include="bin\Debug\Resources\43.jpg" />
+    <None Include="bin\Debug\Resources\44.jpg" />
+    <None Include="bin\Debug\Resources\45.jpg" />
+    <None Include="bin\Debug\Resources\46.jpg" />
+    <None Include="bin\Debug\Resources\47.jpg" />
+    <None Include="bin\Debug\Resources\48.jpg" />
+    <None Include="bin\Debug\Resources\49.jpg" />
+    <None Include="bin\Debug\Resources\50.jpg" />
+    <None Include="bin\Debug\Resources\51.jpg" />
+    <None Include="bin\Debug\Resources\52.jpg" />
+    <None Include="bin\Debug\Resources\53.jpg" />
+    <None Include="bin\Debug\Resources\54.jpg" />
+    <None Include="bin\Debug\Resources\55.jpg" />
+    <None Include="bin\Debug\Resources\56.jpg" />
+    <None Include="bin\Debug\Resources\57.jpg" />
+    <None Include="bin\Debug\Resources\58.jpg" />
+    <None Include="bin\Debug\Resources\59.jpg" />
+    <None Include="bin\Debug\Resources\60.jpg" />
+    <None Include="bin\Debug\Resources\61.jpg" />
+    <None Include="bin\Debug\Resources\62.jpg" />
+    <None Include="bin\Debug\Resources\63.jpg" />
+    <None Include="bin\Debug\Resources\64.jpg" />
+    <None Include="bin\Debug\Resources\65.jpg" />
+    <None Include="bin\Debug\Resources\66.jpg" />
+    <None Include="bin\Debug\Resources\67.jpg" />
+    <None Include="bin\Debug\Resources\68.jpg" />
+    <None Include="bin\Debug\Resources\69.jpg" />
+    <None Include="bin\Debug\Resources\70.jpg" />
+    <None Include="bin\Debug\Resources\71.jpg" />
+    <None Include="bin\Debug\Resources\72.jpg" />
+    <None Include="bin\Debug\Resources\73.jpg" />
+    <None Include="bin\Debug\Resources\74.jpg" />
+    <None Include="bin\Debug\Resources\75.jpg" />
+    <None Include="bin\Debug\Resources\76.jpg" />
+    <None Include="bin\Debug\Resources\77.jpg" />
+    <None Include="bin\Debug\Resources\78.jpg" />
+    <None Include="bin\Debug\Resources\79.jpg" />
+    <None Include="bin\Debug\Resources\80.jpg" />
+    <None Include="bin\Debug\Resources\81.jpg" />
+    <None Include="bin\Debug\Resources\82.jpg" />
+    <None Include="bin\Debug\Resources\83.jpg" />
+    <None Include="bin\Debug\Resources\84.jpg" />
+    <None Include="bin\Debug\Resources\85.jpg" />
+    <None Include="bin\Debug\Resources\86.jpg" />
+    <None Include="bin\Debug\Resources\87.jpg" />
+    <None Include="bin\Debug\Resources\88.jpg" />
+    <None Include="bin\Debug\Resources\89.jpg" />
+    <None Include="bin\Debug\Resources\90.jpg" />
+    <None Include="bin\Debug\Resources\91.jpg" />
+    <None Include="bin\Debug\Resources\92.jpg" />
+    <None Include="bin\Debug\Resources\93.jpg" />
+    <None Include="bin\Debug\Resources\94.jpg" />
+    <None Include="bin\Debug\Resources\95.jpg" />
+    <None Include="bin\Debug\Resources\96.jpg" />
+    <None Include="bin\Debug\Resources\97.jpg" />
+    <None Include="bin\Debug\Resources\98.jpg" />
+    <None Include="bin\Debug\Resources\99.jpg" />
+    <None Include="bin\Debug\Resources\100.jpg" />
+    <None Include="bin\Debug\Resources\101.jpg" />
+    <None Include="bin\Debug\Resources\102.jpg" />
+    <None Include="bin\Debug\Resources\103.jpg" />
+    <None Include="bin\Debug\Resources\104.jpg" />
+    <None Include="bin\Debug\Resources\105.jpg" />
+    <None Include="bin\Debug\Resources\106.jpg" />
+    <None Include="bin\Debug\Resources\107.jpg" />
+    <None Include="bin\Debug\Resources\109.jpg" />
+    <None Include="bin\Debug\Resources\110.jpg" />
+    <None Include="bin\Debug\Resources\111.jpg" />
+    <None Include="bin\Debug\Resources\112.jpg" />
+    <None Include="bin\Debug\Resources\113.jpg" />
+    <None Include="bin\Debug\Resources\129.jpg" />
+    <None Include="bin\Debug\Resources\130.jpg" />
+    <None Include="bin\Debug\Resources\131.jpg" />
+    <None Include="bin\Debug\Resources\132.jpg" />
+    <None Include="bin\Debug\Resources\133.jpg" />
+    <None Include="bin\Debug\Resources\134.jpg" />
+    <None Include="bin\Debug\Resources\135.jpg" />
+    <None Include="bin\Debug\Resources\136.jpg" />
+    <None Include="bin\Debug\Resources\137.jpg" />
+    <None Include="bin\Debug\Resources\138.jpg" />
+    <None Include="bin\Debug\Resources\139.jpg" />
+    <None Include="bin\Debug\Resources\140.jpg" />
+    <None Include="bin\Debug\Resources\141.jpg" />
+    <None Include="bin\Debug\Resources\142.jpg" />
+    <None Include="bin\Debug\Resources\143.jpg" />
+    <None Include="bin\Debug\Resources\144.jpg" />
+    <None Include="bin\Debug\Resources\145.jpg" />
+    <None Include="bin\Debug\Resources\146.jpg" />
+    <None Include="bin\Debug\Resources\147.jpg" />
+    <None Include="bin\Debug\Resources\148.jpg" />
+    <None Include="bin\Debug\Resources\149.jpg" />
+    <None Include="bin\Debug\Resources\150.jpg" />
+    <None Include="bin\Debug\Resources\151.jpg" />
+    <None Include="bin\Debug\Resources\152.jpg" />
+    <None Include="bin\Debug\Resources\153.jpg" />
+    <None Include="bin\Debug\Resources\201.jpg" />
+    <None Include="bin\Debug\Resources\202.jpg" />
+    <None Include="bin\Debug\Resources\203.jpg" />
+    <None Include="bin\Debug\Resources\204.jpg" />
+    <None Include="bin\Debug\Resources\205.jpg" />
+    <None Include="bin\Debug\Resources\206.jpg" />
+    <None Include="bin\Debug\Resources\207.jpg" />
+    <None Include="bin\Debug\Resources\208.jpg" />
+    <None Include="bin\Debug\Resources\209.jpg" />
+    <None Include="bin\Debug\Resources\210.jpg" />
+    <None Include="bin\Debug\Resources\211.jpg" />
+    <None Include="bin\Debug\Resources\212.jpg" />
+    <None Include="bin\Debug\Resources\213.jpg" />
+    <None Include="bin\Debug\Resources\214.jpg" />
+    <None Include="bin\Debug\Resources\215.jpg" />
+    <None Include="bin\Debug\Resources\216.jpg" />
+    <None Include="bin\Debug\Resources\217.jpg" />
+    <None Include="bin\Debug\Resources\218.jpg" />
+    <None Include="bin\Debug\Resources\219.jpg" />
+    <None Include="bin\Debug\Resources\220.jpg" />
+    <None Include="bin\Debug\Resources\221.jpg" />
+    <None Include="bin\Debug\Resources\222.jpg" />
+    <None Include="bin\Debug\Resources\223.jpg" />
+    <None Include="bin\Debug\Resources\224.jpg" />
+    <None Include="bin\Debug\Resources\225.jpg" />
+    <None Include="bin\Debug\Resources\226.jpg" />
+    <None Include="bin\Debug\Resources\227.jpg" />
+    <None Include="bin\Debug\Resources\228.jpg" />
+    <None Include="bin\Debug\Resources\229.jpg" />
+    <None Include="bin\Debug\Resources\230.jpg" />
+    <None Include="bin\Debug\Resources\231.jpg" />
+    <None Include="bin\Debug\Resources\232.jpg" />
+    <None Include="bin\Debug\Resources\233.jpg" />
+    <None Include="bin\Debug\Resources\234.jpg" />
+    <None Include="bin\Debug\Resources\235.jpg" />
+    <None Include="bin\Debug\Resources\236.jpg" />
+    <None Include="bin\Debug\Resources\237.jpg" />
+    <None Include="bin\Debug\Resources\238.jpg" />
+    <None Include="bin\Debug\Resources\239.jpg" />
+    <None Include="bin\Debug\Resources\240.jpg" />
+    <None Include="bin\Debug\Resources\241.jpg" />
+    <None Include="bin\Debug\Resources\242.jpg" />
+    <None Include="bin\Debug\Resources\243.jpg" />
+    <None Include="bin\Debug\Resources\244.jpg" />
+    <None Include="bin\Debug\Resources\245.jpg" />
+    <None Include="bin\Debug\Resources\246.jpg" />
+    <None Include="bin\Debug\Resources\247.jpg" />
+    <None Include="bin\Debug\Resources\248.jpg" />
+    <None Include="bin\Debug\Resources\249.jpg" />
+    <None Include="bin\Debug\Resources\250.jpg" />
+    <None Include="bin\Debug\Resources\251.jpg" />
+    <None Include="bin\Debug\Resources\252.jpg" />
+    <None Include="bin\Debug\Resources\253.jpg" />
+    <None Include="bin\Debug\Resources\254.jpg" />
+    <None Include="bin\Debug\Resources\255.jpg" />
+    <None Include="bin\Debug\Resources\256.jpg" />
+    <None Include="bin\Debug\Resources\257.jpg" />
+    <None Include="bin\Debug\Resources\258.jpg" />
+    <None Include="bin\Debug\Resources\259.jpg" />
+    <None Include="bin\Debug\Resources\260.jpg" />
+    <None Include="bin\Debug\Resources\261.jpg" />
+    <None Include="bin\Debug\Resources\262.jpg" />
+    <None Include="bin\Debug\Resources\263.jpg" />
+    <None Include="bin\Debug\Resources\264.jpg" />
+    <None Include="bin\Debug\Resources\265.jpg" />
+    <None Include="bin\Debug\Resources\266.jpg" />
+    <None Include="bin\Debug\Resources\267.jpg" />
+    <None Include="bin\Debug\Resources\268.jpg" />
+    <None Include="bin\Debug\Resources\269.jpg" />
+    <None Include="bin\Debug\Resources\270.jpg" />
+    <None Include="bin\Debug\Resources\271.jpg" />
+    <None Include="bin\Debug\Resources\272.jpg" />
+    <None Include="bin\Debug\Resources\273.jpg" />
+    <None Include="bin\Debug\Resources\274.jpg" />
+    <None Include="bin\Debug\Resources\275.jpg" />
+    <None Include="bin\Debug\Resources\276.jpg" />
+    <None Include="bin\Debug\Resources\277.jpg" />
+    <None Include="bin\Debug\Resources\278.jpg" />
+    <None Include="bin\Debug\Resources\279.jpg" />
+    <None Include="bin\Debug\Resources\280.jpg" />
+    <None Include="bin\Debug\Resources\281.jpg" />
+    <None Include="bin\Debug\Resources\282.jpg" />
+    <None Include="bin\Debug\Resources\283.jpg" />
+    <None Include="bin\Debug\Resources\284.jpg" />
+    <None Include="bin\Debug\Resources\285.jpg" />
+    <None Include="bin\Debug\Resources\286.jpg" />
+    <None Include="bin\Debug\Resources\287.jpg" />
+    <None Include="bin\Debug\Resources\288.jpg" />
+    <None Include="bin\Debug\Resources\289.jpg" />
+    <None Include="bin\Debug\Resources\290.jpg" />
+    <None Include="bin\Debug\Resources\291.jpg" />
+    <None Include="bin\Debug\Resources\292.jpg" />
+    <None Include="bin\Debug\Resources\293.jpg" />
+    <None Include="bin\Debug\Resources\294.jpg" />
+    <None Include="bin\Debug\Resources\295.jpg" />
+    <None Include="bin\Debug\Resources\296.jpg" />
+    <None Include="bin\Debug\Resources\300.jpg" />
+    <None Include="bin\Debug\Resources\301.jpg" />
+    <None Include="bin\Debug\Resources\302.jpg" />
+    <None Include="bin\Debug\Resources\303.jpg" />
+    <None Include="bin\Debug\Resources\304.jpg" />
+    <None Include="bin\Debug\Resources\320.jpg" />
+    <None Include="bin\Debug\Resources\321.jpg" />
+    <None Include="bin\Debug\Resources\322.jpg" />
+    <None Include="bin\Debug\Resources\323.jpg" />
+    <None Include="bin\Debug\Resources\324.jpg" />
+    <None Include="bin\Debug\Resources\325.jpg" />
+    <None Include="bin\Debug\Resources\326.jpg" />
+    <None Include="bin\Debug\Resources\327.jpg" />
+    <None Include="bin\Debug\Resources\328.jpg" />
+    <None Include="bin\Debug\Resources\329.jpg" />
+    <None Include="bin\Debug\Resources\330.jpg" />
+    <None Include="bin\Debug\Resources\331.jpg" />
+    <None Include="bin\Debug\Resources\332.jpg" />
+    <None Include="bin\Debug\Resources\333.jpg" />
+    <None Include="bin\Debug\Resources\334.jpg" />
+    <None Include="bin\Debug\Resources\335.jpg" />
+    <None Include="bin\Debug\Resources\336.jpg" />
+    <None Include="bin\Debug\Resources\337.jpg" />
+    <None Include="bin\Debug\Resources\338.jpg" />
+    <None Include="bin\Debug\Resources\339.jpg" />
+    <None Include="bin\Debug\Resources\340.jpg" />
+    <None Include="bin\Debug\Resources\341.jpg" />
+    <None Include="bin\Debug\Resources\342.jpg" />
+    <None Include="bin\Debug\Resources\343.jpg" />
+    <None Include="bin\Debug\Resources\344.jpg" />
+    <None Include="bin\Debug\Resources\2511.jpg" />
+    <None Include="bin\Debug\Resources\ad_queryClick.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__liuxing.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType1000.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType1001.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType1002.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11030.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11040.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11070.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11100.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11110.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11170.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11180.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11190.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11230.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11600.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11650.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11660.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11960.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11980.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType11990.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12070.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12080.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12110.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12120.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12130.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12140.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12160.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12170.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12200.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12240.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12300.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12320.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12330.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12340.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12350.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12370.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12380.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12400.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12670.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12690.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12840.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12850.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12890.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12930.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12940.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12980.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType12990.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType13000.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType13020.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__MagicSkillType13030.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__shang.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill2.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill3.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill7.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill13.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill18.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill19.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill20.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill23.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill24.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill28.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill29.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill33.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill39.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill6000.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill6003.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill6010.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill6011.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill10309.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill10310.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill10311.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill10313.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill10315.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill12550.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill12560.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__skill12570.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType10390.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType11610.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType11970.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType12290.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType12700.png" />
+    <None Include="bin\Debug\Resources\AnyConv.com__XpSkillType12860.png" />
+    <None Include="bin\Debug\Resources\Bruce-Lee-Conquer.jpg" />
+    <None Include="bin\Debug\Resources\dota-2-defense-of-the-ancients-command-conquer-generals-video-game-dota.jpg" />
+    <None Include="bin\Debug\Resources\dota-2-defense-of-the-ancients-command-conquer-generals-video-game-dota.png" />
+    <None Include="bin\Debug\Resources\Image 24.png" />
+    <None Include="bin\Debug\Resources\Image 26.png" />
+    <None Include="bin\Debug\Resources\Image 28.png" />
+    <None Include="bin\Debug\Resources\Image 32.png" />
+    <None Include="bin\Debug\Resources\Image 36.png" />
+    <None Include="bin\Debug\Resources\Image 40.png" />
+    <None Include="bin\Debug\Resources\Image 44.png" />
+    <None Include="bin\Debug\Resources\Image 48.png" />
+    <None Include="bin\Debug\Resources\png-transparent-infantry-conquer-online-figurine-conquer-conquer-online-military-organization-infantry-thumbnail %281%29.png" />
+    <None Include="bin\Debug\Resources\ryzo-icon.png" />
+    <None Include="bin\Debug\Resources\Screenshot_7.png" />
+    <None Include="bin\Debug\Resources\skill34.png" />
+    <None Include="bin\Debug\Resources\skill10381.png" />
+    <None Include="bin\Debug\Resources\skill10415.png" />
+    <None Include="bin\Debug\Resources\skill10490.png" />
+    <None Include="bin\Debug\Resources\skill11000.png" />
+    <None Include="bin\Debug\Resources\skill11005.png" />
+    <None Include="bin\Debug\Resources\skill11140.png" />
+    <None Include="bin\Debug\Resources\XpSkillType11050.png" />
+    <None Include="bin\Debug\Resources\XpSkillType11060.png" />
+    <Content Include="Logo.ico" />
+    <Content Include="Resources\%24this.Icon.ico" />
+    <Content Include="Resources\64\0.jpg" />
+    <Content Include="Resources\64\1.jpg" />
+    <Content Include="Resources\64\10.jpg" />
+    <Content Include="Resources\64\100.jpg" />
+    <Content Include="Resources\64\101.jpg" />
+    <Content Include="Resources\64\102.jpg" />
+    <Content Include="Resources\64\103.jpg" />
+    <Content Include="Resources\64\104.jpg" />
+    <Content Include="Resources\64\105.jpg" />
+    <Content Include="Resources\64\106.jpg" />
+    <Content Include="Resources\64\107.jpg" />
+    <Content Include="Resources\64\109.jpg" />
+    <Content Include="Resources\64\11.jpg" />
+    <Content Include="Resources\64\110.jpg" />
+    <Content Include="Resources\64\111.jpg" />
+    <Content Include="Resources\64\112.jpg" />
+    <Content Include="Resources\64\113.jpg" />
+    <Content Include="Resources\64\12.jpg" />
+    <Content Include="Resources\64\129.jpg" />
+    <Content Include="Resources\64\13.jpg" />
+    <Content Include="Resources\64\130.jpg" />
+    <Content Include="Resources\64\131.jpg" />
+    <Content Include="Resources\64\132.jpg" />
+    <Content Include="Resources\64\133.jpg" />
+    <Content Include="Resources\64\134.jpg" />
+    <Content Include="Resources\64\135.jpg" />
+    <Content Include="Resources\64\136.jpg" />
+    <Content Include="Resources\64\137.jpg" />
+    <Content Include="Resources\64\138.jpg" />
+    <Content Include="Resources\64\139.jpg" />
+    <Content Include="Resources\64\14.jpg" />
+    <Content Include="Resources\64\140.jpg" />
+    <Content Include="Resources\64\141.jpg" />
+    <Content Include="Resources\64\142.jpg" />
+    <Content Include="Resources\64\143.jpg" />
+    <Content Include="Resources\64\144.jpg" />
+    <Content Include="Resources\64\145.jpg" />
+    <Content Include="Resources\64\146.jpg" />
+    <Content Include="Resources\64\147.jpg" />
+    <Content Include="Resources\64\148.jpg" />
+    <Content Include="Resources\64\149.jpg" />
+    <Content Include="Resources\64\15.jpg" />
+    <Content Include="Resources\64\150.jpg" />
+    <Content Include="Resources\64\151.jpg" />
+    <Content Include="Resources\64\152.jpg" />
+    <Content Include="Resources\64\153.jpg" />
+    <Content Include="Resources\64\16.jpg" />
+    <Content Include="Resources\64\17.jpg" />
+    <Content Include="Resources\64\18.jpg" />
+    <Content Include="Resources\64\19.jpg" />
+    <Content Include="Resources\64\2.jpg" />
+    <Content Include="Resources\64\20.jpg" />
+    <Content Include="Resources\64\201.jpg" />
+    <Content Include="Resources\64\202.jpg" />
+    <Content Include="Resources\64\203.jpg" />
+    <Content Include="Resources\64\204.jpg" />
+    <Content Include="Resources\64\205.jpg" />
+    <Content Include="Resources\64\206.jpg" />
+    <Content Include="Resources\64\207.jpg" />
+    <Content Include="Resources\64\208.jpg" />
+    <Content Include="Resources\64\209.jpg" />
+    <Content Include="Resources\64\21.jpg" />
+    <Content Include="Resources\64\210.jpg" />
+    <Content Include="Resources\64\211.jpg" />
+    <Content Include="Resources\64\212.jpg" />
+    <Content Include="Resources\64\213.jpg" />
+    <Content Include="Resources\64\214.jpg" />
+    <Content Include="Resources\64\215.jpg" />
+    <Content Include="Resources\64\216.jpg" />
+    <Content Include="Resources\64\217.jpg" />
+    <Content Include="Resources\64\218.jpg" />
+    <Content Include="Resources\64\219.jpg" />
+    <Content Include="Resources\64\22.jpg" />
+    <Content Include="Resources\64\220.jpg" />
+    <Content Include="Resources\64\221.jpg" />
+    <Content Include="Resources\64\222.jpg" />
+    <Content Include="Resources\64\223.jpg" />
+    <Content Include="Resources\64\224.jpg" />
+    <Content Include="Resources\64\225.jpg" />
+    <Content Include="Resources\64\226.jpg" />
+    <Content Include="Resources\64\227.jpg" />
+    <Content Include="Resources\64\228.jpg" />
+    <Content Include="Resources\64\229.jpg" />
+    <Content Include="Resources\64\23.jpg" />
+    <Content Include="Resources\64\230.jpg" />
+    <Content Include="Resources\64\231.jpg" />
+    <Content Include="Resources\64\232.jpg" />
+    <Content Include="Resources\64\233.jpg" />
+    <Content Include="Resources\64\234.jpg" />
+    <Content Include="Resources\64\235.jpg" />
+    <Content Include="Resources\64\236.jpg" />
+    <Content Include="Resources\64\237.jpg" />
+    <Content Include="Resources\64\238.jpg" />
+    <Content Include="Resources\64\239.jpg" />
+    <Content Include="Resources\64\24.jpg" />
+    <Content Include="Resources\64\240.jpg" />
+    <Content Include="Resources\64\241.jpg" />
+    <Content Include="Resources\64\242.jpg" />
+    <Content Include="Resources\64\243.jpg" />
+    <Content Include="Resources\64\244.jpg" />
+    <Content Include="Resources\64\245.jpg" />
+    <Content Include="Resources\64\246.jpg" />
+    <Content Include="Resources\64\247.jpg" />
+    <Content Include="Resources\64\248.jpg" />
+    <Content Include="Resources\64\249.jpg" />
+    <Content Include="Resources\64\25.jpg" />
+    <Content Include="Resources\64\250.jpg" />
+    <Content Include="Resources\64\251.jpg" />
+    <Content Include="Resources\64\2511.jpg" />
+    <Content Include="Resources\64\252.jpg" />
+    <Content Include="Resources\64\253.jpg" />
+    <Content Include="Resources\64\254.jpg" />
+    <Content Include="Resources\64\255.jpg" />
+    <Content Include="Resources\64\256.jpg" />
+    <Content Include="Resources\64\257.jpg" />
+    <Content Include="Resources\64\258.jpg" />
+    <Content Include="Resources\64\259.jpg" />
+    <Content Include="Resources\64\26.jpg" />
+    <Content Include="Resources\64\260.jpg" />
+    <Content Include="Resources\64\261.jpg" />
+    <Content Include="Resources\64\262.jpg" />
+    <Content Include="Resources\64\263.jpg" />
+    <Content Include="Resources\64\264.jpg" />
+    <Content Include="Resources\64\265.jpg" />
+    <Content Include="Resources\64\266.jpg" />
+    <Content Include="Resources\64\267.jpg" />
+    <Content Include="Resources\64\268.jpg" />
+    <Content Include="Resources\64\269.jpg" />
+    <Content Include="Resources\64\27.jpg" />
+    <Content Include="Resources\64\270.jpg" />
+    <Content Include="Resources\64\271.jpg" />
+    <Content Include="Resources\64\272.jpg" />
+    <Content Include="Resources\64\273.jpg" />
+    <Content Include="Resources\64\274.jpg" />
+    <Content Include="Resources\64\275.jpg" />
+    <Content Include="Resources\64\276.jpg" />
+    <Content Include="Resources\64\277.jpg" />
+    <Content Include="Resources\64\278.jpg" />
+    <Content Include="Resources\64\279.jpg" />
+    <Content Include="Resources\64\28.jpg" />
+    <Content Include="Resources\64\280.jpg" />
+    <Content Include="Resources\64\281.jpg" />
+    <Content Include="Resources\64\282.jpg" />
+    <Content Include="Resources\64\283.jpg" />
+    <Content Include="Resources\64\284.jpg" />
+    <Content Include="Resources\64\285.jpg" />
+    <Content Include="Resources\64\286.jpg" />
+    <Content Include="Resources\64\287.jpg" />
+    <Content Include="Resources\64\288.jpg" />
+    <Content Include="Resources\64\289.jpg" />
+    <Content Include="Resources\64\29.jpg" />
+    <Content Include="Resources\64\290.jpg" />
+    <Content Include="Resources\64\291.jpg" />
+    <Content Include="Resources\64\292.jpg" />
+    <Content Include="Resources\64\293.jpg" />
+    <Content Include="Resources\64\294.jpg" />
+    <Content Include="Resources\64\295.jpg" />
+    <Content Include="Resources\64\296.jpg" />
+    <Content Include="Resources\64\3.jpg" />
+    <Content Include="Resources\64\30.jpg" />
+    <Content Include="Resources\64\300.jpg" />
+    <Content Include="Resources\64\301.jpg" />
+    <Content Include="Resources\64\302.jpg" />
+    <Content Include="Resources\64\303.jpg" />
+    <Content Include="Resources\64\304.jpg" />
+    <Content Include="Resources\64\31.jpg" />
+    <Content Include="Resources\64\32.jpg" />
+    <Content Include="Resources\64\320.jpg" />
+    <Content Include="Resources\64\321.jpg" />
+    <Content Include="Resources\64\322.jpg" />
+    <Content Include="Resources\64\323.jpg" />
+    <Content Include="Resources\64\324.jpg" />
+    <Content Include="Resources\64\325.jpg" />
+    <Content Include="Resources\64\326.jpg" />
+    <Content Include="Resources\64\327.jpg" />
+    <Content Include="Resources\64\328.jpg" />
+    <Content Include="Resources\64\329.jpg" />
+    <Content Include="Resources\64\33.jpg" />
+    <Content Include="Resources\64\330.jpg" />
+    <Content Include="Resources\64\331.jpg" />
+    <Content Include="Resources\64\332.jpg" />
+    <Content Include="Resources\64\333.jpg" />
+    <Content Include="Resources\64\334.jpg" />
+    <Content Include="Resources\64\335.jpg" />
+    <Content Include="Resources\64\336.jpg" />
+    <Content Include="Resources\64\337.jpg" />
+    <Content Include="Resources\64\338.jpg" />
+    <Content Include="Resources\64\339.jpg" />
+    <Content Include="Resources\64\34.jpg" />
+    <Content Include="Resources\64\340.jpg" />
+    <Content Include="Resources\64\341.jpg" />
+    <Content Include="Resources\64\342.jpg" />
+    <Content Include="Resources\64\343.jpg" />
+    <Content Include="Resources\64\344.jpg" />
+    <Content Include="Resources\64\35.jpg" />
+    <Content Include="Resources\64\36.jpg" />
+    <Content Include="Resources\64\37.jpg" />
+    <Content Include="Resources\64\38.jpg" />
+    <Content Include="Resources\64\39.jpg" />
+    <Content Include="Resources\64\4.jpg" />
+    <Content Include="Resources\64\40.jpg" />
+    <Content Include="Resources\64\41.jpg" />
+    <Content Include="Resources\64\42.jpg" />
+    <Content Include="Resources\64\43.jpg" />
+    <Content Include="Resources\64\44.jpg" />
+    <Content Include="Resources\64\45.jpg" />
+    <Content Include="Resources\64\46.jpg" />
+    <Content Include="Resources\64\47.jpg" />
+    <Content Include="Resources\64\48.jpg" />
+    <Content Include="Resources\64\49.jpg" />
+    <Content Include="Resources\64\5.jpg" />
+    <Content Include="Resources\64\50.jpg" />
+    <Content Include="Resources\64\51.jpg" />
+    <Content Include="Resources\64\52.jpg" />
+    <Content Include="Resources\64\53.jpg" />
+    <Content Include="Resources\64\54.jpg" />
+    <Content Include="Resources\64\55.jpg" />
+    <Content Include="Resources\64\56.jpg" />
+    <Content Include="Resources\64\57.jpg" />
+    <Content Include="Resources\64\58.jpg" />
+    <Content Include="Resources\64\59.jpg" />
+    <Content Include="Resources\64\6.jpg" />
+    <Content Include="Resources\64\60.jpg" />
+    <Content Include="Resources\64\61.jpg" />
+    <Content Include="Resources\64\62.jpg" />
+    <Content Include="Resources\64\63.jpg" />
+    <Content Include="Resources\64\64.jpg" />
+    <Content Include="Resources\64\65.jpg" />
+    <Content Include="Resources\64\66.jpg" />
+    <Content Include="Resources\64\67.jpg" />
+    <Content Include="Resources\64\68.jpg" />
+    <Content Include="Resources\64\69.jpg" />
+    <Content Include="Resources\64\7.jpg" />
+    <Content Include="Resources\64\70.jpg" />
+    <Content Include="Resources\64\71.jpg" />
+    <Content Include="Resources\64\72.jpg" />
+    <Content Include="Resources\64\73.jpg" />
+    <Content Include="Resources\64\74.jpg" />
+    <Content Include="Resources\64\75.jpg" />
+    <Content Include="Resources\64\76.jpg" />
+    <Content Include="Resources\64\77.jpg" />
+    <Content Include="Resources\64\78.jpg" />
+    <Content Include="Resources\64\79.jpg" />
+    <Content Include="Resources\64\8.jpg" />
+    <Content Include="Resources\64\80.jpg" />
+    <Content Include="Resources\64\81.jpg" />
+    <Content Include="Resources\64\82.jpg" />
+    <Content Include="Resources\64\83.jpg" />
+    <Content Include="Resources\64\84.jpg" />
+    <Content Include="Resources\64\85.jpg" />
+    <Content Include="Resources\64\86.jpg" />
+    <Content Include="Resources\64\87.jpg" />
+    <Content Include="Resources\64\88.jpg" />
+    <Content Include="Resources\64\89.jpg" />
+    <Content Include="Resources\64\9.jpg" />
+    <Content Include="Resources\64\90.jpg" />
+    <Content Include="Resources\64\91.jpg" />
+    <Content Include="Resources\64\92.jpg" />
+    <Content Include="Resources\64\93.jpg" />
+    <Content Include="Resources\64\94.jpg" />
+    <Content Include="Resources\64\95.jpg" />
+    <Content Include="Resources\64\96.jpg" />
+    <Content Include="Resources\64\97.jpg" />
+    <Content Include="Resources\64\98.jpg" />
+    <Content Include="Resources\64\99.jpg" />
+    <Content Include="Resources\bot\equipment.png" />
+    <Content Include="Resources\bot\information.png" />
+    <Content Include="Resources\equipment.png" />
+    <Content Include="Resources\information.png" />
+    <Content Include="Resources\_0.jpg" />
+    <Content Include="Resources\_1.jpg" />
+    <Content Include="Resources\_10.jpg" />
+    <Content Include="Resources\_100.jpg" />
+    <Content Include="Resources\_101.jpg" />
+    <Content Include="Resources\_102.jpg" />
+    <Content Include="Resources\_103.jpg" />
+    <Content Include="Resources\_104.jpg" />
+    <Content Include="Resources\_105.jpg" />
+    <Content Include="Resources\_106.jpg" />
+    <Content Include="Resources\_107.jpg" />
+    <Content Include="Resources\_109.jpg" />
+    <Content Include="Resources\_11.jpg" />
+    <Content Include="Resources\_110.jpg" />
+    <Content Include="Resources\_111.jpg" />
+    <Content Include="Resources\_112.jpg" />
+    <Content Include="Resources\_113.jpg" />
+    <Content Include="Resources\_12.jpg" />
+    <Content Include="Resources\_129.jpg" />
+    <Content Include="Resources\_13.jpg" />
+    <Content Include="Resources\_130.jpg" />
+    <Content Include="Resources\_131.jpg" />
+    <Content Include="Resources\_132.jpg" />
+    <Content Include="Resources\_133.jpg" />
+    <Content Include="Resources\_134.jpg" />
+    <Content Include="Resources\_135.jpg" />
+    <Content Include="Resources\_136.jpg" />
+    <Content Include="Resources\_137.jpg" />
+    <Content Include="Resources\_138.jpg" />
+    <Content Include="Resources\_139.jpg" />
+    <Content Include="Resources\_14.jpg" />
+    <Content Include="Resources\_140.jpg" />
+    <Content Include="Resources\_141.jpg" />
+    <Content Include="Resources\_142.jpg" />
+    <Content Include="Resources\_143.jpg" />
+    <Content Include="Resources\_144.jpg" />
+    <Content Include="Resources\_145.jpg" />
+    <Content Include="Resources\_146.jpg" />
+    <Content Include="Resources\_147.jpg" />
+    <Content Include="Resources\_148.jpg" />
+    <Content Include="Resources\_149.jpg" />
+    <Content Include="Resources\_15.jpg" />
+    <Content Include="Resources\_150.jpg" />
+    <Content Include="Resources\_151.jpg" />
+    <Content Include="Resources\_152.jpg" />
+    <Content Include="Resources\_153.jpg" />
+    <Content Include="Resources\_16.jpg" />
+    <Content Include="Resources\_17.jpg" />
+    <Content Include="Resources\_18.jpg" />
+    <Content Include="Resources\_19.jpg" />
+    <Content Include="Resources\_2.jpg" />
+    <Content Include="Resources\_20.jpg" />
+    <Content Include="Resources\_201.jpg" />
+    <Content Include="Resources\_202.jpg" />
+    <Content Include="Resources\_203.jpg" />
+    <Content Include="Resources\_204.jpg" />
+    <Content Include="Resources\_205.jpg" />
+    <Content Include="Resources\_206.jpg" />
+    <Content Include="Resources\_207.jpg" />
+    <Content Include="Resources\_208.jpg" />
+    <Content Include="Resources\_209.jpg" />
+    <Content Include="Resources\_21.jpg" />
+    <Content Include="Resources\_210.jpg" />
+    <Content Include="Resources\_211.jpg" />
+    <Content Include="Resources\_212.jpg" />
+    <Content Include="Resources\_213.jpg" />
+    <Content Include="Resources\_214.jpg" />
+    <Content Include="Resources\_215.jpg" />
+    <Content Include="Resources\_216.jpg" />
+    <Content Include="Resources\_217.jpg" />
+    <Content Include="Resources\_218.jpg" />
+    <Content Include="Resources\_219.jpg" />
+    <Content Include="Resources\_22.jpg" />
+    <Content Include="Resources\_220.jpg" />
+    <Content Include="Resources\_221.jpg" />
+    <Content Include="Resources\_222.jpg" />
+    <Content Include="Resources\_223.jpg" />
+    <Content Include="Resources\_224.jpg" />
+    <Content Include="Resources\_225.jpg" />
+    <Content Include="Resources\_226.jpg" />
+    <Content Include="Resources\_227.jpg" />
+    <Content Include="Resources\_228.jpg" />
+    <Content Include="Resources\_229.jpg" />
+    <Content Include="Resources\_23.jpg" />
+    <Content Include="Resources\_230.jpg" />
+    <Content Include="Resources\_231.jpg" />
+    <Content Include="Resources\_232.jpg" />
+    <Content Include="Resources\_233.jpg" />
+    <Content Include="Resources\_234.jpg" />
+    <Content Include="Resources\_235.jpg" />
+    <Content Include="Resources\_236.jpg" />
+    <Content Include="Resources\_237.jpg" />
+    <Content Include="Resources\_238.jpg" />
+    <Content Include="Resources\_239.jpg" />
+    <Content Include="Resources\_24.jpg" />
+    <Content Include="Resources\_240.jpg" />
+    <Content Include="Resources\_241.jpg" />
+    <Content Include="Resources\_242.jpg" />
+    <Content Include="Resources\_243.jpg" />
+    <Content Include="Resources\_244.jpg" />
+    <Content Include="Resources\_245.jpg" />
+    <Content Include="Resources\_246.jpg" />
+    <Content Include="Resources\_247.jpg" />
+    <Content Include="Resources\_248.jpg" />
+    <Content Include="Resources\_249.jpg" />
+    <Content Include="Resources\_25.jpg" />
+    <Content Include="Resources\_250.jpg" />
+    <Content Include="Resources\_251.jpg" />
+    <Content Include="Resources\_2511.jpg" />
+    <Content Include="Resources\_252.jpg" />
+    <Content Include="Resources\_253.jpg" />
+    <Content Include="Resources\_254.jpg" />
+    <Content Include="Resources\_255.jpg" />
+    <Content Include="Resources\_256.jpg" />
+    <Content Include="Resources\_257.jpg" />
+    <Content Include="Resources\_258.jpg" />
+    <Content Include="Resources\_259.jpg" />
+    <Content Include="Resources\_26.jpg" />
+    <Content Include="Resources\_260.jpg" />
+    <Content Include="Resources\_261.jpg" />
+    <Content Include="Resources\_262.jpg" />
+    <Content Include="Resources\_263.jpg" />
+    <Content Include="Resources\_264.jpg" />
+    <Content Include="Resources\_265.jpg" />
+    <Content Include="Resources\_266.jpg" />
+    <Content Include="Resources\_267.jpg" />
+    <Content Include="Resources\_268.jpg" />
+    <Content Include="Resources\_269.jpg" />
+    <Content Include="Resources\_27.jpg" />
+    <Content Include="Resources\_270.jpg" />
+    <Content Include="Resources\_271.jpg" />
+    <Content Include="Resources\_272.jpg" />
+    <Content Include="Resources\_273.jpg" />
+    <Content Include="Resources\_274.jpg" />
+    <Content Include="Resources\_275.jpg" />
+    <Content Include="Resources\_276.jpg" />
+    <Content Include="Resources\_277.jpg" />
+    <Content Include="Resources\_278.jpg" />
+    <Content Include="Resources\_279.jpg" />
+    <Content Include="Resources\_28.jpg" />
+    <Content Include="Resources\_280.jpg" />
+    <Content Include="Resources\_281.jpg" />
+    <Content Include="Resources\_282.jpg" />
+    <Content Include="Resources\_283.jpg" />
+    <Content Include="Resources\_284.jpg" />
+    <Content Include="Resources\_285.jpg" />
+    <Content Include="Resources\_286.jpg" />
+    <Content Include="Resources\_287.jpg" />
+    <Content Include="Resources\_288.jpg" />
+    <Content Include="Resources\_289.jpg" />
+    <Content Include="Resources\_29.jpg" />
+    <Content Include="Resources\_290.jpg" />
+    <Content Include="Resources\_291.jpg" />
+    <Content Include="Resources\_292.jpg" />
+    <Content Include="Resources\_293.jpg" />
+    <Content Include="Resources\_294.jpg" />
+    <Content Include="Resources\_295.jpg" />
+    <Content Include="Resources\_296.jpg" />
+    <Content Include="Resources\_3.jpg" />
+    <Content Include="Resources\_30.jpg" />
+    <Content Include="Resources\_300.jpg" />
+    <Content Include="Resources\_301.jpg" />
+    <Content Include="Resources\_302.jpg" />
+    <Content Include="Resources\_303.jpg" />
+    <Content Include="Resources\_304.jpg" />
+    <Content Include="Resources\_31.jpg" />
+    <Content Include="Resources\_32.jpg" />
+    <Content Include="Resources\_320.jpg" />
+    <Content Include="Resources\_321.jpg" />
+    <Content Include="Resources\_322.jpg" />
+    <Content Include="Resources\_323.jpg" />
+    <Content Include="Resources\_324.jpg" />
+    <Content Include="Resources\_325.jpg" />
+    <Content Include="Resources\_326.jpg" />
+    <Content Include="Resources\_327.jpg" />
+    <Content Include="Resources\_328.jpg" />
+    <Content Include="Resources\_329.jpg" />
+    <Content Include="Resources\_33.jpg" />
+    <Content Include="Resources\_330.jpg" />
+    <Content Include="Resources\_331.jpg" />
+    <Content Include="Resources\_332.jpg" />
+    <Content Include="Resources\_333.jpg" />
+    <Content Include="Resources\_334.jpg" />
+    <Content Include="Resources\_335.jpg" />
+    <Content Include="Resources\_336.jpg" />
+    <Content Include="Resources\_337.jpg" />
+    <Content Include="Resources\_338.jpg" />
+    <Content Include="Resources\_339.jpg" />
+    <Content Include="Resources\_34.jpg" />
+    <Content Include="Resources\_340.jpg" />
+    <Content Include="Resources\_341.jpg" />
+    <Content Include="Resources\_342.jpg" />
+    <Content Include="Resources\_343.jpg" />
+    <Content Include="Resources\_344.jpg" />
+    <Content Include="Resources\_35.jpg" />
+    <Content Include="Resources\_36.jpg" />
+    <Content Include="Resources\_37.jpg" />
+    <Content Include="Resources\_38.jpg" />
+    <Content Include="Resources\_39.jpg" />
+    <Content Include="Resources\_4.jpg" />
+    <Content Include="Resources\_40.jpg" />
+    <Content Include="Resources\_41.jpg" />
+    <Content Include="Resources\_42.jpg" />
+    <Content Include="Resources\_43.jpg" />
+    <Content Include="Resources\_44.jpg" />
+    <Content Include="Resources\_45.jpg" />
+    <Content Include="Resources\_46.jpg" />
+    <Content Include="Resources\_47.jpg" />
+    <Content Include="Resources\_48.jpg" />
+    <Content Include="Resources\_49.jpg" />
+    <Content Include="Resources\_5.jpg" />
+    <Content Include="Resources\_50.jpg" />
+    <Content Include="Resources\_51.jpg" />
+    <Content Include="Resources\_52.jpg" />
+    <Content Include="Resources\_53.jpg" />
+    <Content Include="Resources\_54.jpg" />
+    <Content Include="Resources\_55.jpg" />
+    <Content Include="Resources\_56.jpg" />
+    <Content Include="Resources\_57.jpg" />
+    <Content Include="Resources\_58.jpg" />
+    <Content Include="Resources\_59.jpg" />
+    <Content Include="Resources\_6.jpg" />
+    <Content Include="Resources\_60.jpg" />
+    <Content Include="Resources\_61.jpg" />
+    <Content Include="Resources\_62.jpg" />
+    <Content Include="Resources\_63.jpg" />
+    <Content Include="Resources\_64.jpg" />
+    <Content Include="Resources\_65.jpg" />
+    <Content Include="Resources\_66.jpg" />
+    <Content Include="Resources\_67.jpg" />
+    <Content Include="Resources\_68.jpg" />
+    <Content Include="Resources\_69.jpg" />
+    <Content Include="Resources\_7.jpg" />
+    <Content Include="Resources\_70.jpg" />
+    <Content Include="Resources\_71.jpg" />
+    <Content Include="Resources\_72.jpg" />
+    <Content Include="Resources\_73.jpg" />
+    <Content Include="Resources\_74.jpg" />
+    <Content Include="Resources\_75.jpg" />
+    <Content Include="Resources\_76.jpg" />
+    <Content Include="Resources\_77.jpg" />
+    <Content Include="Resources\_78.jpg" />
+    <Content Include="Resources\_79.jpg" />
+    <Content Include="Resources\_8.jpg" />
+    <Content Include="Resources\_80.jpg" />
+    <Content Include="Resources\_81.jpg" />
+    <Content Include="Resources\_82.jpg" />
+    <Content Include="Resources\_83.jpg" />
+    <Content Include="Resources\_84.jpg" />
+    <Content Include="Resources\_85.jpg" />
+    <Content Include="Resources\_86.jpg" />
+    <Content Include="Resources\_87.jpg" />
+    <Content Include="Resources\_88.jpg" />
+    <Content Include="Resources\_89.jpg" />
+    <Content Include="Resources\_9.jpg" />
+    <Content Include="Resources\_90.jpg" />
+    <Content Include="Resources\_91.jpg" />
+    <Content Include="Resources\_92.jpg" />
+    <Content Include="Resources\_93.jpg" />
+    <Content Include="Resources\_94.jpg" />
+    <Content Include="Resources\_95.jpg" />
+    <Content Include="Resources\_96.jpg" />
+    <Content Include="Resources\_97.jpg" />
+    <Content Include="Resources\_98.jpg" />
+    <Content Include="Resources\_99.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game\MsgEvents\Lib\OldEvents\" />
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

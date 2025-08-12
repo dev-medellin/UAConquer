@@ -1,0 +1,887 @@
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.AccountsForm.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Chi.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Controlpanel.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.en.resources
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.config
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.manifest
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.application
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.pdb
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\en\TheChosenProject.resources.dll
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\en\TheChosenProject.resources.dll
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.application
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.pdb
+G:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csprojAssemblyReference.cache
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.config
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.manifest
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.application
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.pdb
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\en\TheChosenProject.resources.dll
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.AccountsForm.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Chi.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Controlpanel.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Panels.ChatPanal.en.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\en\TheChosenProject.resources.dll
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.application
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.pdb
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Form1.resources
+D:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csprojAssemblyReference.cache
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.pdb
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.config
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe.manifest
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.application
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.exe
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\TheChosenProject.pdb
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\bin\Debug\Newtonsoft.Json.dll
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.application
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.Live.resources
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.PlayerEquipments.resources
+E:\Conquer Projects work\#TheChosen Project 5095\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\Administrator\Desktop\src\Game Server\bin\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\src\Game Server\bin\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\src\Game Server\bin\Debug\TheChosenProject.exe.config
+C:\Users\Administrator\Desktop\src\Game Server\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\src\Game Server\bin\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\src\Game Server\obj\x86\Debug\TheChosenProject.csprojAssemblyReference.cache
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.exe.licenses
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\TheChosenProject.exe.config
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\TheChosenProject.exe.manifest
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\TheChosenProject.application
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\TheChosenProject.exe
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\TheChosenProject.pdb
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Data.v23.1.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Drawing.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Drawing.v23.1.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\Newtonsoft.Json.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Data.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Data.v22.2.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.application
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.exe
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\obj\x86\Debug\TheChosenProject.pdb
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\Serilog.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\Serilog.Sinks.File.pdb
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\Serilog.Sinks.File.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Images.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Utils.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraBars.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.Utils.v22.2.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraBars.v22.2.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+E:\Conquer Projects work\# Source 5517 Emerald\Game Server\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\TheChosenProject.exe.config
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\TheChosenProject.application
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\TheChosenProject.exe
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\TheChosenProject.pdb
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Google.Protobuf.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\MySql.Data.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Buffers.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Memory.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\ZstdSharp.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Google.Protobuf.pdb
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Google.Protobuf.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\MySql.Data.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Buffers.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Memory.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.application
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.exe
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\Game Server\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\TheChosenProject.exe.config
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\TheChosenProject.application
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\TheChosenProject.exe
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\TheChosenProject.pdb
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Google.Protobuf.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\MySql.Data.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Buffers.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Memory.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\ZstdSharp.dll
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Google.Protobuf.pdb
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Google.Protobuf.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\MySql.Data.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Buffers.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Memory.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.application
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.exe
+C:\Users\lukal\Downloads\LukaCopy5517\LukaCopy5517\GameServer\Game Server\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\TheChosenProject.exe.config
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\ZstdSharp.dll
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Google.Protobuf.pdb
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Google.Protobuf.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\MySql.Data.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\Game Server\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\Game Server\bin\Debug\TheChosenProject.pdb
+E:\Game Server\bin\Debug\TheChosenProject.exe.config
+E:\Game Server\bin\Debug\TheChosenProject.exe.manifest
+E:\Game Server\bin\Debug\TheChosenProject.application
+E:\Game Server\bin\Debug\TheChosenProject.exe
+E:\Game Server\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Game Server\bin\Debug\Google.Protobuf.dll
+E:\Game Server\bin\Debug\K4os.Compression.LZ4.dll
+E:\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Game Server\bin\Debug\K4os.Hash.xxHash.dll
+E:\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Game Server\bin\Debug\MySql.Data.dll
+E:\Game Server\bin\Debug\Newtonsoft.Json.dll
+E:\Game Server\bin\Debug\System.Buffers.dll
+E:\Game Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Game Server\bin\Debug\System.IO.Pipelines.dll
+E:\Game Server\bin\Debug\System.Memory.dll
+E:\Game Server\bin\Debug\System.Numerics.Vectors.dll
+E:\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Game Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Game Server\bin\Debug\ZstdSharp.dll
+E:\Game Server\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Game Server\bin\Debug\Google.Protobuf.pdb
+E:\Game Server\bin\Debug\Google.Protobuf.xml
+E:\Game Server\bin\Debug\K4os.Compression.LZ4.xml
+E:\Game Server\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Game Server\bin\Debug\K4os.Hash.xxHash.xml
+E:\Game Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Game Server\bin\Debug\MySql.Data.xml
+E:\Game Server\bin\Debug\System.Buffers.xml
+E:\Game Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Game Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Game Server\bin\Debug\System.IO.Pipelines.xml
+E:\Game Server\bin\Debug\System.Memory.xml
+E:\Game Server\bin\Debug\System.Numerics.Vectors.xml
+E:\Game Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Game Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Game Server\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+E:\Game Server\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+E:\Game Server\obj\x86\Debug\TheChosenProject.ServerManager.resources
+E:\Game Server\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+E:\Game Server\obj\x86\Debug\TheChosenProject.exe.licenses
+E:\Game Server\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+E:\Game Server\obj\x86\Debug\TheChosenProject.exe.manifest
+E:\Game Server\obj\x86\Debug\TheChosenProject.application
+E:\Game Server\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+E:\Game Server\obj\x86\Debug\TheChosenProject.exe
+E:\Game Server\obj\x86\Debug\TheChosenProject.pdb
+E:\Game Server\bin\Debug\TheChosenProject.pdb
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\TheChosenProject.exe.config
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\TheChosenProject.application
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\TheChosenProject.exe
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\TheChosenProject.pdb
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Google.Protobuf.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\MySql.Data.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Buffers.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Memory.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\ZstdSharp.dll
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Google.Protobuf.pdb
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Google.Protobuf.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\MySql.Data.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Buffers.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Memory.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.application
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.exe
+C:\Users\lukal\OneDrive\Desktop\New folder\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\TheChosenProject.exe.config
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\TheChosenProject.application
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\TheChosenProject.exe
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\TheChosenProject.pdb
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Google.Protobuf.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\MySql.Data.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Buffers.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Memory.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\ZstdSharp.dll
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Google.Protobuf.pdb
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Google.Protobuf.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\MySql.Data.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Buffers.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Memory.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.application
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.CopyComplete
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe
+C:\Users\lukal\OneDrive\Desktop\Luka\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\Luka\bin\Debug\TheChosenProject.exe.config
+C:\Users\Administrator\Desktop\Luka\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\Luka\bin\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\Luka\bin\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\Luka\bin\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\Luka\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\ZstdSharp.dll
+C:\Users\Administrator\Desktop\Luka\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Google.Protobuf.pdb
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Google.Protobuf.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\MySql.Data.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\Luka\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\Luka\obj\x86\Debug\TheChosenProject.pdb
+D:\Desktop (2)\Luka\bin\Debug\TheChosenProject.exe.config
+D:\Desktop (2)\Luka\bin\Debug\TheChosenProject.exe.manifest
+D:\Desktop (2)\Luka\bin\Debug\TheChosenProject.application
+D:\Desktop (2)\Luka\bin\Debug\TheChosenProject.exe
+D:\Desktop (2)\Luka\bin\Debug\TheChosenProject.pdb
+D:\Desktop (2)\Luka\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Desktop (2)\Luka\bin\Debug\Google.Protobuf.dll
+D:\Desktop (2)\Luka\bin\Debug\K4os.Compression.LZ4.dll
+D:\Desktop (2)\Luka\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Desktop (2)\Luka\bin\Debug\K4os.Hash.xxHash.dll
+D:\Desktop (2)\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop (2)\Luka\bin\Debug\MySql.Data.dll
+D:\Desktop (2)\Luka\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Buffers.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop (2)\Luka\bin\Debug\System.IO.Pipelines.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Memory.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop (2)\Luka\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop (2)\Luka\bin\Debug\ZstdSharp.dll
+D:\Desktop (2)\Luka\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Desktop (2)\Luka\bin\Debug\Google.Protobuf.pdb
+D:\Desktop (2)\Luka\bin\Debug\Google.Protobuf.xml
+D:\Desktop (2)\Luka\bin\Debug\K4os.Compression.LZ4.xml
+D:\Desktop (2)\Luka\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Desktop (2)\Luka\bin\Debug\K4os.Hash.xxHash.xml
+D:\Desktop (2)\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop (2)\Luka\bin\Debug\MySql.Data.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Buffers.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop (2)\Luka\bin\Debug\System.IO.Pipelines.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Memory.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop (2)\Luka\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.ServerManager.resources
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.exe.licenses
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.application
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.exe
+D:\Desktop (2)\Luka\obj\x86\Debug\TheChosenProject.pdb
+D:\SERVER\Luka\bin\Debug\TheChosenProject.exe.config
+D:\SERVER\Luka\bin\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Luka\bin\Debug\TheChosenProject.application
+D:\SERVER\Luka\bin\Debug\TheChosenProject.exe
+D:\SERVER\Luka\bin\Debug\TheChosenProject.pdb
+D:\SERVER\Luka\bin\Debug\BouncyCastle.Cryptography.dll
+D:\SERVER\Luka\bin\Debug\Google.Protobuf.dll
+D:\SERVER\Luka\bin\Debug\K4os.Compression.LZ4.dll
+D:\SERVER\Luka\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SERVER\Luka\bin\Debug\K4os.Hash.xxHash.dll
+D:\SERVER\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SERVER\Luka\bin\Debug\MySql.Data.dll
+D:\SERVER\Luka\bin\Debug\Newtonsoft.Json.dll
+D:\SERVER\Luka\bin\Debug\System.Buffers.dll
+D:\SERVER\Luka\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SERVER\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SERVER\Luka\bin\Debug\System.IO.Pipelines.dll
+D:\SERVER\Luka\bin\Debug\System.Memory.dll
+D:\SERVER\Luka\bin\Debug\System.Numerics.Vectors.dll
+D:\SERVER\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SERVER\Luka\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SERVER\Luka\bin\Debug\ZstdSharp.dll
+D:\SERVER\Luka\bin\Debug\BouncyCastle.Cryptography.xml
+D:\SERVER\Luka\bin\Debug\Google.Protobuf.pdb
+D:\SERVER\Luka\bin\Debug\Google.Protobuf.xml
+D:\SERVER\Luka\bin\Debug\K4os.Compression.LZ4.xml
+D:\SERVER\Luka\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SERVER\Luka\bin\Debug\K4os.Hash.xxHash.xml
+D:\SERVER\Luka\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SERVER\Luka\bin\Debug\MySql.Data.xml
+D:\SERVER\Luka\bin\Debug\System.Buffers.xml
+D:\SERVER\Luka\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\SERVER\Luka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SERVER\Luka\bin\Debug\System.IO.Pipelines.xml
+D:\SERVER\Luka\bin\Debug\System.Memory.xml
+D:\SERVER\Luka\bin\Debug\System.Numerics.Vectors.xml
+D:\SERVER\Luka\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SERVER\Luka\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.ServerManager.resources
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.exe.licenses
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.application
+D:\SERVER\Luka\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.exe
+D:\SERVER\Luka\obj\x86\Debug\TheChosenProject.pdb
+D:\SERVER\Luka.1\bin\Debug\TheChosenProject.exe.config
+D:\SERVER\Luka.1\bin\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Luka.1\bin\Debug\TheChosenProject.application
+D:\SERVER\Luka.1\bin\Debug\TheChosenProject.exe
+D:\SERVER\Luka.1\bin\Debug\TheChosenProject.pdb
+D:\SERVER\Luka.1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\SERVER\Luka.1\bin\Debug\Google.Protobuf.dll
+D:\SERVER\Luka.1\bin\Debug\K4os.Compression.LZ4.dll
+D:\SERVER\Luka.1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SERVER\Luka.1\bin\Debug\K4os.Hash.xxHash.dll
+D:\SERVER\Luka.1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SERVER\Luka.1\bin\Debug\MySql.Data.dll
+D:\SERVER\Luka.1\bin\Debug\Newtonsoft.Json.dll
+D:\SERVER\Luka.1\bin\Debug\System.Buffers.dll
+D:\SERVER\Luka.1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SERVER\Luka.1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SERVER\Luka.1\bin\Debug\System.IO.Pipelines.dll
+D:\SERVER\Luka.1\bin\Debug\System.Memory.dll
+D:\SERVER\Luka.1\bin\Debug\System.Numerics.Vectors.dll
+D:\SERVER\Luka.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SERVER\Luka.1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SERVER\Luka.1\bin\Debug\ZstdSharp.dll
+D:\SERVER\Luka.1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\SERVER\Luka.1\bin\Debug\Google.Protobuf.pdb
+D:\SERVER\Luka.1\bin\Debug\Google.Protobuf.xml
+D:\SERVER\Luka.1\bin\Debug\K4os.Compression.LZ4.xml
+D:\SERVER\Luka.1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SERVER\Luka.1\bin\Debug\K4os.Hash.xxHash.xml
+D:\SERVER\Luka.1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SERVER\Luka.1\bin\Debug\MySql.Data.xml
+D:\SERVER\Luka.1\bin\Debug\System.Buffers.xml
+D:\SERVER\Luka.1\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\SERVER\Luka.1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SERVER\Luka.1\bin\Debug\System.IO.Pipelines.xml
+D:\SERVER\Luka.1\bin\Debug\System.Memory.xml
+D:\SERVER\Luka.1\bin\Debug\System.Numerics.Vectors.xml
+D:\SERVER\Luka.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SERVER\Luka.1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.ServerManager.resources
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.exe.licenses
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.application
+D:\SERVER\Luka.1\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.exe
+D:\SERVER\Luka.1\obj\x86\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\TheChosenProject.exe.config
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\TheChosenProject.pdb
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\ZstdSharp.dll
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Google.Protobuf.pdb
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Google.Protobuf.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\MySql.Data.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\LukaUpdate\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.ServerManager.resources
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.exe.licenses
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.exe.manifest
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.application
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.exe
+C:\Users\Administrator\Desktop\LukaUpdate\obj\x86\Debug\TheChosenProject.pdb
+D:\SERVER\LukaUpdate\bin\Debug\TheChosenProject.exe.config
+D:\SERVER\LukaUpdate\bin\Debug\TheChosenProject.exe.manifest
+D:\SERVER\LukaUpdate\bin\Debug\TheChosenProject.application
+D:\SERVER\LukaUpdate\bin\Debug\TheChosenProject.exe
+D:\SERVER\LukaUpdate\bin\Debug\TheChosenProject.pdb
+D:\SERVER\LukaUpdate\bin\Debug\BouncyCastle.Cryptography.dll
+D:\SERVER\LukaUpdate\bin\Debug\Google.Protobuf.dll
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Compression.LZ4.dll
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Hash.xxHash.dll
+D:\SERVER\LukaUpdate\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SERVER\LukaUpdate\bin\Debug\MySql.Data.dll
+D:\SERVER\LukaUpdate\bin\Debug\Newtonsoft.Json.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Buffers.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.IO.Pipelines.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Memory.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Numerics.Vectors.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SERVER\LukaUpdate\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SERVER\LukaUpdate\bin\Debug\ZstdSharp.dll
+D:\SERVER\LukaUpdate\bin\Debug\BouncyCastle.Cryptography.xml
+D:\SERVER\LukaUpdate\bin\Debug\Google.Protobuf.pdb
+D:\SERVER\LukaUpdate\bin\Debug\Google.Protobuf.xml
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Compression.LZ4.xml
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SERVER\LukaUpdate\bin\Debug\K4os.Hash.xxHash.xml
+D:\SERVER\LukaUpdate\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SERVER\LukaUpdate\bin\Debug\MySql.Data.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Buffers.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.IO.Pipelines.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Memory.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Numerics.Vectors.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SERVER\LukaUpdate\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.ServerManager.resources
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.exe.licenses
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.application
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.exe
+D:\SERVER\LukaUpdate\obj\x86\Debug\TheChosenProject.pdb
+D:\SERVER\Main\bin\Debug\TheChosenProject.exe.config
+D:\SERVER\Main\bin\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Main\bin\Debug\TheChosenProject.application
+D:\SERVER\Main\bin\Debug\TheChosenProject.exe
+D:\SERVER\Main\bin\Debug\TheChosenProject.pdb
+D:\SERVER\Main\bin\Debug\BouncyCastle.Cryptography.dll
+D:\SERVER\Main\bin\Debug\Google.Protobuf.dll
+D:\SERVER\Main\bin\Debug\K4os.Compression.LZ4.dll
+D:\SERVER\Main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SERVER\Main\bin\Debug\K4os.Hash.xxHash.dll
+D:\SERVER\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SERVER\Main\bin\Debug\MySql.Data.dll
+D:\SERVER\Main\bin\Debug\Newtonsoft.Json.dll
+D:\SERVER\Main\bin\Debug\System.Buffers.dll
+D:\SERVER\Main\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SERVER\Main\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SERVER\Main\bin\Debug\System.IO.Pipelines.dll
+D:\SERVER\Main\bin\Debug\System.Memory.dll
+D:\SERVER\Main\bin\Debug\System.Numerics.Vectors.dll
+D:\SERVER\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SERVER\Main\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SERVER\Main\bin\Debug\ZstdSharp.dll
+D:\SERVER\Main\bin\Debug\BouncyCastle.Cryptography.xml
+D:\SERVER\Main\bin\Debug\Google.Protobuf.pdb
+D:\SERVER\Main\bin\Debug\Google.Protobuf.xml
+D:\SERVER\Main\bin\Debug\K4os.Compression.LZ4.xml
+D:\SERVER\Main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SERVER\Main\bin\Debug\K4os.Hash.xxHash.xml
+D:\SERVER\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SERVER\Main\bin\Debug\MySql.Data.xml
+D:\SERVER\Main\bin\Debug\System.Buffers.xml
+D:\SERVER\Main\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\SERVER\Main\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SERVER\Main\bin\Debug\System.IO.Pipelines.xml
+D:\SERVER\Main\bin\Debug\System.Memory.xml
+D:\SERVER\Main\bin\Debug\System.Numerics.Vectors.xml
+D:\SERVER\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SERVER\Main\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.ServerManager.resources
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.exe.licenses
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.exe.manifest
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.application
+D:\SERVER\Main\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.exe
+D:\SERVER\Main\obj\x86\Debug\TheChosenProject.pdb
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.Panel.resources
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.ServerManager.resources
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.exe.licenses
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\TheChosenProject.exe.config
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\TheChosenProject.exe.manifest
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\TheChosenProject.application
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\TheChosenProject.exe
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\TheChosenProject.pdb
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\BouncyCastle.Cryptography.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\DotNetEnv.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Google.Protobuf.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Compression.LZ4.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Hash.xxHash.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Configuration.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Primitives.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\MySql.Data.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Sprache.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Buffers.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Configuration.ConfigurationManager.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.IO.Pipelines.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Memory.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Numerics.Vectors.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Threading.Tasks.Extensions.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\ZstdSharp.dll
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\BouncyCastle.Cryptography.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Google.Protobuf.pdb
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Google.Protobuf.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Compression.LZ4.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\K4os.Hash.xxHash.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Configuration.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Microsoft.Extensions.Primitives.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\MySql.Data.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\Sprache.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Buffers.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Configuration.ConfigurationManager.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.IO.Pipelines.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Memory.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Numerics.Vectors.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\bin\Debug\System.Threading.Tasks.Extensions.xml
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.exe.manifest
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.application
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.exe
+d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\obj\x86\Debug\TheChosenProject.pdb
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\TheChosenProject.exe.config
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\TheChosenProject.exe.manifest
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\TheChosenProject.application
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\TheChosenProject.exe
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\TheChosenProject.pdb
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\BouncyCastle.Cryptography.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\DotNetEnv.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Google.Protobuf.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Compression.LZ4.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Hash.xxHash.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Configuration.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Primitives.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\MySql.Data.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Sprache.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Buffers.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Configuration.ConfigurationManager.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.IO.Pipelines.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Memory.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Numerics.Vectors.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Threading.Tasks.Extensions.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\ZstdSharp.dll
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\BouncyCastle.Cryptography.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Google.Protobuf.pdb
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Google.Protobuf.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Compression.LZ4.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\K4os.Hash.xxHash.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Configuration.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Microsoft.Extensions.Primitives.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\MySql.Data.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\Sprache.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Buffers.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Configuration.ConfigurationManager.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.IO.Pipelines.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Memory.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Numerics.Vectors.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug\System.Threading.Tasks.Extensions.xml
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.csproj.AssemblyReference.cache
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.Rayzo_Panle.resources
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.Panel.resources
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.Properties.Resources.resources
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.ServerManager.resources
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.csproj.GenerateResource.cache
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.exe.licenses
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.csproj.CoreCompileInputs.cache
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.exe.manifest
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.application
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChose.5770D8FB.Up2Date
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.exe
+d:\Users\Toytoks\Desktop\UAConquer\Main\obj\x86\Debug\TheChosenProject.pdb

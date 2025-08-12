@@ -1,0 +1,28 @@
+[CallStack2]Kaloy get 1747124566 he have 947125566   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at TheChosenProject.Role.Player.set_ConquerPoints(Int32 value) in C:\Users\Administrator\Desktop\Luka\Role\Player.cs:line 1465
+   at TheChosenProject.Game.MsgServer.MsgTrade.HandlerTrade(GameClient user, Packet stream) in C:\Users\Administrator\Desktop\Luka\Game\MsgServer\MsgTrade.cs:line 200
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in C:\Users\Administrator\Desktop\Luka\Program.cs:line 422
+   at TheChosenProject.ServerSockets.SecuritySocket.HandlerBuffer() in C:\Users\Administrator\Desktop\Luka\ServerSockets\SecuritySocket.cs:line 365
+   at TheChosenProject.ServerSockets.SocketPoll.CheckUp() in C:\Users\Administrator\Desktop\Luka\ServerSockets\SocketThread.cs:line 69
+   at Extensions.ThreadGroup.ThreadItem.OnProcess()
+   at Extensions.ThreadGroup.ThreadBase.ThreadProc()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+[CallStack2]Ahmed get 1192347503 he have 192347504   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at TheChosenProject.Role.Player.set_ConquerPoints(Int32 value) in C:\Users\Administrator\Desktop\Luka\Role\Player.cs:line 1465
+   at TheChosenProject.Game.MsgServer.MsgTrade.HandlerTrade(GameClient user, Packet stream) in C:\Users\Administrator\Desktop\Luka\Game\MsgServer\MsgTrade.cs:line 200
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in C:\Users\Administrator\Desktop\Luka\Program.cs:line 422
+   at TheChosenProject.ServerSockets.SecuritySocket.HandlerBuffer() in C:\Users\Administrator\Desktop\Luka\ServerSockets\SecuritySocket.cs:line 365
+   at TheChosenProject.ServerSockets.SocketPoll.CheckUp() in C:\Users\Administrator\Desktop\Luka\ServerSockets\SocketThread.cs:line 69
+   at Extensions.ThreadGroup.ThreadItem.OnProcess()
+   at Extensions.ThreadGroup.ThreadBase.ThreadProc()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

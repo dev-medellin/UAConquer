@@ -1,0 +1,11 @@
+----Exception message----
+An item with the same key has already been added.
+----End of exception message----
+
+----Stack trace----
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at TheChosenProject.Role.GameMap.LoadMap(Int32 id, String mapFile, UInt32 baseid) in E:\Conquer Projects work\# Source 5517 Emerald\Game Server\Role\GameMap.cs:line 1014
+----End of stack trace----
+

@@ -1,0 +1,2 @@
+[Trade]Luka to Mael trade item = FameCard - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Luka to Mael trade item = FameCard - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]

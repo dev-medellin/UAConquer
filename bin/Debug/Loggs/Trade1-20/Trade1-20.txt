@@ -1,0 +1,1 @@
+[Trade]HumanAimbot to Excel trade item = EvilEnchantressBox - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]

@@ -1,0 +1,4 @@
+[Trade]Luka[PM] to Rosalia trade item = HatsuneMiko - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Luka[PM] to Rosalia trade item = HatsuneMiko - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Luka[PM] to Rosalia trade item = BattleBunnyRiven - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Luka[PM] to Rosalia trade item = SoundofBlue - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]

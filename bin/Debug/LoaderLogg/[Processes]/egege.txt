@@ -1,0 +1,199 @@
+==========================================================
+Request Time: Sunday, 04 May 2025 [19:49:02]
+Visible Processes Instances Count: 14
+
+---------------
+Name: 'Program Manager'
+---------------
+Name: 'Windows Input Experience'
+---------------
+Name: 'Calculator'
+---------------
+Name: 'Settings'
+---------------
+Name: 'Facebook - Google Chrome'
+---------------
+Name: 'accounts @u804293080_bdconquer (LIVEDATA) - Table - Navicat Premium'
+---------------
+Name: 'TheChosenProject (Running) - Microsoft Visual Studio'
+---------------
+Name: 'd:\Users\Toytoks\Desktop\Database\itemtype.txt - Notepad++'
+---------------
+Name: 'AnyDesk'
+---------------
+Name: ''
+---------------
+Name: 'Task Manager'
+---------------
+Name: 'InspiredConquer - Account Server'
+---------------
+Name: '[Lucky7] Conquer Online Server - Server Time: 2025/05/04 19:48 - Online: 1/1 - CPS[00] Silver[00] Hunting[0] Events[0] Bots[0] - Network('
+---------------
+Name: '[DivineSiege] The strong shall live and the weak shall die!'
+
+
+Background Processes Instances Count: 80
+
+---------------
+Name: 'smss.exe'
+---------------
+Name: 'csrss.exe'
+---------------
+Name: 'wininit.exe'
+---------------
+Name: 'winlogon.exe'
+---------------
+Name: 'services.exe'
+---------------
+Name: 'LsaIso.exe'
+---------------
+Name: 'lsass.exe'
+---------------
+Name: 'svchost.exe'
+---------------
+Name: 'fontdrvhost.exe'
+---------------
+Name: 'dwm.exe'
+---------------
+Name: 'NVDisplay.Container.exe'
+---------------
+Name: 'spoolsv.exe'
+---------------
+Name: 'rserver3.exe'
+---------------
+Name: 'vgc.exe'
+---------------
+Name: 'RzSDKService.exe'
+---------------
+Name: 'MsMpEng.exe'
+---------------
+Name: 'MuseAuthService.exe'
+---------------
+Name: 'RzSDKServer.exe'
+---------------
+Name: 'MpDefenderCoreService.exe'
+---------------
+Name: 'GameManagerService3.exe'
+---------------
+Name: 'WsNativePushService.exe'
+---------------
+Name: 'RvControlSvc.exe'
+---------------
+Name: 'OfficeClickToRun.exe'
+---------------
+Name: 'mysqld.exe'
+---------------
+Name: 'conhost.exe'
+---------------
+Name: 'AggregatorHost.exe'
+---------------
+Name: 'sihost.exe'
+---------------
+Name: 'taskhostw.exe'
+---------------
+Name: 'Widgets.exe'
+---------------
+Name: 'SearchHost.exe'
+---------------
+Name: 'StartMenuExperienceHost.exe'
+---------------
+Name: 'RuntimeBroker.exe'
+---------------
+Name: 'WidgetService.exe'
+---------------
+Name: 'dllhost.exe'
+---------------
+Name: 'SearchIndexer.exe'
+---------------
+Name: 'ctfmon.exe'
+---------------
+Name: 'audiodg.exe'
+---------------
+Name: 'WsToastNotification.exe'
+---------------
+Name: 'SecurityHealthSystray.exe'
+---------------
+Name: 'SecurityHealthService.exe'
+---------------
+Name: 'vgtray.exe'
+---------------
+Name: 'Discord.exe'
+---------------
+Name: 'steam.exe'
+---------------
+Name: 'steamwebhelper.exe'
+---------------
+Name: 'msedge.exe'
+---------------
+Name: 'steamservice.exe'
+---------------
+Name: 'CrossDeviceService.exe'
+---------------
+Name: 'Muse.exe'
+---------------
+Name: 'RvRvpnGui.exe'
+---------------
+Name: 'jusched.exe'
+---------------
+Name: 'WSHelper.exe'
+---------------
+Name: 'RzChromaStreamServer.exe'
+---------------
+Name: 'XboxPcAppFT.exe'
+---------------
+Name: 'ShellExperienceHost.exe'
+---------------
+Name: 'jucheck.exe'
+---------------
+Name: 'UserOOBEBroker.exe'
+---------------
+Name: 'SDXHelper.exe'
+---------------
+Name: 'SystemSettingsBroker.exe'
+---------------
+Name: 'NisSrv.exe'
+---------------
+Name: 'chrome.exe'
+---------------
+Name: 'PerfWatson2.exe'
+---------------
+Name: 'Microsoft.ServiceHub.Controller.exe'
+---------------
+Name: 'ServiceHub.ThreadedWaitDialog.exe'
+---------------
+Name: 'ServiceHub.VSDetouredHost.exe'
+---------------
+Name: 'ServiceHub.IdentityHost.exe'
+---------------
+Name: 'ServiceHub.RoslynCodeAnalysisService.exe'
+---------------
+Name: 'ServiceHub.IndexingService.exe'
+---------------
+Name: 'ServiceHub.IntellicodeModelService.exe'
+---------------
+Name: 'ServiceHub.Host.dotnet.x64.exe'
+---------------
+Name: 'copilot-language-server.exe'
+---------------
+Name: 'ServiceHub.TestWindowStoreHost.exe'
+---------------
+Name: 'ServiceHub.DataWarehouseHost.exe'
+---------------
+Name: 'AnyDesk.exe'
+---------------
+Name: 'OpenConsole.exe'
+---------------
+Name: 'StandardCollector.Service.exe'
+---------------
+Name: 'msvsmon.exe'
+---------------
+Name: 'msedgewebview2.exe'
+---------------
+Name: 'WmiPrvSE.exe'
+---------------
+Name: 'SearchProtocolHost.exe'
+---------------
+Name: 'SearchFilterHost.exe'
+==========================================================
+
+

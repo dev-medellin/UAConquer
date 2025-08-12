@@ -1,0 +1,8 @@
+[CallStack]RyuHayabusa[PM] get 215 he have 390197
+[CallStack]RyuHayabusa[PM] get 215 he have 390412
+[CallStack]RyuHayabusa[PM] get 1175 he have 390627
+[CallStack]RyuHayabusa[PM] get 1075 he have 391802
+[CallStack]RyuHayabusa[PM] get 1205 he have 392877
+[CallStack]RyuHayabusa[PM] get 1075 he have 394082
+[CallStack]RyuHayabusa[PM] get 1469 he have 395157
+[CallStack]RyuHayabusa[PM] get 1075 he have 396626

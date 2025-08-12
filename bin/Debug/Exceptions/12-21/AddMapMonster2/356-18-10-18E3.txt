@@ -1,0 +1,12 @@
+----Exception message----
+Object reference not set to an instance of an object.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Database.Server.AddMapMonster2(Packet stream, GameMap map, UInt32 ID, UInt16 x, UInt16 y, UInt16 max_x, UInt16 max_y, Byte count, UInt32 DinamicID, Boolean RemoveOnDead, EffectMonsters m_effect, String streffect, Base base) in C:\Users\lukal\OneDrive\Desktop\New folder\Database\Server.cs:line 668
+   at TheChosenProject.Mobs.Base.SendInvitationFirstLife() in C:\Users\lukal\OneDrive\Desktop\New folder\Game\MsgMonster\Mobs\Base.cs:line 120
+   at TheChosenProject.Mobs.Base.Run() in C:\Users\lukal\OneDrive\Desktop\New folder\Game\MsgMonster\Mobs\Base.cs:line 76
+   at TheChosenProject.Mobs.MobID_3739.Run() in C:\Users\lukal\OneDrive\Desktop\New folder\Game\MsgMonster\Mobs\Boss\City\[3739] DarkSpearman.cs:line 30
+   at TheChosenProject.MobsHandler.Generate(IDMonster iDMonster) in C:\Users\lukal\OneDrive\Desktop\New folder\Game\MsgMonster\Mobs\MobsHandler.cs:line 37
+----End of stack trace----
+

@@ -1,0 +1,42 @@
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.Properties.Resources.resources
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\TriumphServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\TriumphServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\TriumphServer.application
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\TriumphServer.exe
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\TriumphServer.pdb
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\fr\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source\Game Server\bin\Debug\ru\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.application
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.exe
+D:\Conquer Projects work\#Triumph conquer source\Game Server\obj\x86\Debug\TriumphServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5517\Game Server\bin\Debug\TriumphServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source 5517\Game Server\obj\x86\Debug\TriumphServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5517\Game Server\obj\x86\Debug\TriumphServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\TriumphServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\TriumphServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\TriumphServer.exe.config
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\TriumphServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\TriumphServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\en\TriumphServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Bson.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Driver.Core.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\MongoDB.Driver.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\System.Web.Entity.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\bin\Debug\ar\System.Web.Entity.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Panels.AccountsForm.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Panels.ChatPanal.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Chi.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Controlpanel.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Properties.Resources.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.Panels.ChatPanal.en.resources
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.csproj.GenerateResource.Cache
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\en\TriumphServer.resources.dll
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.exe.manifest
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.application
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.exe
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.pdb
+D:\Conquer Projects work\#Triumph conquer source 5165\Game Server\obj\x86\Debug\TriumphServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+----Exception message----
+The given key was not present in the dictionary.
+----End of exception message----
+
+----Stack trace----
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at TheChosenProject.Database.SubProfessionInfo.GetDamage(Sort ID, Byte level)
+   at TheChosenProject.Role.Instance.SubClass.UpdateStatus(GameClient client)
+   at TheChosenProject.Role.Instance.Equip.UpdateStats(MsgGameItem[] MyGear, Packet stream)
+----End of stack trace----
+

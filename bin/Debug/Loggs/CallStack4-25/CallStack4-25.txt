@@ -1,0 +1,9 @@
+[CallStack]Raven[PM] get 9999999 he have 0
+[CallStack]Raven[PM] lost 215 he have 9999999
+[CallStack]Raven[PM] lost 215 he have 9999784
+[CallStack]Raven[PM] lost 215 he have 9999569
+[CallStack]Raven[PM] lost 215 he have 9999354
+[CallStack]Raven[PM] lost 215 he have 9999139
+[CallStack]Raven[PM] lost 215 he have 9998924
+[CallStack]Raven[PM] lost 215 he have 9998709
+[CallStack]Trojan2 lost 1075 he have 1206940

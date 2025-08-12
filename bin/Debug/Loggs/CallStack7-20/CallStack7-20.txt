@@ -1,0 +1,2 @@
+[CallStack]Narmaya[PM] get 199999 he have 0
+[CallStack]wasasdasd lost 20000000 he have 199999

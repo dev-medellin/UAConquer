@@ -1,0 +1,3 @@
+[Trade]Arnoldas to Joshua trade item = ConquestHelmet - plus [9] - Bless [5] - Enchant [255] - s1[SuperDragonGem] - s2[SuperDragonGem]
+[Trade]Joshua to Arnoldas trade item = Tornado - plus [4] - Bless [7] - Enchant [0] - s1[SuperDragonGem] - s2[SuperDragonGem]
+[Trade]Joshua to Arnoldas trade item = Thunder - plus [4] - Bless [7] - Enchant [0] - s1[SuperDragonGem] - s2[SuperDragonGem]

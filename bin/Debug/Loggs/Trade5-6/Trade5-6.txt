@@ -1,0 +1,10 @@
+[Trade]DSConquer[PM] to qwerr trade money = 1000000
+[Trade]DSConquer[PM] to qwerr trade CPS = 50000
+[Trade]qwerr to DSConquer[PM] trade money = 9900
+[Trade]qwerr to DSConquer[PM] trade CPS = 49600
+[Trade]qwerr to DSConquer[PM] trade money = 1000000
+[Trade]DSConquer[PM] to qwerr trade money = 200000
+[Trade]DSConquer[PM] to qwerr trade money = 200000
+[Trade]DSConquer[PM] to qwerr trade money = 200000
+[Trade]DSConquer[PM] to qwerr trade money = 800000
+[Trade]qwerr to DSConquer[PM] trade money = 800000

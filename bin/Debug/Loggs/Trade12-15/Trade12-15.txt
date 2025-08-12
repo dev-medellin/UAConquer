@@ -1,0 +1,7 @@
+[Trade]Rosalia to BigBodyMain trade item = 20DonationPoints - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Rosalia to BigBodyMain trade item = 20DonationPoints - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Rosalia to BigBodyMain trade item = 20DonationPoints - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Rosalia to BigBodyMain trade item = 20DonationPoints - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Rosalia to BigBodyMain trade item = 20DonationPoints - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Rosalia to BigBodyMain trade money = 300000
+[Trade]Rosalia to BigBodyMain trade money = 700000

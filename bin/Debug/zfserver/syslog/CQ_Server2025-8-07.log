@@ -1,0 +1,190 @@
+2025-08-07 04:06:54 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-07 04:06:54 [MESSAGE] - 		Developed by Siege)
+2025-08-07 04:06:54 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-07 04:06:54 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-07 04:06:54 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-07 04:06:54 [DEBUG] - User Name: Toytoks
+2025-08-07 04:06:54 [DEBUG] - User Address: 26.23.75.141
+2025-08-07 04:06:54 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-07 04:06:54 [DEBUG] - Some environment variables:
+2025-08-07 04:06:54 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-07 04:06:54 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-07 04:06:54 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-07 04:06:54 [MESSAGE] - Initializing game server...
+2025-08-07 04:06:54 [MESSAGE] - Initializing Database
+2025-08-07 04:06:55 [DEBUG] - Test Center Mode: Disabled
+2025-08-07 04:06:55 [MESSAGE] - Loading item information...
+2025-08-07 04:06:56 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-07 04:07:13 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-07 04:07:13 [MESSAGE] - Loading Magictype information...
+2025-08-07 04:07:18 [MESSAGE] - Loading portals data...
+2025-08-07 04:07:26 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-07 04:07:27 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-07 04:07:27 [MESSAGE] - Initializing GlobalPackets
+2025-08-07 04:07:27 [MESSAGE] - Initializing blowfish
+2025-08-07 04:07:29 [MESSAGE] - Starting sockets
+2025-08-07 04:07:29 [MESSAGE] - Starting server socket...
+2025-08-07 04:07:29 [MESSAGE] - Server is ready for connections...
+2025-08-07 04:07:29 [MESSAGE] - Starting threads
+2025-08-07 04:07:29 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0
+2025-08-07 04:10:09 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-07 04:10:09 [MESSAGE] - 		Developed by Siege)
+2025-08-07 04:10:09 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-07 04:10:09 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-07 04:10:09 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-07 04:10:09 [DEBUG] - User Name: Toytoks
+2025-08-07 04:10:09 [DEBUG] - User Address: 26.23.75.141
+2025-08-07 04:10:09 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-07 04:10:09 [DEBUG] - Some environment variables:
+2025-08-07 04:10:09 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-07 04:10:09 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-07 04:10:09 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-07 04:10:09 [MESSAGE] - Initializing game server...
+2025-08-07 04:10:09 [MESSAGE] - Initializing Database
+2025-08-07 04:10:10 [DEBUG] - Test Center Mode: Disabled
+2025-08-07 04:10:11 [MESSAGE] - Loading item information...
+2025-08-07 04:10:11 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-07 04:10:19 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-07 04:10:19 [MESSAGE] - Loading Magictype information...
+2025-08-07 04:10:21 [MESSAGE] - Loading portals data...
+2025-08-07 04:10:23 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-07 04:10:23 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-07 04:10:23 [MESSAGE] - Initializing GlobalPackets
+2025-08-07 04:10:23 [MESSAGE] - Initializing blowfish
+2025-08-07 04:10:23 [MESSAGE] - Starting sockets
+2025-08-07 04:10:23 [MESSAGE] - Starting server socket...
+2025-08-07 04:10:23 [MESSAGE] - Server is ready for connections...
+2025-08-07 04:10:23 [MESSAGE] - Starting threads
+2025-08-07 04:10:24 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0
+2025-08-07 04:10:31 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMsgGuardShield.GuardShield._CreateConnect() in d:\Users\Toytoks\Desktop\UAConquer\Main\GuardShield\GuardShield.cs:line 93
+   at CMsgGuardShield.GuardShield..ctor(GameClient pclient) in d:\Users\Toytoks\Desktop\UAConquer\Main\GuardShield\GuardShield.cs:line 36
+   at TheChosenProject.Game.MsgServer.MsgLoginClient.LoginGame(GameClient client, Packet packet) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgLoginClient.cs:line 56
+   at TheChosenProject.Program.CreateDHKey(SecuritySocket obj, Packet Stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 531
+2025-08-07 04:29:01 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-07 04:29:01 [MESSAGE] - 		Developed by Siege)
+2025-08-07 04:29:01 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-07 04:29:01 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-07 04:29:01 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-07 04:29:01 [DEBUG] - User Name: Toytoks
+2025-08-07 04:29:01 [DEBUG] - User Address: 26.23.75.141
+2025-08-07 04:29:01 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-07 04:29:01 [DEBUG] - Some environment variables:
+2025-08-07 04:29:01 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-07 04:29:01 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-07 04:29:01 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-07 04:29:01 [MESSAGE] - Initializing game server...
+2025-08-07 04:29:01 [MESSAGE] - Initializing Database
+2025-08-07 04:29:01 [DEBUG] - Test Center Mode: Disabled
+2025-08-07 04:29:02 [MESSAGE] - Loading item information...
+2025-08-07 04:29:02 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-07 04:29:09 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-07 04:29:09 [MESSAGE] - Loading Magictype information...
+2025-08-07 04:29:11 [MESSAGE] - Loading portals data...
+2025-08-07 04:29:13 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-07 04:29:14 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-07 04:29:14 [MESSAGE] - Initializing GlobalPackets
+2025-08-07 04:29:14 [MESSAGE] - Initializing blowfish
+2025-08-07 04:29:14 [MESSAGE] - Starting sockets
+2025-08-07 04:29:14 [MESSAGE] - Starting server socket...
+2025-08-07 04:29:14 [MESSAGE] - Server is ready for connections...
+2025-08-07 04:29:14 [MESSAGE] - Starting threads
+2025-08-07 04:29:15 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0
+2025-08-07 04:38:00 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-07 04:38:00 [MESSAGE] - 		Developed by Siege)
+2025-08-07 04:38:00 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-07 04:38:00 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-07 04:38:00 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-07 04:38:00 [DEBUG] - User Name: Toytoks
+2025-08-07 04:38:01 [DEBUG] - User Address: 26.23.75.141
+2025-08-07 04:38:01 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-07 04:38:01 [DEBUG] - Some environment variables:
+2025-08-07 04:38:01 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-07 04:38:01 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-07 04:38:01 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-07 04:38:01 [MESSAGE] - Initializing game server...
+2025-08-07 04:38:01 [MESSAGE] - Initializing Database
+2025-08-07 04:38:03 [DEBUG] - Test Center Mode: Disabled
+2025-08-07 04:38:04 [MESSAGE] - Loading item information...
+2025-08-07 04:38:04 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-07 04:38:19 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-07 04:38:19 [MESSAGE] - Loading Magictype information...
+2025-08-07 04:38:22 [MESSAGE] - Loading portals data...
+2025-08-07 04:38:27 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-07 04:38:28 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-07 04:38:28 [MESSAGE] - Initializing GlobalPackets
+2025-08-07 04:38:28 [MESSAGE] - Initializing blowfish
+2025-08-07 04:38:28 [MESSAGE] - Starting sockets
+2025-08-07 04:38:28 [MESSAGE] - Starting server socket...
+2025-08-07 04:38:28 [MESSAGE] - Server is ready for connections...
+2025-08-07 04:38:28 [MESSAGE] - Starting threads
+2025-08-07 04:38:29 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0
+2025-08-07 04:41:05 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-07 04:41:05 [MESSAGE] - 		Developed by Siege)
+2025-08-07 04:41:05 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-07 04:41:05 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-07 04:41:05 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-07 04:41:05 [DEBUG] - User Name: Toytoks
+2025-08-07 04:41:05 [DEBUG] - User Address: 26.23.75.141
+2025-08-07 04:41:05 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-07 04:41:05 [DEBUG] - Some environment variables:
+2025-08-07 04:41:05 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-07 04:41:05 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-07 04:41:05 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-07 04:41:05 [MESSAGE] - Initializing game server...
+2025-08-07 04:41:05 [MESSAGE] - Initializing Database
+2025-08-07 04:41:05 [DEBUG] - Test Center Mode: Disabled
+2025-08-07 04:41:06 [MESSAGE] - Loading item information...
+2025-08-07 04:41:06 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-07 04:41:14 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-07 04:41:14 [MESSAGE] - Loading Magictype information...
+2025-08-07 04:41:16 [MESSAGE] - Loading portals data...
+2025-08-07 04:41:20 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-07 04:41:20 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-07 04:41:20 [MESSAGE] - Initializing GlobalPackets
+2025-08-07 04:41:20 [MESSAGE] - Initializing blowfish
+2025-08-07 04:41:22 [MESSAGE] - Starting sockets
+2025-08-07 04:41:22 [MESSAGE] - Starting server socket...
+2025-08-07 04:41:22 [MESSAGE] - Server is ready for connections...
+2025-08-07 04:41:22 [MESSAGE] - Starting threads
+2025-08-07 04:41:22 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0

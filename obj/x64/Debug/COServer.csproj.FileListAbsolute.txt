@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe.config
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.application
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Server Files\Game Server\bin\Debug\COServer.pdb
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.exe.manifest
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.application
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.exe
+C:\Users\Administrator\Desktop\Server Files\Game Server\obj\x64\Debug\COServer.pdb

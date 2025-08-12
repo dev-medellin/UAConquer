@@ -1,0 +1,12 @@
+----Exception message----
+Object reference not set to an instance of an object.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Role.Player.GetArray(Packet stream, Boolean WindowsView) in d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\Role\Player.cs:line 3347
+   at TheChosenProject.Role.Player.TryAdd(Packet stream, IMapObj obj) in d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\Role\Player.cs:line 144
+   at TheChosenProject.Role.Player.UpdateSurroundings(Packet stream, Boolean clear, Boolean dissconnect) in d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\Role\Player.cs:line 123
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.PlayerJump(GameClient client, Packet msg, ActionQuery* data) in d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\Game\MsgServer\MsgDataPacket.cs:line 1292
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.Process(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\NORTHCONQUERSELL\NORTHCONQUERSELL\Main\Game\MsgServer\MsgDataPacket.cs:line 315
+----End of stack trace----
+

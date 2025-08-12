@@ -1,0 +1,16 @@
+[CallStack]Mohamoud[PM] get 1406 he have 0
+[CallStack]Mohamoud[PM] get 1075 he have 1406
+[CallStack]Mohamoud[PM] lost 1075 he have 2481
+[CallStack]Mohamoud[PM] get 1075 he have 1406
+[CallStack]Mohamoud[PM] get 219 he have 2481
+[CallStack]Mohamoud[PM] get 266 he have 2700
+[CallStack]Mohamoud[PM] get 157 he have 2966
+[CallStack]Mohamoud[PM] lost 99 he have 3123
+[CallStack]Mohamoud[PM] get 3000 he have 3059
+[CallStack]Mohamoud[PM] get 99993941 he have 6059
+[CallStack]Mohamoud[PM] lost 20000 he have 100000000
+[CallStack]Mohamoud[PM] get 20000 he have 99980000
+[CallStack]Mohamoud[PM] lost 199999 he have 100000000
+[CallStack]Mohamoud[PM] lost 1300 he have 99799987
+[CallStack]Mohamoud[PM] get 1075 he have 99798687
+[CallStack]Mohamoud[PM] lost 99799762 he have 99799762

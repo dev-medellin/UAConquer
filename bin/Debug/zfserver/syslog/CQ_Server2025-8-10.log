@@ -1,0 +1,949 @@
+2025-08-10 03:17:28 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:17:28 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:17:28 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:17:28 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:17:28 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:17:28 [DEBUG] - User Name: Toytoks
+2025-08-10 03:17:28 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:17:28 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:17:28 [DEBUG] - Some environment variables:
+2025-08-10 03:17:28 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:17:28 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:17:28 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:17:28 [MESSAGE] - Initializing game server...
+2025-08-10 03:17:28 [MESSAGE] - Initializing Database
+2025-08-10 03:17:31 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:17:34 [MESSAGE] - Loading item information...
+2025-08-10 03:17:35 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:17:54 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:17:54 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:18:01 [MESSAGE] - Loading portals data...
+2025-08-10 03:18:14 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:18:14 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:18:15 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:18:15 [MESSAGE] - Initializing blowfish
+2025-08-10 03:18:18 [MESSAGE] - Starting sockets
+2025-08-10 03:18:18 [MESSAGE] - Starting server socket...
+2025-08-10 03:18:18 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:18:18 [MESSAGE] - Starting threads
+2025-08-10 03:18:19 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:24 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:29 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:35 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:40 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:45 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:51 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:18:56 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:01 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:06 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:12 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:17 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:22 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:27 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:33 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:38 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:43 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:49 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:54 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:19:59 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:04 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:10 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:15 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:20 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:26 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:31 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:36 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:41 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:47 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:52 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:20:57 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:03 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:08 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:13 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:18 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:24 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:29 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:34 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:40 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:45 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:50 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:21:55 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:01 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:06 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:11 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:16 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:22 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:27 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:32 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:38 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:43 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:48 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:53 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:22:59 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:04 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:09 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:15 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:20 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:25 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:30 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:36 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:41 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:46 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:52 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:23:57 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:02 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:07 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:13 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:18 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:23 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:29 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:34 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:39 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:44 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:50 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:24:55 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:00 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:06 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:11 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:16 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:21 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:27 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:32 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:37 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:42 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:48 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:53 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:25:58 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:04 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:09 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9959, Online: 0, MaxOnline: 0
+2025-08-10 03:26:17 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:26:17 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:26:17 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:26:17 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:26:17 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:26:17 [DEBUG] - User Name: Toytoks
+2025-08-10 03:26:17 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:26:17 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:26:17 [DEBUG] - Some environment variables:
+2025-08-10 03:26:17 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:26:17 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:26:17 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:26:17 [MESSAGE] - Initializing game server...
+2025-08-10 03:26:17 [MESSAGE] - Initializing Database
+2025-08-10 03:26:17 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:26:18 [MESSAGE] - Loading item information...
+2025-08-10 03:26:18 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:26:25 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:26:25 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:26:27 [MESSAGE] - Loading portals data...
+2025-08-10 03:26:28 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:26:29 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:26:29 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:26:29 [MESSAGE] - Initializing blowfish
+2025-08-10 03:26:29 [MESSAGE] - Starting sockets
+2025-08-10 03:26:29 [MESSAGE] - Starting server socket...
+2025-08-10 03:26:29 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:26:29 [MESSAGE] - Starting threads
+2025-08-10 03:26:30 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:35 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:41 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:46 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:26:51 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-10 03:27:23 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:27:23 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:27:23 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:27:23 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:27:23 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:27:23 [DEBUG] - User Name: Toytoks
+2025-08-10 03:27:23 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:27:23 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:27:23 [DEBUG] - Some environment variables:
+2025-08-10 03:27:23 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:27:23 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:27:23 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:27:23 [MESSAGE] - Initializing game server...
+2025-08-10 03:27:23 [MESSAGE] - Initializing Database
+2025-08-10 03:27:23 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:27:24 [MESSAGE] - Loading item information...
+2025-08-10 03:27:24 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:27:32 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:27:32 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:27:34 [MESSAGE] - Loading portals data...
+2025-08-10 03:27:35 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:27:35 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:27:36 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:27:36 [MESSAGE] - Initializing blowfish
+2025-08-10 03:27:36 [MESSAGE] - Starting sockets
+2025-08-10 03:27:36 [MESSAGE] - Starting server socket...
+2025-08-10 03:27:36 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:27:36 [MESSAGE] - Starting threads
+2025-08-10 03:27:36 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 03:31:09 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:31:24 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:33:03 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:33:09 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:42:08 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:42:32 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:43:46 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:43:46 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:43:46 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:43:46 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:43:46 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:43:46 [DEBUG] - User Name: Toytoks
+2025-08-10 03:43:46 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:43:46 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:43:46 [DEBUG] - Some environment variables:
+2025-08-10 03:43:46 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:43:46 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:43:46 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:43:47 [MESSAGE] - Initializing game server...
+2025-08-10 03:43:47 [MESSAGE] - Initializing Database
+2025-08-10 03:43:47 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:43:48 [MESSAGE] - Loading item information...
+2025-08-10 03:43:48 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:43:55 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:43:55 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:43:57 [MESSAGE] - Loading portals data...
+2025-08-10 03:43:57 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:43:58 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:43:58 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:43:58 [MESSAGE] - Initializing blowfish
+2025-08-10 03:43:58 [MESSAGE] - Starting sockets
+2025-08-10 03:43:58 [MESSAGE] - Starting server socket...
+2025-08-10 03:43:58 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:43:58 [MESSAGE] - Starting threads
+2025-08-10 03:43:58 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 03:44:30 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:44:43 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:44:44 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:44:46 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:44:47 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:45:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:45:06 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:46:27 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:46:27 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:46:27 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:46:27 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:46:27 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:46:27 [DEBUG] - User Name: Toytoks
+2025-08-10 03:46:27 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:46:27 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:46:27 [DEBUG] - Some environment variables:
+2025-08-10 03:46:27 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:46:27 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:46:27 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:46:27 [MESSAGE] - Initializing game server...
+2025-08-10 03:46:27 [MESSAGE] - Initializing Database
+2025-08-10 03:46:27 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:46:28 [MESSAGE] - Loading item information...
+2025-08-10 03:46:28 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:46:35 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:46:35 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:46:38 [MESSAGE] - Loading portals data...
+2025-08-10 03:46:38 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:46:38 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:46:38 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:46:38 [MESSAGE] - Initializing blowfish
+2025-08-10 03:46:39 [MESSAGE] - Starting sockets
+2025-08-10 03:46:39 [MESSAGE] - Starting server socket...
+2025-08-10 03:46:39 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:46:39 [MESSAGE] - Starting threads
+2025-08-10 03:46:39 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 03:47:16 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:47:58 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:48:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:48:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:48:06 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 03:49:32 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:50:45 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:51:43 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:52:24 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:54:35 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:54:35 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:54:35 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:54:35 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:54:35 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:54:35 [DEBUG] - User Name: Toytoks
+2025-08-10 03:54:35 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:54:35 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:54:35 [DEBUG] - Some environment variables:
+2025-08-10 03:54:35 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:54:35 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:54:35 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:54:35 [MESSAGE] - Initializing game server...
+2025-08-10 03:54:35 [MESSAGE] - Initializing Database
+2025-08-10 03:54:35 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:54:36 [MESSAGE] - Loading item information...
+2025-08-10 03:54:36 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:54:44 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:54:44 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:54:46 [MESSAGE] - Loading portals data...
+2025-08-10 03:54:46 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:54:46 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:54:46 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:54:46 [MESSAGE] - Initializing blowfish
+2025-08-10 03:54:47 [MESSAGE] - Starting sockets
+2025-08-10 03:54:47 [MESSAGE] - Starting server socket...
+2025-08-10 03:54:47 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:54:47 [MESSAGE] - Starting threads
+2025-08-10 03:54:48 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 03:54:49 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:54:56 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:56:17 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:56:17 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:56:17 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:56:17 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:56:17 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:56:17 [DEBUG] - User Name: Toytoks
+2025-08-10 03:56:17 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:56:17 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:56:17 [DEBUG] - Some environment variables:
+2025-08-10 03:56:17 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:56:17 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:56:17 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:56:17 [MESSAGE] - Initializing game server...
+2025-08-10 03:56:17 [MESSAGE] - Initializing Database
+2025-08-10 03:56:17 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:56:18 [MESSAGE] - Loading item information...
+2025-08-10 03:56:18 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:56:25 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:56:25 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:56:27 [MESSAGE] - Loading portals data...
+2025-08-10 03:56:28 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:56:28 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:56:28 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:56:28 [MESSAGE] - Initializing blowfish
+2025-08-10 03:56:28 [MESSAGE] - Starting sockets
+2025-08-10 03:56:28 [MESSAGE] - Starting server socket...
+2025-08-10 03:56:28 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:56:28 [MESSAGE] - Starting threads
+2025-08-10 03:56:29 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 03:56:53 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 03:57:01 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 03:59:25 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 03:59:25 [MESSAGE] - 		Developed by Siege)
+2025-08-10 03:59:25 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 03:59:25 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 03:59:25 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 03:59:25 [DEBUG] - User Name: Toytoks
+2025-08-10 03:59:25 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 03:59:25 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 03:59:25 [DEBUG] - Some environment variables:
+2025-08-10 03:59:25 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 03:59:25 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 03:59:25 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 03:59:25 [MESSAGE] - Initializing game server...
+2025-08-10 03:59:25 [MESSAGE] - Initializing Database
+2025-08-10 03:59:25 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 03:59:26 [MESSAGE] - Loading item information...
+2025-08-10 03:59:26 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 03:59:32 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 03:59:32 [MESSAGE] - Loading Magictype information...
+2025-08-10 03:59:33 [MESSAGE] - Loading portals data...
+2025-08-10 03:59:33 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 03:59:34 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 03:59:34 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 03:59:34 [MESSAGE] - Initializing blowfish
+2025-08-10 03:59:34 [MESSAGE] - Starting sockets
+2025-08-10 03:59:34 [MESSAGE] - Starting server socket...
+2025-08-10 03:59:34 [MESSAGE] - Server is ready for connections...
+2025-08-10 03:59:34 [MESSAGE] - Starting threads
+2025-08-10 03:59:34 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 04:00:00 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 04:00:07 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 04:00:09 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 04:00:13 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 04:00:17 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 04:00:21 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 04:00:28 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 04:02:15 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 04:02:22 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 04:03:27 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 04:03:34 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 04:05:56 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 04:05:56 [MESSAGE] - 		Developed by Siege)
+2025-08-10 04:05:56 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 04:05:56 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 04:05:56 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 04:05:56 [DEBUG] - User Name: Toytoks
+2025-08-10 04:05:56 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 04:05:56 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 04:05:56 [DEBUG] - Some environment variables:
+2025-08-10 04:05:56 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 04:05:56 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 04:05:56 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 04:05:56 [MESSAGE] - Initializing game server...
+2025-08-10 04:05:56 [MESSAGE] - Initializing Database
+2025-08-10 04:05:56 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 04:05:57 [MESSAGE] - Loading item information...
+2025-08-10 04:05:57 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 04:06:05 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 04:06:05 [MESSAGE] - Loading Magictype information...
+2025-08-10 04:06:07 [MESSAGE] - Loading portals data...
+2025-08-10 04:06:07 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 04:06:08 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 04:06:08 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 04:06:08 [MESSAGE] - Initializing blowfish
+2025-08-10 04:06:09 [MESSAGE] - Starting sockets
+2025-08-10 04:06:09 [MESSAGE] - Starting server socket...
+2025-08-10 04:06:09 [MESSAGE] - Server is ready for connections...
+2025-08-10 04:06:09 [MESSAGE] - Starting threads
+2025-08-10 04:06:10 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 04:06:12 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 04:07:04 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 09:03:46 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 09:03:46 [MESSAGE] - 		Developed by Siege)
+2025-08-10 09:03:46 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 09:03:46 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 09:03:46 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 09:03:46 [DEBUG] - User Name: Toytoks
+2025-08-10 09:03:46 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 09:03:46 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 09:03:46 [DEBUG] - Some environment variables:
+2025-08-10 09:03:46 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 09:03:46 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 09:03:46 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 09:03:46 [MESSAGE] - Initializing game server...
+2025-08-10 09:03:46 [MESSAGE] - Initializing Database
+2025-08-10 09:03:47 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 09:03:48 [MESSAGE] - Loading item information...
+2025-08-10 09:03:49 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 09:04:06 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 09:04:06 [MESSAGE] - Loading Magictype information...
+2025-08-10 09:04:12 [MESSAGE] - Loading portals data...
+2025-08-10 09:04:12 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 09:04:13 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 09:04:13 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 09:04:13 [MESSAGE] - Initializing blowfish
+2025-08-10 09:04:16 [MESSAGE] - Starting sockets
+2025-08-10 09:04:16 [MESSAGE] - Starting server socket...
+2025-08-10 09:04:16 [MESSAGE] - Server is ready for connections...
+2025-08-10 09:04:17 [MESSAGE] - Starting threads
+2025-08-10 09:04:17 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 09:06:55 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 09:07:23 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:07:27 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:07:51 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:05 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:06 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:07 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:08 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:09 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:09 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:10 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:11 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:12 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:13 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:14 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-10 09:08:19 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:21 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:23 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:24 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:08:25 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:14 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:18 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:21 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:23 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:25 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:27 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:28 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:29 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgServer.AttackHandler.CheckAttack.CanAttackNpc.Verified(GameClient client, SobNpc attacked, Magic DBSpell) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\AttackHandler\CheckAttack\CanAttackNpc.cs:line 217
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.Process(GameClient user, InteractQuery Attack) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 798
+   at TheChosenProject.Game.MsgServer.MsgAttackPacket.HandlerProcess(GameClient user, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgServer\MsgAttackPacket.cs:line 215
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream) in d:\Users\Toytoks\Desktop\UAConquer\Main\Program.cs:line 483
+2025-08-10 09:12:34 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 09:13:35 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 09:13:35 [MESSAGE] - 		Developed by Siege)
+2025-08-10 09:13:35 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 09:13:35 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 09:13:35 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 09:13:35 [DEBUG] - User Name: Toytoks
+2025-08-10 09:13:35 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 09:13:35 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 09:13:35 [DEBUG] - Some environment variables:
+2025-08-10 09:13:35 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 09:13:35 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 09:13:35 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 09:13:35 [MESSAGE] - Initializing game server...
+2025-08-10 09:13:35 [MESSAGE] - Initializing Database
+2025-08-10 09:13:35 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 09:13:36 [MESSAGE] - Loading item information...
+2025-08-10 09:13:36 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 09:13:45 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 09:13:45 [MESSAGE] - Loading Magictype information...
+2025-08-10 09:13:47 [MESSAGE] - Loading portals data...
+2025-08-10 09:13:47 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 09:13:48 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 09:13:48 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 09:13:48 [MESSAGE] - Initializing blowfish
+2025-08-10 09:13:50 [MESSAGE] - Starting sockets
+2025-08-10 09:13:50 [MESSAGE] - Starting server socket...
+2025-08-10 09:13:50 [MESSAGE] - Server is ready for connections...
+2025-08-10 09:13:50 [MESSAGE] - Starting threads
+2025-08-10 09:13:50 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 09:13:55 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 09:16:13 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 12:57:25 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 12:57:25 [MESSAGE] - 		Developed by Siege)
+2025-08-10 12:57:25 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 12:57:25 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 12:57:25 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 12:57:25 [DEBUG] - User Name: Toytoks
+2025-08-10 12:57:25 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 12:57:25 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 12:57:25 [DEBUG] - Some environment variables:
+2025-08-10 12:57:25 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 12:57:25 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 12:57:25 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 12:57:25 [MESSAGE] - Initializing game server...
+2025-08-10 12:57:25 [MESSAGE] - Initializing Database
+2025-08-10 12:57:25 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 12:57:27 [MESSAGE] - Loading item information...
+2025-08-10 12:57:28 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 12:57:50 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 12:57:50 [MESSAGE] - Loading Magictype information...
+2025-08-10 12:57:58 [MESSAGE] - Loading portals data...
+2025-08-10 12:57:59 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 12:58:00 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 12:58:00 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 12:58:00 [MESSAGE] - Initializing blowfish
+2025-08-10 12:58:04 [MESSAGE] - Starting sockets
+2025-08-10 12:58:04 [MESSAGE] - Starting server socket...
+2025-08-10 12:58:04 [MESSAGE] - Server is ready for connections...
+2025-08-10 12:58:04 [MESSAGE] - Starting threads
+2025-08-10 12:58:05 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 13:34:44 [MESSAGE] - User [tesasas] has logged in [26.23.75.141]
+2025-08-10 13:39:19 [MESSAGE] - User [tesasas] has disconnected.
+2025-08-10 13:39:43 [MESSAGE] - User [UACo[PM]] has logged in [26.23.75.141]
+2025-08-10 13:39:58 [MESSAGE] - User [UACo[PM]] has disconnected.
+2025-08-10 13:40:48 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-10 13:48:53 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:48:53 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:48:54 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:48:55 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:48:56 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:48:57 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-10 13:51:55 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-10 13:52:57 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 13:52:57 [MESSAGE] - 		Developed by Siege)
+2025-08-10 13:52:57 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 13:52:57 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 13:52:57 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 13:52:57 [DEBUG] - User Name: Toytoks
+2025-08-10 13:52:58 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 13:52:58 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 13:52:58 [DEBUG] - Some environment variables:
+2025-08-10 13:52:58 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 13:52:58 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 13:52:58 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 13:52:58 [MESSAGE] - Initializing game server...
+2025-08-10 13:52:58 [MESSAGE] - Initializing Database
+2025-08-10 13:52:58 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 13:52:59 [MESSAGE] - Loading item information...
+2025-08-10 13:52:59 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 13:53:15 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 13:53:15 [MESSAGE] - Loading Magictype information...
+2025-08-10 13:53:23 [MESSAGE] - Loading portals data...
+2025-08-10 13:53:23 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 13:53:24 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 13:53:24 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 13:53:24 [MESSAGE] - Initializing blowfish
+2025-08-10 13:53:28 [MESSAGE] - Starting sockets
+2025-08-10 13:53:28 [MESSAGE] - Starting server socket...
+2025-08-10 13:53:28 [MESSAGE] - Server is ready for connections...
+2025-08-10 13:53:28 [MESSAGE] - Starting threads
+2025-08-10 13:53:28 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 13:56:05 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-10 16:04:59 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 16:04:59 [MESSAGE] - 		Developed by Siege)
+2025-08-10 16:04:59 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 16:04:59 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 16:04:59 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 16:04:59 [DEBUG] - User Name: Toytoks
+2025-08-10 16:04:59 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 16:04:59 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 16:04:59 [DEBUG] - Some environment variables:
+2025-08-10 16:04:59 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 16:04:59 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 16:04:59 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 16:04:59 [MESSAGE] - Initializing game server...
+2025-08-10 16:04:59 [MESSAGE] - Initializing Database
+2025-08-10 16:04:59 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 16:05:01 [MESSAGE] - Loading item information...
+2025-08-10 16:05:01 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 16:05:15 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 16:05:15 [MESSAGE] - Loading Magictype information...
+2025-08-10 16:05:19 [MESSAGE] - Loading portals data...
+2025-08-10 16:05:20 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 16:05:20 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 16:05:20 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 16:05:20 [MESSAGE] - Initializing blowfish
+2025-08-10 16:05:22 [MESSAGE] - Starting sockets
+2025-08-10 16:05:22 [MESSAGE] - Starting server socket...
+2025-08-10 16:05:22 [MESSAGE] - Server is ready for connections...
+2025-08-10 16:05:22 [MESSAGE] - Starting threads
+2025-08-10 16:05:22 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 16:07:03 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-10 16:11:26 [EXCEPTION] - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at TheChosenProject.Game.MsgServer.MsgMessage.ChatCommands(GameClient client, MsgMessage msg)
+   at TheChosenProject.Game.MsgServer.MsgMessage.MsgHandler(GameClient client, Packet packet)
+   at TheChosenProject.Program.Game_Receive(SecuritySocket obj, Packet stream)
+2025-08-10 16:33:53 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-10 19:51:08 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-10 19:51:55 [MESSAGE] - User [TestTROJ1] has logged in [26.62.216.94]
+2025-08-10 19:52:04 [MESSAGE] - User [TestTROJ1] has disconnected.
+2025-08-10 19:53:12 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 19:53:12 [MESSAGE] - 		Developed by Siege)
+2025-08-10 19:53:12 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 19:53:12 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 19:53:12 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 19:53:12 [DEBUG] - User Name: Toytoks
+2025-08-10 19:53:12 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 19:53:12 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 19:53:12 [DEBUG] - Some environment variables:
+2025-08-10 19:53:12 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 19:53:12 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 19:53:12 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 19:53:12 [MESSAGE] - Initializing game server...
+2025-08-10 19:53:12 [MESSAGE] - Initializing Database
+2025-08-10 19:53:13 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 19:53:15 [MESSAGE] - Loading item information...
+2025-08-10 19:53:16 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 19:53:36 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 19:53:37 [MESSAGE] - Loading Magictype information...
+2025-08-10 19:54:05 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-10 19:54:05 [MESSAGE] - 		Developed by Siege)
+2025-08-10 19:54:05 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-10 19:54:05 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-10 19:54:05 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-10 19:54:05 [DEBUG] - User Name: Toytoks
+2025-08-10 19:54:05 [DEBUG] - User Address: 26.23.75.141
+2025-08-10 19:54:05 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-10 19:54:05 [DEBUG] - Some environment variables:
+2025-08-10 19:54:05 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-10 19:54:05 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-10 19:54:05 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-10 19:54:05 [MESSAGE] - Initializing game server...
+2025-08-10 19:54:05 [MESSAGE] - Initializing Database
+2025-08-10 19:54:06 [DEBUG] - Test Center Mode: Disabled
+2025-08-10 19:54:08 [MESSAGE] - Loading item information...
+2025-08-10 19:54:09 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-10 19:54:47 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-10 19:54:47 [MESSAGE] - Loading Magictype information...
+2025-08-10 19:54:52 [MESSAGE] - Loading portals data...
+2025-08-10 19:54:53 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-10 19:54:54 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-10 19:54:54 [MESSAGE] - Initializing GlobalPackets
+2025-08-10 19:54:54 [MESSAGE] - Initializing blowfish
+2025-08-10 19:54:59 [MESSAGE] - Starting sockets
+2025-08-10 19:54:59 [MESSAGE] - Starting server socket...
+2025-08-10 19:54:59 [MESSAGE] - Server is ready for connections...
+2025-08-10 19:54:59 [MESSAGE] - Starting threads
+2025-08-10 19:55:00 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-10 19:55:34 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-10 19:56:00 [MESSAGE] - User [TestTROJ1] has logged in [26.62.216.94]
+2025-08-10 20:00:06 [MESSAGE] - User [TestTROJ1] has disconnected.
+2025-08-10 20:00:33 [MESSAGE] - User [testtojan] has logged in [26.62.216.94]
+2025-08-10 20:25:11 [MESSAGE] - User [testtojan] has disconnected.
+2025-08-10 20:31:22 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-10 20:35:00 [WARNING] - [SnowBanshee] has spawned in {MapID} at [401],[439].

@@ -1,0 +1,2 @@
+[CallStack]DSConquer[PM] get 2000 he have 0
+[CallStack]DSConquer[PM] lost 1075 he have 2000

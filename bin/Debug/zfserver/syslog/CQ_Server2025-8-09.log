@@ -1,0 +1,91 @@
+2025-08-09 20:22:13 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-09 20:22:13 [MESSAGE] - 		Developed by Siege)
+2025-08-09 20:22:13 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-09 20:22:13 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-09 20:22:13 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-09 20:22:13 [DEBUG] - User Name: Toytoks
+2025-08-09 20:22:14 [DEBUG] - User Address: 26.23.75.141
+2025-08-09 20:22:14 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-09 20:22:14 [DEBUG] - Some environment variables:
+2025-08-09 20:22:14 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-09 20:22:14 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-09 20:22:14 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-09 20:22:14 [MESSAGE] - Initializing game server...
+2025-08-09 20:22:14 [MESSAGE] - Initializing Database
+2025-08-09 20:22:14 [DEBUG] - Test Center Mode: Disabled
+2025-08-09 20:22:16 [MESSAGE] - Loading item information...
+2025-08-09 20:22:16 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-09 20:22:35 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-09 20:22:35 [MESSAGE] - Loading Magictype information...
+2025-08-09 20:22:42 [MESSAGE] - Loading portals data...
+2025-08-09 20:22:53 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-09 20:22:54 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-09 20:22:54 [MESSAGE] - Initializing GlobalPackets
+2025-08-09 20:22:54 [MESSAGE] - Initializing blowfish
+2025-08-09 20:22:58 [MESSAGE] - Starting sockets
+2025-08-09 20:22:58 [MESSAGE] - Starting server socket...
+2025-08-09 20:22:58 [MESSAGE] - Server is ready for connections...
+2025-08-09 20:22:58 [MESSAGE] - Starting threads
+2025-08-09 20:22:58 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:04 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:09 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:14 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:19 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:25 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:30 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:35 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:40 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:46 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:51 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:23:56 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:01 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:07 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:12 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:17 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:23 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:28 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:33 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:38 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:44 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:49 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:54 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:24:59 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:05 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:10 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:15 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:20 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:26 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:31 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:36 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:42 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:47 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:52 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:25:57 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:03 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:08 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:13 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:18 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:24 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:29 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:34 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:39 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:45 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:50 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:26:55 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:01 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:06 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:11 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:16 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:22 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:27 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:32 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:37 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-09 20:27:41 [DEBUG] - Saving Database...
+2025-08-09 20:27:42 [DEBUG] - Database Save Succefull.

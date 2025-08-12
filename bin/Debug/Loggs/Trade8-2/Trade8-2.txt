@@ -1,0 +1,2 @@
+[Trade]DSConquer[PM] to Warrior[Test] trade item = BuriedBlade - plus [6] - Bless [0] - Enchant [0] - s1[SuperDragonGem] - s2[SuperDragonGem]
+[Trade]Archer[Test] to Trojan[Test] trade item = BloodDagger - plus [4] - Bless [0] - Enchant [0] - s1[EmptySocket] - s2[EmptySocket]

@@ -1,0 +1,10 @@
+[CallStack]Luka[PM] get 215 he have 172123
+[CallStack]Luka[PM] lost 3888 he have 172338
+[CallStack]Luka[PM] get 215 he have 168448
+[CallStack]Luka[PM] get 1482 he have 168663
+[CallStack]Luka[PM] get 1075 he have 170145
+[CallStack]Test[PM] get 20000 he have 10338
+[CallStack]Luka[PM] get 215 he have 171219
+[CallStack]Luka[PM] get 215 he have 171434
+[CallStack]Luka[PM] get 2035 he have 171648
+[CallStack]Luka[PM] get 1075 he have 173683

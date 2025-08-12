@@ -1,0 +1,7 @@
+[Trade]Mael to Crissy trade item = ProficiencyToken(20) - plus [0] - Bless [0] - Enchant [0] - s1[NoSocket] - s2[NoSocket]
+[Trade]Test[PM] to Mael trade item = KingOfBacksword - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]
+[Trade]Test[PM] to Mael trade item = UltimateCap - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]
+[Trade]Test[PM] to Mael trade item = Sunshine - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]
+[Trade]Test[PM] to Mael trade item = PineRobe - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]
+[Trade]Test[PM] to Mael trade item = Lightning - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]
+[Trade]Test[PM] to Mael trade item = Blizzard - plus [12] - Bless [7] - Enchant [7] - s1[6] - s2[6]

@@ -1,0 +1,13 @@
+[CallStack]Mohamoud[PM] lost 1075 he have 43168
+[CallStack]Mohamoud[PM] lost 42093 he have 42093
+[CallStack]Mohamoud[PM] lost 380 he have 380
+[CallStack]Mohamoud[PM] get 200 he have 40
+[CallStack]Mohamoud[PM] get 200 he have 240
+[CallStack]Mohamoud[PM] lost 440 he have 440
+[CallStack]Mohamoud[PM] get 20000 he have 0
+[CallStack]Trojan get 99999 he have 0
+[CallStack]Trojan lost 60 he have 99999
+[CallStack]Trojan lost 7000 he have 99939
+[CallStack]Trojan2 get 7000 he have 0
+[CallStack]Trojan2 lost 60 he have 7000
+[CallStack]Trojan lost 60 he have 92939

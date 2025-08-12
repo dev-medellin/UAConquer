@@ -1,0 +1,3 @@
+[CallStack]Test[PM] get 215 he have 111308
+[CallStack]Test[PM] lost 20000 he have 111523
+[CallStack]Test[PM] lost 20000 he have 91523

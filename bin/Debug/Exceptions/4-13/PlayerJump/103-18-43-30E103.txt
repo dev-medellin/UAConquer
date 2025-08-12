@@ -1,0 +1,9 @@
+----Exception message----
+Object reference not set to an instance of an object.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.PlayerJump(GameClient client, Packet msg, ActionQuery* data)
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.Process(GameClient user, Packet stream)
+----End of stack trace----
+

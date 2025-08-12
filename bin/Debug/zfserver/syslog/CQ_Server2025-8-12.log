@@ -1,0 +1,903 @@
+2025-08-12 02:24:28 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-12 02:24:28 [MESSAGE] - 		Developed by Siege)
+2025-08-12 02:24:28 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 02:24:28 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 02:24:28 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 02:24:28 [DEBUG] - User Name: Toytoks
+2025-08-12 02:24:28 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 02:24:28 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 02:24:28 [DEBUG] - Some environment variables:
+2025-08-12 02:24:28 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 02:24:28 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 02:24:28 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 02:24:28 [MESSAGE] - Initializing game server...
+2025-08-12 02:24:28 [MESSAGE] - Initializing Database
+2025-08-12 02:24:28 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 02:24:30 [MESSAGE] - Loading item information...
+2025-08-12 02:24:30 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-12 02:24:56 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 02:24:57 [MESSAGE] - Loading Magictype information...
+2025-08-12 02:25:05 [MESSAGE] - Loading portals data...
+2025-08-12 02:25:05 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 02:25:06 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 02:25:06 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 02:25:06 [MESSAGE] - Initializing blowfish
+2025-08-12 02:25:10 [MESSAGE] - Starting sockets
+2025-08-12 02:25:10 [MESSAGE] - Starting server socket...
+2025-08-12 02:25:10 [MESSAGE] - Server is ready for connections...
+2025-08-12 02:25:10 [MESSAGE] - Starting threads
+2025-08-12 02:25:11 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:16 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:21 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:26 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:32 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:37 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:42 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:47 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:53 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:25:58 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:03 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:09 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:14 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:19 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:24 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:29 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:34 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:40 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:45 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:50 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:26:56 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:01 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:06 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:12 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:17 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:22 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:27 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:32 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:38 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:43 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:48 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:53 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:27:58 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:28:04 [WARNING] - Waiting for server [26.23.75.141] to accept connection.
+2025-08-12 02:28:09 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 02:28:13 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 02:28:37 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:38 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:38 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:39 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:40 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:50 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:51 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:51 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:52 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:28:53 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:01 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:04 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:05 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:12 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:13 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:14 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:15 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:16 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:34:16 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 02:35:30 [DEBUG] - 	Project DivineSiege Conquer: Conquer Online Private Server
+2025-08-12 02:35:30 [MESSAGE] - 		Developed by Siege)
+2025-08-12 02:35:30 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 02:35:30 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 02:35:30 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 02:35:30 [DEBUG] - User Name: Toytoks
+2025-08-12 02:35:30 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 02:35:30 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 02:35:30 [DEBUG] - Some environment variables:
+2025-08-12 02:35:30 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 02:35:30 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 02:35:30 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 02:35:30 [MESSAGE] - Initializing game server...
+2025-08-12 02:35:30 [MESSAGE] - Initializing Database
+2025-08-12 02:35:30 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 02:35:31 [MESSAGE] - Loading item information...
+2025-08-12 02:35:32 [EXCEPTION] - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToUInt16(String value)
+   at TheChosenProject.Database.ItemType.DBItem.Parse(String Line) in d:\Users\Toytoks\Desktop\UAConquer\Main\Database\ItemType.cs:line 369
+2025-08-12 02:35:43 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 02:35:43 [MESSAGE] - Loading Magictype information...
+2025-08-12 02:35:45 [MESSAGE] - Loading portals data...
+2025-08-12 02:35:45 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 02:35:46 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 02:35:46 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 02:35:46 [MESSAGE] - Initializing blowfish
+2025-08-12 02:35:47 [MESSAGE] - Starting sockets
+2025-08-12 02:35:47 [MESSAGE] - Starting server socket...
+2025-08-12 02:35:47 [MESSAGE] - Server is ready for connections...
+2025-08-12 02:35:47 [MESSAGE] - Starting threads
+2025-08-12 02:35:47 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 02:36:25 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 02:53:15 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 03:01:57 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 03:01:57 [MESSAGE] - 		Developed by Siege)
+2025-08-12 03:01:57 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 03:01:57 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 03:01:57 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 03:01:57 [DEBUG] - User Name: Toytoks
+2025-08-12 03:01:57 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 03:01:57 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 03:01:57 [DEBUG] - Some environment variables:
+2025-08-12 03:01:57 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 03:01:57 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 03:01:57 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 03:01:57 [MESSAGE] - Initializing game server...
+2025-08-12 03:01:57 [MESSAGE] - Initializing Database
+2025-08-12 03:01:57 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 03:01:58 [MESSAGE] - Loading item information...
+2025-08-12 03:02:13 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 03:02:13 [MESSAGE] - Loading Magictype information...
+2025-08-12 03:02:16 [MESSAGE] - Loading portals data...
+2025-08-12 03:02:17 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 03:02:17 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 03:02:17 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 03:02:17 [MESSAGE] - Initializing blowfish
+2025-08-12 03:02:18 [MESSAGE] - Starting sockets
+2025-08-12 03:02:18 [MESSAGE] - Starting server socket...
+2025-08-12 03:02:18 [MESSAGE] - Server is ready for connections...
+2025-08-12 03:02:18 [MESSAGE] - Starting threads
+2025-08-12 03:02:19 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 03:02:54 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 03:04:01 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:08 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:40 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:41 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:42 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:43 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:04:59 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:01 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:05 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:18 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:24 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:05:26 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 03:07:14 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:18:36 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:19:19 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:19:19 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:19:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:19:21 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:19:55 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:20:02 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:30:09 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:31:35 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:32:22 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:32:43 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:33:52 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:33:57 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:34:59 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:36:27 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:37:24 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:37:47 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:39:09 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:40:08 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 04:44:29 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:30 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:30 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:31 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:48 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:49 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:51 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:52 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:44:53 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:45:06 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:45:09 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 04:48:12 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 04:48:29 [DEBUG] - Saving Database...
+2025-08-12 04:48:31 [DEBUG] - Database Save Succefull.
+2025-08-12 06:05:26 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 06:05:26 [MESSAGE] - 		Developed by Siege)
+2025-08-12 06:05:26 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 06:05:26 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 06:05:26 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 06:05:26 [DEBUG] - User Name: Toytoks
+2025-08-12 06:05:26 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 06:05:26 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 06:05:26 [DEBUG] - Some environment variables:
+2025-08-12 06:05:26 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 06:05:26 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 06:05:26 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 06:05:26 [MESSAGE] - Initializing game server...
+2025-08-12 06:05:26 [MESSAGE] - Initializing Database
+2025-08-12 06:05:27 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 06:05:28 [MESSAGE] - Loading item information...
+2025-08-12 06:05:53 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 06:05:53 [MESSAGE] - Loading Magictype information...
+2025-08-12 06:06:01 [MESSAGE] - Loading portals data...
+2025-08-12 06:06:02 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 06:06:03 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 06:06:03 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 06:06:03 [MESSAGE] - Initializing blowfish
+2025-08-12 06:06:05 [MESSAGE] - Starting sockets
+2025-08-12 06:06:05 [MESSAGE] - Starting server socket...
+2025-08-12 06:06:05 [MESSAGE] - Server is ready for connections...
+2025-08-12 06:06:05 [MESSAGE] - Starting threads
+2025-08-12 06:06:06 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 06:06:35 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:11:00 [WARNING] - Tournaments Theard missed
+2025-08-12 06:11:01 [WARNING] - Tournaments Theard missed
+2025-08-12 06:12:12 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:27:47 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:28:07 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:32:18 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:33:44 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:33:48 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:34:00 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:35:09 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:36:36 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:36:39 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:38:00 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 06:48:21 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 06:49:09 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 06:49:10 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 06:49:10 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 06:49:11 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 07:06:44 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:06:48 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:07:45 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:09:05 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:09:25 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:10:17 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:10:25 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:20:11 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:20:22 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:20:56 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:21:05 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:22:23 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 07:23:16 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 07:23:17 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 07:23:18 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 07:29:39 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 07:55:12 [DEBUG] - Saving Database...
+2025-08-12 07:55:14 [DEBUG] - Database Save Succefull.
+2025-08-12 13:45:50 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 13:45:50 [MESSAGE] - 		Developed by Siege)
+2025-08-12 13:45:50 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 13:45:50 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 13:45:50 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 13:45:50 [DEBUG] - User Name: Toytoks
+2025-08-12 13:45:50 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 13:45:50 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 13:45:50 [DEBUG] - Some environment variables:
+2025-08-12 13:45:51 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 13:45:51 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 13:45:51 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 13:45:51 [MESSAGE] - Initializing game server...
+2025-08-12 13:45:51 [MESSAGE] - Initializing Database
+2025-08-12 13:45:52 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 13:45:54 [MESSAGE] - Loading item information...
+2025-08-12 13:46:16 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 13:46:16 [MESSAGE] - Loading Magictype information...
+2025-08-12 13:46:24 [MESSAGE] - Loading portals data...
+2025-08-12 13:46:25 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 13:46:25 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 13:46:25 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 13:46:25 [MESSAGE] - Initializing blowfish
+2025-08-12 13:46:30 [MESSAGE] - Starting sockets
+2025-08-12 13:46:30 [MESSAGE] - Starting server socket...
+2025-08-12 13:46:30 [MESSAGE] - Server is ready for connections...
+2025-08-12 13:46:30 [MESSAGE] - Starting threads
+2025-08-12 13:46:31 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 13:46:40 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 13:51:49 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 13:51:49 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 13:51:50 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 13:51:51 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 13:51:52 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 13:54:54 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 13:56:47 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 13:57:04 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:02:50 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:03:05 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:09:32 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:10:27 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:14:53 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:15:24 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:15:24 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:15:37 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:15:38 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:16:01 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:17:27 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:17:40 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:27:07 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:27:35 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:53:56 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:54:15 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:54:16 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:54:41 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:54:42 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 14:54:49 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:56:16 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:56:31 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:57:23 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:58:23 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 14:59:19 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 14:59:47 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:00:44 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 15:14:46 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:16:57 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 15:16:58 [MESSAGE] - 		Developed by Siege)
+2025-08-12 15:16:58 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 15:16:58 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 15:16:58 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 15:16:58 [DEBUG] - User Name: Toytoks
+2025-08-12 15:16:58 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 15:16:58 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 15:16:58 [DEBUG] - Some environment variables:
+2025-08-12 15:16:58 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 15:16:58 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 15:16:58 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 15:16:58 [MESSAGE] - Initializing game server...
+2025-08-12 15:16:58 [MESSAGE] - Initializing Database
+2025-08-12 15:16:58 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 15:17:00 [MESSAGE] - Loading item information...
+2025-08-12 15:17:26 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 15:17:26 [MESSAGE] - Loading Magictype information...
+2025-08-12 15:17:38 [MESSAGE] - Loading portals data...
+2025-08-12 15:17:39 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 15:17:40 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 15:17:40 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 15:17:40 [MESSAGE] - Initializing blowfish
+2025-08-12 15:17:47 [MESSAGE] - Starting sockets
+2025-08-12 15:17:47 [MESSAGE] - Starting server socket...
+2025-08-12 15:17:47 [MESSAGE] - Server is ready for connections...
+2025-08-12 15:17:47 [MESSAGE] - Starting threads
+2025-08-12 15:17:48 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 15:18:48 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 15:22:29 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 15:30:13 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:36:37 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 15:36:58 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:38:01 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 15:38:25 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:39:31 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 15:39:47 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 15:42:54 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 16:13:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:21 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:22 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:29 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:30 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:31 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:32 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:33 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:13:34 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:20:27 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:20:28 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:20:44 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:20:54 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:17 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:20 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:33 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:46 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:50 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:57 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:58 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:21:59 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:01 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:04 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:05 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:22:06 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:27:06 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 16:32:10 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 16:32:10 [MESSAGE] - 		Developed by Siege)
+2025-08-12 16:32:10 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 16:32:10 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 16:32:10 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 16:32:10 [DEBUG] - User Name: Toytoks
+2025-08-12 16:32:10 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 16:32:10 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 16:32:10 [DEBUG] - Some environment variables:
+2025-08-12 16:32:10 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 16:32:10 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 16:32:10 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 16:32:10 [MESSAGE] - Initializing game server...
+2025-08-12 16:32:10 [MESSAGE] - Initializing Database
+2025-08-12 16:32:11 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 16:32:14 [MESSAGE] - Loading item information...
+2025-08-12 16:32:38 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 16:32:39 [MESSAGE] - Loading Magictype information...
+2025-08-12 16:32:45 [MESSAGE] - Loading portals data...
+2025-08-12 16:32:46 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 16:32:47 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 16:32:47 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 16:32:47 [MESSAGE] - Initializing blowfish
+2025-08-12 16:32:49 [MESSAGE] - Starting sockets
+2025-08-12 16:32:49 [MESSAGE] - Starting server socket...
+2025-08-12 16:32:49 [MESSAGE] - Server is ready for connections...
+2025-08-12 16:32:49 [MESSAGE] - Starting threads
+2025-08-12 16:32:50 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 16:35:37 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 16:36:14 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:36:14 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:38:57 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:38:57 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:38:58 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:38:59 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:39:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:39:01 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:39:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:39:46 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 16:43:59 [DEBUG] - Saving Database...
+2025-08-12 16:44:01 [DEBUG] - Database Save Succefull.
+2025-08-12 16:44:15 [DEBUG] - 	Project UAConquer Conquer: Conquer Online Private Server
+2025-08-12 16:44:15 [MESSAGE] - 		Developed by Siege)
+2025-08-12 16:44:15 [DEBUG] - 		March 2nd, 2024 - All Rights Reserved
+
+
+2025-08-12 16:44:15 [DEBUG] - d:\Users\Toytoks\Desktop\UAConquer\Main\bin\Debug
+2025-08-12 16:44:15 [DEBUG] - Computer Name: DESKTOP-UPVQ28F
+2025-08-12 16:44:15 [DEBUG] - User Name: Toytoks
+2025-08-12 16:44:16 [DEBUG] - User Address: 26.23.75.141
+2025-08-12 16:44:16 [DEBUG] - System Directory: C:\Windows\system32
+2025-08-12 16:44:16 [DEBUG] - Some environment variables:
+2025-08-12 16:44:16 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2025-08-12 16:44:16 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2025-08-12 16:44:16 [DEBUG] - PROCESSOR_ARCHITETURE: x86
+2025-08-12 16:44:16 [MESSAGE] - Initializing game server...
+2025-08-12 16:44:16 [MESSAGE] - Initializing Database
+2025-08-12 16:44:16 [DEBUG] - Test Center Mode: Disabled
+2025-08-12 16:44:19 [MESSAGE] - Loading item information...
+2025-08-12 16:44:48 [MESSAGE] - Loading NPCs and Dynamic NPCs...
+2025-08-12 16:44:48 [MESSAGE] - Loading Magictype information...
+2025-08-12 16:44:51 [MESSAGE] - Loading portals data...
+2025-08-12 16:44:52 [MESSAGE] - Loaded 8 Guilds ! 
+2025-08-12 16:44:53 [MESSAGE] - Loaded File SilentWords (438).
+2025-08-12 16:44:53 [MESSAGE] - Initializing GlobalPackets
+2025-08-12 16:44:53 [MESSAGE] - Initializing blowfish
+2025-08-12 16:44:55 [MESSAGE] - Starting sockets
+2025-08-12 16:44:55 [MESSAGE] - Starting server socket...
+2025-08-12 16:44:55 [MESSAGE] - Server is ready for connections...
+2025-08-12 16:44:55 [MESSAGE] - Starting threads
+2025-08-12 16:44:56 [DEBUG] - Server [UAConquer] has connected with the following information>
+	Port: 9960, Online: 0, MaxOnline: 0
+2025-08-12 16:45:30 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 16:49:37 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:49:37 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:49:42 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:49:42 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:50:30 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:50:31 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\MonsterRole.cs:line 256
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\ActionHandler.cs:line 224
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer) in d:\Users\Toytoks\Desktop\UAConquer\Main\Game\MsgMonster\PoolProcesor.cs:line 109
+2025-08-12 16:56:02 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:56:03 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 16:56:04 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 17:00:08 [MESSAGE] - User [UA[OWNER]] has disconnected.
+2025-08-12 17:00:38 [MESSAGE] - User [UA[OWNER]] has logged in [26.23.75.141]
+2025-08-12 17:01:15 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 17:01:16 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 17:01:17 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 17:03:00 [EXCEPTION] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TheChosenProject.Game.MsgMonster.MonsterRole.Dead(Packet stream, GameClient killer, UInt32 aUID, GameMap GameMap, Boolean CounterKill, UInt32 BossID)
+   at TheChosenProject.Game.MsgMonster.ActionHandler.GuardAttackMonster(GameMap map, MonsterRole attacked, MonsterRole monster)
+   at TheChosenProject.Game.MsgMonster.PoolProcesses.GuardsCallback(GameClient client, Time32 timer)
+2025-08-12 17:04:17 [MESSAGE] - User [UA[OWNER]] has disconnected.

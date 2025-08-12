@@ -1,0 +1,48 @@
+[GameServer]
+Test=Yes
+TEST_CENTER=False
+IPAddress=26.27.99.155
+Port=5818
+ServerName=Dark
+MaxOnlinePlayer=500
+WebSite=NULL
+Discord=NULL
+MonsterFromText=True
+Translator=False
+
+[LoginServer]
+Port =9960
+DB = bd
+Password = P@ssw0rd
+
+[InternetPort]
+BackLog = 100
+ReceiveSize = 8191
+SendSize = 8191
+
+[Blowfish]
+Key=QW3P3M8ZQUbllpBZ
+
+[Database]
+Location=C:\Users\lukal\OneDrive\Desktop\Database\Database\
+CO2FOLDER=C:\Users\lukal\OneDrive\Desktop\Database\Database\
+ItemUID=1148847
+ClientUID=8042792
+Day=361
+
+[Tournaments]
+PkWarWinner=0
+MonthlyPKWar=0
+
+[TheChosenProject]
+TEST_CENTER=False
+MonsterFromText=True
+Translator=False
+
+[drop_chances]
+TEST_CENTER=False
+MonsterFromText=True
+Translator=False
+
+[QuestSolomon]
+TimeRealMonsterIsDead=638519171379770572

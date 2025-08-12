@@ -1,0 +1,1 @@
+[Trade]Trojan to Water trade CPS = 10000

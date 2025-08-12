@@ -1,0 +1,2 @@
+[CallStack]fffffff get 100000 he have 0
+[CallStack]fffffff lost 600 he have 100000

@@ -1,0 +1,9 @@
+----Exception message----
+Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+----End of exception message----
+
+----Stack trace----
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.Away(GameClient client, Packet msg, ActionQuery* data)
+   at TheChosenProject.Game.MsgServer.MsgDataPacket.Process(GameClient user, Packet stream)
+----End of stack trace----
+

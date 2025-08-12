@@ -1,0 +1,4 @@
+[CallStack]Mohamoud[PM] lost 200 he have 20000
+[CallStack]Trojan lost 10000 he have 92879
+[CallStack]Water get 10000 he have 0
+[CallStack]Water lost 60 he have 10000
