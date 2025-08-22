@@ -52,14 +52,14 @@ TestResults/
 *.bak
 *.swp
 *~
-# # Ignore build output
-# bin/
-# obj/
-# Debug/
-# Release/
+# Ignore build output
+bin/
+obj/
+Debug/
+Release/
 
-# # Ignore nested Debug/Release in subfolders
-# **/bin/
-# **/obj/
-# **/Debug/
-# **/Release/
+# Ignore nested Debug/Release in subfolders
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
