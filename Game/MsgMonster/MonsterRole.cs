@@ -549,39 +549,39 @@ namespace TheChosenProject.Game.MsgMonster
                     #endregion
                 }
                 #endregion
-                #region MeteorDove
-                if (Map == 1210)
-                {
-                    if (Family.ID == 8415)
-                    {
-                        if (Role.Core.Rate(0.001))
-                        {
-                            DropItemID(killer, Database.ItemType.DragonBall, stream);
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("A Dragonball was dropped by the meteordove monster by! " + killer.Player.Name + ".", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
-                        }
-                        else if (Role.Core.Rate(20))
-                        {
-                            DropItemID(killer, Database.ItemType.Meteor, stream);
-                        }
-                        else if (Role.Core.Rate(10))
-                        {
-                            for (int i = 0; i < 2; i++)
-                                DropItemID(killer, Database.ItemType.Meteor, stream);
-                        }
-                        else if (Role.Core.Rate(1))
-                        {
-                            for (int i = 0; i < 5; i++)
-                                DropItemID(killer, Database.ItemType.Meteor, stream);
-                        }
-                        else if (Role.Core.Rate(5))
-                        {
-                            for (int i = 0; i < 3; i++)
-                                DropItemID(killer, Database.ItemType.Meteor, stream);
-                        }
+                //#region MeteorDove
+                //if (Map == 1210)
+                //{
+                //    if (Family.ID == 8415)
+                //    {
+                //        if (Role.Core.Rate(0.001))
+                //        {
+                //            DropItemID(killer, Database.ItemType.DragonBall, stream);
+                //            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("A Dragonball was dropped by the meteordove monster by! " + killer.Player.Name + ".", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
+                //        }
+                //        else if (Role.Core.Rate(20))
+                //        {
+                //            DropItemID(killer, Database.ItemType.Meteor, stream);
+                //        }
+                //        else if (Role.Core.Rate(10))
+                //        {
+                //            for (int i = 0; i < 2; i++)
+                //                DropItemID(killer, Database.ItemType.Meteor, stream);
+                //        }
+                //        else if (Role.Core.Rate(1))
+                //        {
+                //            for (int i = 0; i < 5; i++)
+                //                DropItemID(killer, Database.ItemType.Meteor, stream);
+                //        }
+                //        else if (Role.Core.Rate(5))
+                //        {
+                //            for (int i = 0; i < 3; i++)
+                //                DropItemID(killer, Database.ItemType.Meteor, stream);
+                //        }
 
-                    }
-                }
-                #endregion
+                //    }
+                //}
+                //#endregion
                 #region SkyPass
                 if (Map == 1040)
                 {

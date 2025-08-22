@@ -62,7 +62,11 @@ namespace TheChosenProject.Game.MsgServer
                         else
                             user.CreateBoxDialog("You have not been Reborn twice or you are not level 110 ++");
                     }
+                    else
+                        user.CreateBoxDialog("You Oblivion Dew on your inventory!");
                 }
+                else
+                    user.CreateBoxDialog("You have select the wrong class its not born yet on this server!");
             }
             else user.CreateBoxDialog("You need 2 free spaces in your inventory.");
 

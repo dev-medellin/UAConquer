@@ -535,14 +535,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheChosenProject.exe" size="7833600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheChosenProject.exe" size="7840256">
       <assemblyIdentity name="TheChosenProject" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hGGX2rM9hz7D73XcKIqb+sRUnTZ6geOEdw6GLXRYLiQ=</dsig:DigestValue>
+        <dsig:DigestValue>MKJizhTLQDeYPngRfxZtNu0Qkeb7xGZJXVSidvkKq4s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

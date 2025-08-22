@@ -430,14 +430,9 @@ namespace TheChosenProject.Game.MsgTournaments
             }
             else
             {
-                using (RecycledPacket rec = new RecycledPacket())
+                foreach (var client in Database.Server.ServerMaps[1125].Values)
                 {
-                    Packet stream;
-                    stream = rec.GetStream();
-                    foreach (IMapObj user in Database.Server.ServerMaps[1125].View.Roles(MapObjectType.Player, Pole.X, Pole.Y))
-                    {
-                        user.Send(Pole.GetArray(stream, false));
-                    }
+                    client.Teleport(50, 50, 1005);
                 }
             }
         }
