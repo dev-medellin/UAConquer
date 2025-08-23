@@ -44960,3 +44960,82 @@
 [GMLogs]UA[OWNER] item 730002 0 0 0 0 0 2 
 [GMLogs]UA[OWNER] item 730002 0 0 0 0 0 2 
 [GMLogs]UA[OWNER] scroll tc 
+[GMLogs]Local[OWNER] item 203009 0 0 0 0 0 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] tele 5000 50 50 
+[GMLogs]Local[OWNER] scroll tc 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] money 5000000 
+[GMLogs]Local[OWNER] money 50000000 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] cps 0 
+[GMLogs]Local[OWNER] item 117025 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 117025 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 117045 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 1060090  
+[GMLogs]Local[OWNER] item 1060090 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 727946 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 151013 0 0 0 0 0 
+[GMLogs]Local[OWNER] tele 1002 417 353 
+[GMLogs]Local[OWNER] tele 1002 417 352 
+[GMLogs]Local[OWNER] tele 1002 416 352 
+[GMLogs]Local[OWNER] tele 1002 414 352 
+[GMLogs]Local[OWNER] tele 1002 413 352 
+[GMLogs]Local[OWNER] tele 1002 415 352 
+[GMLogs]Local[OWNER] tele 1002 415 353 
+[GMLogs]Local[OWNER] tele 1002 415 351 
+[GMLogs]Local[OWNER] tele 1020 531 512 
+[GMLogs]Local[OWNER] scroll tc 
+[GMLogs]Local[OWNER] item 191005 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 183475 0 0 0 0  
+[GMLogs]Local[OWNER] item 183475 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 194045 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 194875 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 194885 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 194795 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 117005 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 727946 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 151013 0 0 0 0 0 
+[GMLogs]Local[OWNER] cps 9999999 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] item 722384 0 0 0 0 0 10 
+[GMLogs]Local[OWNER] pack 
+[GMLogs]Local[OWNER] item 722385 0 0 0 0 0 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] item 182365 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 1060020 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 1060023 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 1060020 0 0 0 0 0 
+[GMLogs]Local[OWNER] tele 1036 240 255 
+[GMLogs]Local[OWNER] tele 8250 014 134 
+[GMLogs]Local[OWNER] item 721259 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 720299 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 182365 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 722385 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 722384 0 0 0 0 0 10 
+[GMLogs]Local[OWNER] item 723701 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 720299 0 0 0 0 0 
+[GMLogs]Local[OWNER] item 720299 0 0 0 0 0 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] str 176 
+[GMLogs]Local[OWNER] item 480343 0 0 0 0 0 
+[GMLogs]Local[OWNER] boss 1002 3737 
+[GMLogs]Local[OWNER] max_attack 999999 999999 
+[GMLogs]Local[OWNER] xp 
+[GMLogs]Local[OWNER] xp 
+[GMLogs]Local[OWNER] map 
+[GMLogs]Local[OWNER] life 
+[GMLogs]Local[OWNER] tele 1212 246 158 
+[GMLogs]Local[OWNER] tele 1121 246 158 
+[GMLogs]Local[OWNER] max_attack 999999 999999 
+[GMLogs]Local[OWNER] max_attack 999999 999999 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] max_attack 999999 999999 
+[GMLogs]Local[OWNER] max_attack 999999 999999 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] boss 1002 19890 
+[GMLogs]Local[OWNER] clear 
+[GMLogs]Local[OWNER] money 0 

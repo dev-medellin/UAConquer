@@ -14,34 +14,36 @@ namespace TheChosenProject.Struct
 {
     public struct TournamentsManager
     {
+        public static uint MaxStones = 5;
+        public static uint MaxVIP = 1;
         public static uint MaxGarment = 5;
         public static uint MaxRandomItem = 5;
-        public static uint MaxPenitence = 3;
+        public static uint MaxSuperTG = 1;
+        public static uint MaxRandomGem = 5;
         public static uint MaxAccessories = 5;
-        public static uint MaxLevelExpTimes = 5;
+        public static uint MaxClass5MoneyBag = 5;
+        public static uint MaxMegaMetsPack = 5;
+        public static uint MaxMegaDBPack = 5;
+        public static uint MaxPowerExpball = 5;
 
-        public static uint MaxPromotionStones = 3;
-        public static uint MaxDBPieces = 5;
-        public static uint MaxMagicBall = 5;
-        public static uint MaxGuildClan = 5;
+        public uint StonesTimes;
 
-
-        //ArtoksVersion
-        public uint PromotionStonesTimes;
-        public uint DBPiecesTimes;
-        public uint MagicBallTimes;
+        public uint VIPTimes;
 
         public uint GarmentTimes;
-        
+
         public uint RandomItemTimes;
-       
-        public uint PenitenceTimes;
-        
+
+        public uint SuperTGTimes;
+
         public uint AccessoriesTimes;
 
-        public uint GuildClanTimes;
+        public uint Class5MoneyBagTimes;
 
-        public uint LevelExpTimes;
+        public uint MegaMetsPackTimes;
+
+        public uint PowerExpballTimes;
+
 
         public void GetDB(TournamentsManager _db)
         {
@@ -50,14 +52,15 @@ namespace TheChosenProject.Struct
 
         public void Reset()
         {
-            GuildClanTimes = 0;
-            DBPiecesTimes = 0;
-            LevelExpTimes = 0;
-            PromotionStonesTimes = 0;
+            StonesTimes = 0;
+            VIPTimes = 0;
             GarmentTimes = 0;
             RandomItemTimes = 0;
-            PenitenceTimes = 0;
+            SuperTGTimes = 0;
             AccessoriesTimes = 0;
+            Class5MoneyBagTimes = 0;
+            MegaMetsPackTimes = 0;
+            PowerExpballTimes = 0;
 
         }
 
@@ -65,36 +68,71 @@ namespace TheChosenProject.Struct
         {
             switch (id)
             {
-                case 9991:
-                    if (client.Player.TournamentsPoints >= 20)
+                #region Stone +3
+                case 1002:
                     {
-                        client.Player.TournamentsPoints -= 20;
-
-                        client.TournamentsManager.LevelExpTimes += 1;
-
-                        using (RecycledPacket rec = new RecycledPacket())
+                        if (client.Player.TournamentsPoints >= 30)
                         {
-                            Packet stream;//10
-                            stream = rec.GetStream();
+                            client.Player.TournamentsPoints -= 30;
+
+                            client.TournamentsManager.StonesTimes += 1;
+
+                            using (RecycledPacket rec = new RecycledPacket())
+                            {
+                                Packet stream;//10
+                                stream = rec.GetStream();
 
 
-                            client.Inventory.Add(stream, 722057, 1, 0, 0, 0);//PowerBall
+                                client.Inventory.Add(stream, 730003, 1, 0, 0, 0);//1xStone+3
 
-                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained PowerExpBall ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Stone +3 ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
+                            }
+                            client.SendSysMesage($"[Events Points] You just gained Stone +3 ! from [Events Points Manager]!");
+
+                            using (var rec = new ServerSockets.RecycledPacket())
+                            {
+                                var stream = rec.GetStream();
+                                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
+
+                            }
                         }
-                        client.SendSysMesage($"[Events Points] You just gained PowerExpBall ! from [Events Points Manager]!");
-
-                        using (var rec = new ServerSockets.RecycledPacket())
-                        {
-                            var stream = rec.GetStream();
-                            client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
-
-                        }
+                        else
+                            client.SendSysMesage("You don`t have enough points.");
+                        break;
                     }
-                    else
-                        client.SendSysMesage("You don`t have enough points.");
-                    break;
+                #endregion
+                #region VIP-1H
+                case 1011:
+                    {
+                        if (client.Player.TournamentsPoints >= 30)
+                        {
+                            client.Player.TournamentsPoints -= 30;
+                            client.TournamentsManager.VIPTimes += 1;
+
+                            using (RecycledPacket rec = new RecycledPacket())
+                            {
+                                Packet stream;//13
+                                stream = rec.GetStream();
+                                client.Inventory.Add(stream, 780010, 1, 0, 0, 0);//vip 1 hour
+
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained VIP-1H ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+
+                            }
+                            client.SendSysMesage($"[Events Points] You just gained VIP-1H ! from [Events Points Manager]!");
+
+                            using (var rec = new ServerSockets.RecycledPacket())
+                            {
+                                var stream = rec.GetStream();
+                                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
+
+                            }
+                        }
+                        else
+                            client.SendSysMesage("You don`t have enough points.");
+                        break;
+                    }
+                #endregion
                 #region garments
                 case 1020:
                     {
@@ -162,23 +200,23 @@ namespace TheChosenProject.Struct
                         }
                     }
                 #endregion
-                #region Penitence
+                #region Super TG
                 case 1015:
                     {
-                        if (client.Player.TournamentsPoints >= 10)
+                        if (client.Player.TournamentsPoints >= 90)
                         {
-                            client.Player.TournamentsPoints -= 10;
-                            client.TournamentsManager.PenitenceTimes += 1;
+                            client.Player.TournamentsPoints -= 90;
+                            client.TournamentsManager.SuperTGTimes += 1;
 
                             using (RecycledPacket rec = new RecycledPacket())
                             {
                                 Packet stream;//13
                                 stream = rec.GetStream();
-                                client.Inventory.Add(stream, 720128, 1, 0, 0, 0);//PenitenceAmulet x1
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained PenitenceAmulet ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                client.Inventory.Add(stream, 700073, 1, 0, 0, 0);//1xSuperGem tg
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Super TortoiseGem ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                             }
-                            client.SendSysMesage($"[Events Points] You just gained PenitenceAmulet ! from [Events Points Manager]!");
+                            client.SendSysMesage($"[Events Points] You just gained Super TortoiseGem ! from [Events Points Manager]!");
 
                             using (var rec = new ServerSockets.RecycledPacket())
                             {
@@ -228,143 +266,14 @@ namespace TheChosenProject.Struct
                         break;
                     }
                 #endregion
-                #region MagicBall
-                //case 10021:
-                //    {
-                //        if (client.Player.TournamentsPoints >= 10)
-                //        {
-                //            client.Player.TournamentsPoints -= 10;
-                //            client.TournamentsManager.MagicBallTimes += 1;
-
-
-                //            using (RecycledPacket rec = new RecycledPacket())
-                //            {
-                //                Packet stream;//10
-                //                stream = rec.GetStream();
-
-
-                //                client.Inventory.Add(stream, 720668, 1, 0, 0, 0);//MagicBall
-
-                //                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained MagicBall[EXP] ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-
-                //            }
-                //            client.SendSysMesage($"[Events Points] You just gained MagicBall[EXP] ! from [Events Points Manager]!");
-
-                //            using (var rec = new ServerSockets.RecycledPacket())
-                //            {
-                //                var stream = rec.GetStream();
-                //                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
-
-                //            }
-                //        }
-                //        else
-                //            client.SendSysMesage("You don`t have enough points.");
-                //        break;
-                //    }
-                #endregion
-                case 810032:
-                    {
-                        if (client.Player.TournamentsPoints >= 20)
-                        {
-                            client.Player.TournamentsPoints -= 20;
-
-                            client.TournamentsManager.PromotionStonesTimes += 1;
-
-                            using (RecycledPacket rec = new RecycledPacket())
-                            {
-                                Packet stream;//10
-                                stream = rec.GetStream();
-
-
-                                client.Inventory.Add(stream, 810032, 1, 0, 0, 0);//PromotionStones(Valor)
-
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Valorstone ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-
-                            }
-                            client.SendSysMesage($"[Events Points] You just gained Valorstone ! from [Events Points Manager]!");
-
-                            using (var rec = new ServerSockets.RecycledPacket())
-                            {
-                                var stream = rec.GetStream();
-                                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
-
-                            }
-                        }
-                        else
-                            client.SendSysMesage("You don`t have enough points.");
-                        break;
-                    }
-                case 810033:
-                    {
-                        if (client.Player.TournamentsPoints >= 20)
-                        {
-                            client.Player.TournamentsPoints -= 20;
-
-                            client.TournamentsManager.PromotionStonesTimes += 1;
-
-                            using (RecycledPacket rec = new RecycledPacket())
-                            {
-                                Packet stream;//10
-                                stream = rec.GetStream();
-
-
-                                client.Inventory.Add(stream, 810033, 1, 0, 0, 0);//PromotionStones(Valor)
-
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Windshard ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-
-                            }
-                            client.SendSysMesage($"[Events Points] You just gained Windshard ! from [Events Points Manager]!");
-
-                            using (var rec = new ServerSockets.RecycledPacket())
-                            {
-                                var stream = rec.GetStream();
-                                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
-
-                            }
-                        }
-                        else
-                            client.SendSysMesage("You don`t have enough points.");
-                        break;
-                    }
-                case 810034:
-                    {
-                        if (client.Player.TournamentsPoints >= 20)
-                        {
-                            client.Player.TournamentsPoints -= 20;
-
-                            client.TournamentsManager.PromotionStonesTimes += 1;
-
-                            using (RecycledPacket rec = new RecycledPacket())
-                            {
-                                Packet stream;//10
-                                stream = rec.GetStream();
-
-
-                                client.Inventory.Add(stream, 810034, 1, 0, 0, 0);//PromotionStones(Valor)
-
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Mystara ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-
-                            }
-                            client.SendSysMesage($"[Events Points] You just gained Mystara ! from [Events Points Manager]!");
-
-                            using (var rec = new ServerSockets.RecycledPacket())
-                            {
-                                var stream = rec.GetStream();
-                                client.Player.SendString(stream, MsgStringPacket.StringID.Effect, true, "perfect");
-
-                            }
-                        }
-                        else
-                            client.SendSysMesage("You don`t have enough points.");
-                        break;
-                    }
-                case 710834:
+                #region PowerExpball
+                case 10021:
                     {
                         if (client.Player.TournamentsPoints >= 10)
                         {
                             client.Player.TournamentsPoints -= 10;
+                            client.TournamentsManager.PowerExpballTimes += 1;
 
-                            client.TournamentsManager.DBPiecesTimes += 1;
 
                             using (RecycledPacket rec = new RecycledPacket())
                             {
@@ -372,12 +281,12 @@ namespace TheChosenProject.Struct
                                 stream = rec.GetStream();
 
 
-                                client.Inventory.Add(stream, 1088000, 1, 0, 0, 0);//DragonballPiece
+                                client.Inventory.Add(stream, 722057, 1, 0, 0, 0);//PowerExpball
 
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Dragonball ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained PowerExpball ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                             }
-                            client.SendSysMesage($"[Events Points] You just gained Dragonball ! from [Events Points Manager]!");
+                            client.SendSysMesage($"[Events Points] You just gained PowerExpball ! from [Events Points Manager]!");
 
                             using (var rec = new ServerSockets.RecycledPacket())
                             {
@@ -390,13 +299,14 @@ namespace TheChosenProject.Struct
                             client.SendSysMesage("You don`t have enough points.");
                         break;
                     }
-                case 2095:
+                #endregion
+                #region MegaMetsPack
+                case 10111:
                     {
-                        if (client.Player.TournamentsPoints >= 25)
+                        if (client.Player.TournamentsPoints >= 10)
                         {
-                            client.Player.TournamentsPoints -= 25;
-
-                            client.TournamentsManager.GuildClanTimes += 1;
+                            client.Player.TournamentsPoints -= 10;
+                            client.TournamentsManager.MegaMetsPackTimes += 1;
 
                             using (RecycledPacket rec = new RecycledPacket())
                             {
@@ -404,12 +314,12 @@ namespace TheChosenProject.Struct
                                 stream = rec.GetStream();
 
 
-                                client.Inventory.Add(stream, 102095, 1, 0, 0, 0);//GuildCertificate
+                                client.Inventory.Add(stream, 720547, 1, 0, 0, 0);//MegaMetsPack
 
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Guild Certificate ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained MegaMetsPack ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                             }
-                            client.SendSysMesage($"[Events Points] You just gained Guild Certificate ! from [Events Points Manager]!");
+                            client.SendSysMesage($"[Events Points] You just gained MegaMetsPack ! from [Events Points Manager]!");
 
                             using (var rec = new ServerSockets.RecycledPacket())
                             {
@@ -422,13 +332,15 @@ namespace TheChosenProject.Struct
                             client.SendSysMesage("You don`t have enough points.");
                         break;
                     }
-                case 0031:
+                #endregion
+                #region Class5MoneyBag
+                case 10201:
                     {
-                        if (client.Player.TournamentsPoints >= 25)
+                        if (client.Player.TournamentsPoints >= 15)
                         {
-                            client.Player.TournamentsPoints -= 25;
+                            client.Player.TournamentsPoints -= 15;
 
-                            client.TournamentsManager.GuildClanTimes += 1;
+                            client.TournamentsManager.Class5MoneyBagTimes += 1;
 
                             using (RecycledPacket rec = new RecycledPacket())
                             {
@@ -436,12 +348,12 @@ namespace TheChosenProject.Struct
                                 stream = rec.GetStream();
 
 
-                                client.Inventory.Add(stream, 810031, 1, 0, 0, 0);//GuildCertificate
+                                client.Inventory.Add(stream, 723717, 1, 0, 0, 0);//MegaDBPack
 
-                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Clan Certificate ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                                Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("[Events Points]" + client.Player.Name + " You just gained Class5MoneyBag ! from [Events Points Manager]!", Game.MsgServer.MsgMessage.MsgColor.white, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
 
                             }
-                            client.SendSysMesage($"[Events Points] You just gained Clan Certificate ! from [Events Points Manager]!");
+                            client.SendSysMesage($"[Events Points] You just gained Class5MoneyBag ! from [Events Points Manager]!");
 
                             using (var rec = new ServerSockets.RecycledPacket())
                             {
@@ -454,6 +366,8 @@ namespace TheChosenProject.Struct
                             client.SendSysMesage("You don`t have enough points.");
                         break;
                     }
+                    #endregion
+
             }
         }
 

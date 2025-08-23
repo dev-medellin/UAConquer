@@ -30,7 +30,7 @@ namespace TheChosenProject
     public static byte MONSTER_SPWANS = 3;
     public static bool MonsterFromText = false;
     public static bool MonsterDBSpawn = false;
-    public static string XtremeTopLink = "https://www.xtremetop100.com/in.php?site=1132377271";
+    public static string XtremeTopLink = "https://www.xtremetop100.com/in.php?site=1132377669";
     public static readonly int[] MONEY_MONSTER_DROP_RATE = new int[2]
     {
       100,

@@ -2499,14 +2499,13 @@ namespace TheChosenProject.Game.MsgNpc
                         data.AddText("\n=================== TOURNAMENT STATUS ===================");
                         data.AddText("\n         >> You have: " + client.Player.TournamentsPoints + " Tournament Points <<");
                         data.AddText("\n==========================================================");
-                        //data.AddOption("Claim PromotionStones:[" + client.TournamentsManager.PromotionStonesTimes + "/3]", 1);
-                        data.AddOption("Claim DragonBall:[" + client.TournamentsManager.DBPiecesTimes + "/5]", 4);
-                        data.AddOption("Claim PenetienceAmulet:[" + client.TournamentsManager.PenitenceTimes + "/3]", 28);
-                        data.AddOption("Claim Certificates:[" + client.TournamentsManager.GuildClanTimes + "/5]", 31);
-                        data.AddOption("Claim 10% EXP Level 131 - 137:[" + client.TournamentsManager.LevelExpTimes + "/5]", 31);
-                        //data.AddOption("Claim RandomGarment:[" + client.TournamentsManager.GarmentTimes + "/5]", 7);
-                        //data.AddOption("Claim MagicBall[EXP]:[" + client.TournamentsManager.MagicBallTimes + "/5]", 41);
-                        //data.AddOption("Next Page, Please!", 40);
+                        data.AddOption("Claim +3Stone:[" + client.TournamentsManager.StonesTimes + "/5]", 1);
+                        data.AddOption("Claim VIP 1H:[" + client.TournamentsManager.VIPTimes + "/1]", 4);
+                        data.AddOption("Claim Garment:[" + client.TournamentsManager.GarmentTimes + "/5]", 7);
+                        data.AddOption("Claim PLus items:[" + client.TournamentsManager.RandomItemTimes + "/5]", 10);
+                        data.AddOption("Claim (S)TortoiseGem:[" + client.TournamentsManager.SuperTGTimes + "/1]", 13);
+                        data.AddOption("Claim Accessories:[" + client.TournamentsManager.AccessoriesTimes + "/5]", 16);
+                        data.AddOption("Next Page", 40);
                         data.AddOption("I`ll~think~it~over.", 255);
                         data.AddAvatar(60);
                         data.FinalizeDialog();
@@ -2525,16 +2524,14 @@ namespace TheChosenProject.Game.MsgNpc
                         //    data.FinalizeDialog();
                         //    break;
                         //}
-                        data.AddText("\n# You can claim PromotionStones (Valorstone, Winshard, and Mystara), what do you want to select? #");
+                        data.AddText("\n                # you about to claim a stone +3 #");
                         data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n Your attempts: " + client.TournamentsManager.PromotionStonesTimes + " / 3");
-                        data.AddText("\n Requiered Points: 20");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.StonesTimes + " / 5");
+                        data.AddText("\n Requiered Points: 30");
                         data.AddText("\n# ======================================================= #.");
                         data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
                         data.AddText("\n# ======================================================= #.");
-                        data.AddOption("I want Valorstone now.", 3);
-                        data.AddOption("I want Winshard now.", 13);
-                        data.AddOption("I want Mystara now.", 23);
+                        data.AddOption("Exchange now.", 3);
                         data.AddOption("I`ll~think~it~over.", 255);
                         data.AddAvatar(60);
                         data.FinalizeDialog();
@@ -2542,7 +2539,7 @@ namespace TheChosenProject.Game.MsgNpc
                     }
                 case 3:
                     {
-                        if (client.TournamentsManager.PromotionStonesTimes >= 3 && Struct.TournamentsManager.MaxPromotionStones <= 3)
+                        if (client.TournamentsManager.StonesTimes == 5 && Struct.TournamentsManager.MaxStones <= 5)
                         {
                             data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
                             data.AddOption("Alright", 255);
@@ -2553,47 +2550,7 @@ namespace TheChosenProject.Game.MsgNpc
 
                         if (client.Inventory.HaveSpace(1))
                         {
-                            Struct.TournamentsManager.Reward(client, 810032);
-                        }
-                        else
-                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
-
-                        break;
-                    }
-                case 13:
-                    {
-                        if (client.TournamentsManager.PromotionStonesTimes == 3 && Struct.TournamentsManager.MaxPromotionStones <= 3)
-                        {
-                            data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
-                            data.AddOption("Alright", 255);
-                            data.AddAvatar(60);
-                            data.FinalizeDialog();
-                            break;
-                        }
-
-                        if (client.Inventory.HaveSpace(1))
-                        {
-                            Struct.TournamentsManager.Reward(client, 810033);
-                        }
-                        else
-                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
-
-                        break;
-                    }
-                case 23:
-                    {
-                        if (client.TournamentsManager.PromotionStonesTimes == 3 && Struct.TournamentsManager.MaxPromotionStones <= 3)
-                        {
-                            data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
-                            data.AddOption("Alright", 255);
-                            data.AddAvatar(60);
-                            data.FinalizeDialog();
-                            break;
-                        }
-
-                        if (client.Inventory.HaveSpace(1))
-                        {
-                            Struct.TournamentsManager.Reward(client, 810034);
+                            Struct.TournamentsManager.Reward(client, 1002);
                         }
                         else
                             client.SendSysMesage("There`s not enough space (1) in your inventory.");
@@ -2602,7 +2559,7 @@ namespace TheChosenProject.Game.MsgNpc
                     }
 
                 #endregion Stone
-                #region DragonBallPiece
+                #region vip
 
                 case 4:
                     {
@@ -2614,10 +2571,10 @@ namespace TheChosenProject.Game.MsgNpc
                         //    data.FinalizeDialog();
                         //    break;
                         //}
-                        data.AddText("\n# You can claim and get x1 DragonBall. #");
+                        data.AddText("\n                # you about to claim a VIP 6 1-h #");
                         data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n Your attempts: " + client.TournamentsManager.DBPiecesTimes + " / 5");
-                        data.AddText("\n Requiered Points: 10");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.VIPTimes + " / 1");
+                        data.AddText("\n Requiered Points: 30");
                         data.AddText("\n# ======================================================= #.");
                         data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
                         data.AddText("\n# ======================================================= #.");
@@ -2629,7 +2586,7 @@ namespace TheChosenProject.Game.MsgNpc
                     }
                 case 5:
                     {
-                        if (client.TournamentsManager.DBPiecesTimes == 5 && Struct.TournamentsManager.MaxDBPieces <= 5)
+                        if (client.TournamentsManager.VIPTimes == 1 && Struct.TournamentsManager.MaxVIP <= 1)
                         {
                             data.AddText("You've already reach the limit of VIP today, please come back tomorrow.");
                             data.AddOption("Alright", 255);
@@ -2640,7 +2597,7 @@ namespace TheChosenProject.Game.MsgNpc
 
                         if (client.Inventory.HaveSpace(1))
                         {
-                            Struct.TournamentsManager.Reward(client, 710834);
+                            Struct.TournamentsManager.Reward(client, 1011);
                         }
                         else
                             client.SendSysMesage("There`s not enough space (1) in your inventory.");
@@ -2742,6 +2699,53 @@ namespace TheChosenProject.Game.MsgNpc
                     }
 
                 #endregion
+                #region Super Tortoise Gem 
+
+                case 13:
+                    {
+                        //if (client.TournamentsManager.SuperTGTimes == 3)
+                        //{
+                        //    data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
+                        //    data.AddOption("Alright", 255);
+                        //    data.AddAvatar(60);
+                        //    data.FinalizeDialog();
+                        //    break;
+                        //}
+                        data.AddText("\n         # you about to claim a Super Tortoise Gem #");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.SuperTGTimes + " / 1");
+                        data.AddText("\n Requiered Points: 90");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddOption("Exchange now.", 14);
+                        data.AddOption("I`ll~think~it~over.", 255);
+                        data.AddAvatar(60);
+                        data.FinalizeDialog();
+                        break;
+                    }
+                case 14:
+                    {
+                        if (client.TournamentsManager.SuperTGTimes == 1 && Struct.TournamentsManager.MaxSuperTG <= 1)
+                        {
+                            data.AddText("You've already reach the limit of Tortoise Gem today, please come back tomorrow.");
+                            data.AddOption("Alright", 255);
+                            data.AddAvatar(60);
+                            data.FinalizeDialog();
+                            break;
+                        }
+
+                        if (client.Inventory.HaveSpace(1))
+                        {
+                            Struct.TournamentsManager.Reward(client, 1015);
+                        }
+                        else
+                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
+
+                        break;
+                    }
+
+                #endregion
                 #region AccessoriesTimes
 
                 case 16:
@@ -2789,10 +2793,36 @@ namespace TheChosenProject.Game.MsgNpc
                     }
 
                 #endregion
-                #region Penitence
-                case 28:
+                #region next page
+                case 40:
                     {
-                        //if (client.TournamentsManager.GarmentTimes == 3)
+                        data.AddText($"Hello, little warrior I hope you are doing well!\nI would like to introduce you to the OP Manager");
+                        data.AddText("\n            # Requiered City (Twincity) #");
+                        data.AddText("\nEvery minute you stay online, worth a rewards in our server.");
+                        data.AddText("\nOnce you have the type of minutes,\nyou can get your awsome rewards.");
+                        data.AddText("\n       # Remember u just have limited attempts #");
+                        data.AddText("\n# ------------------------------------------------------- #.");
+                        data.AddText("\n                # all OP rewards #");
+                        data.AddText("\n        (+3)Stone, (1-H)VIP6, Class5MoneyBag,");
+                        data.AddText("\n        MegaDBPack, MegaMetsPack, PLUS +3 items,");
+                        data.AddText("\n        TortoiseGem, Accessories, Garment,");
+                        data.AddText("\n# ------------------------------------------------------- #.");
+                        data.AddText("\n          #You have: [" + client.Player.TournamentsPoints + "] TournamentsPoints#");
+                        data.AddOption("Claim PowerExpball:[" + client.TournamentsManager.PowerExpballTimes + "/5]", 41);
+                        data.AddOption("Claim MegaMetsPack:[" + client.TournamentsManager.MegaMetsPackTimes + "/5]", 44);
+                        data.AddOption("Claim Class5MoneyBag:[" + client.TournamentsManager.Class5MoneyBagTimes + "/5]", 47);
+                        data.AddOption("Previous page", 0);
+                        data.AddOption("I`ll~think~it~over.", 255);
+                        data.AddAvatar(60);
+                        data.FinalizeDialog();
+                        break;
+                    }
+                #endregion
+                #region PowerExpball
+
+                case 41:
+                    {
+                        //if (client.TournamentsManager.StonesTimes == 3)
                         //{
                         //    data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
                         //    data.AddOption("Alright", 255);
@@ -2800,156 +2830,24 @@ namespace TheChosenProject.Game.MsgNpc
                         //    data.FinalizeDialog();
                         //    break;
                         //}
-                        data.AddText("\n# You can claim PenitenceAmulet, you can clear all your sins! #");
+                        data.AddText("\n                # you about to claim a PowerExpball #");
                         data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n Your attempts: " + client.TournamentsManager.PenitenceTimes + "/3");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.PowerExpballTimes + "/5");
                         data.AddText("\n Requiered Points: 10");
                         data.AddText("\n# ======================================================= #.");
                         data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
                         data.AddText("\n# ======================================================= #.");
-                        data.AddOption("Exchange now.", 29);
+                        data.AddOption("Exchange now.", 43);
                         data.AddOption("I`ll~think~it~over.", 255);
                         data.AddAvatar(60);
                         data.FinalizeDialog();
                         break;
                     }
-                case 29:
+                case 43:
                     {
-                        if (client.TournamentsManager.PenitenceTimes == 5 && Struct.TournamentsManager.MaxPenitence <= 5)
+                        if (client.TournamentsManager.PowerExpballTimes == 5 && Struct.TournamentsManager.MaxPowerExpball <= 5)
                         {
-                            data.AddText("You've already reach the limit of Penitence Amulet today, please come back tomorrow.");
-                            data.AddOption("Alright", 255);
-                            data.AddAvatar(60);
-                            data.FinalizeDialog();
-                            break;
-                        }
-
-                        if (client.Inventory.HaveSpace(1))
-                        {
-                            Struct.TournamentsManager.Reward(client, 1015);
-                        }
-                        else
-                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
-
-                        break;
-                    }
-                #endregion
-                #region Certificates
-                case 31:
-                    {
-                        //if (client.TournamentsManager.GarmentTimes == 3)
-                        //{
-                        //    data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
-                        //    data.AddOption("Alright", 255);
-                        //    data.AddAvatar(60);
-                        //    data.FinalizeDialog();
-                        //    break;
-                        //}
-                        data.AddText("\n# You can claim PowerExpBall to add 10% of your experience! #");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n Your attempts: " + client.TournamentsManager.LevelExpTimes + "/5");
-                        data.AddText("\n Requiered Points: 25");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddOption("Exchange to PowerExpBall.", 32);
-                        //data.AddOption("Exchange to Clan Certificate.", 33);
-                        data.AddOption("I`ll~think~it~over.", 255);
-                        data.AddAvatar(60);
-                        data.FinalizeDialog();
-                        break;
-                    }
-                case 32:
-                    {
-                        if (client.TournamentsManager.LevelExpTimes == 5 && Struct.TournamentsManager.MaxLevelExpTimes <= 5)
-                        {
-                            data.AddText("You've already reach the limit of PowerExpBall today, please come back tomorrow.");
-                            data.AddOption("Alright", 255);
-                            data.AddAvatar(60);
-                            data.FinalizeDialog();
-                            break;
-                        }
-
-                        if (client.Inventory.HaveSpace(1))
-                        {
-                            Struct.TournamentsManager.Reward(client, 9991);
-                        }
-                        else
-                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
-
-                        break;
-                    }
-                case 33:
-                    {
-                        if (client.TournamentsManager.GuildClanTimes == 5 && Struct.TournamentsManager.MaxGuildClan <= 5)
-                        {
-                            data.AddText("You've already reach the limit of Clan Certificate today, please come back tomorrow.");
-                            data.AddOption("Alright", 255);
-                            data.AddAvatar(60);
-                            data.FinalizeDialog();
-                            break;
-                        }
-
-                        if (client.Inventory.HaveSpace(1))
-                        {
-                            Struct.TournamentsManager.Reward(client, 0031);
-                        }
-                        else
-                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
-
-                        break;
-                    }
-                #endregion
-                #region NextPage
-                case 40:
-                    {
-                        data.AddText("Hello! I hope you are doing well.\nAllow me to introduce you to the TournamentsPoints Manager.");
-                        data.AddText("\n# TournamentsPoints are not collected with Auto/offline modes #");
-                        data.AddText("\nEvery time you participate tournaments events and won the rewards on our server.");
-                        data.AddText("\nOnce you've accumulated enough minutes,\nyou can claim your awesome rewards.");
-                        data.AddText("\n# Remember, you have limited attempts #");
-                        data.AddText("\n# ------------------------------------------------------- #.");
-                        data.AddText("\n          #You have: [" + client.Player.TournamentsPoints + "] TournamentsPoints#");
-                        data.AddText("\n# ------------------------------------------------------- #.");
-                        //data.AddOption("Claim Plus items:[" + client.TournamentsManager.RandomItemTimes + "/5]", 10);
-                        data.AddOption("Claim PenetienceAmulet:[" + client.TournamentsManager.PenitenceTimes + "/3]", 28);
-                        data.AddOption("Claim RandomAccessories:[" + client.TournamentsManager.AccessoriesTimes + "/5]", 16);
-                        data.AddOption("Claim Certificates:[" + client.TournamentsManager.GuildClanTimes + "/5]", 31);
-                        data.AddOption("Previous page", 100);
-                        data.AddAvatar(60);
-                        data.FinalizeDialog();
-                        break;
-                    }
-                #endregion
-                #region MagicBall
-                case 41:
-                    {
-                        //if (client.TournamentsManager.GarmentTimes == 3)
-                        //{
-                        //    data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
-                        //    data.AddOption("Alright", 255);
-                        //    data.AddAvatar(60);
-                        //    data.FinalizeDialog();
-                        //    break;
-                        //}
-                        data.AddText("\n# You can claim Magic Ball,use to make a bomb or promote your Archer! #");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n Your attempts: " + client.TournamentsManager.MagicBallTimes + "/3");
-                        data.AddText("\n Requiered Points: 5");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
-                        data.AddText("\n# ======================================================= #.");
-                        data.AddOption("Exchange now.", 42);
-                        data.AddOption("I`ll~think~it~over.", 255);
-                        data.AddAvatar(60);
-                        data.FinalizeDialog();
-                        break;
-                    }
-                case 42:
-                    {
-                        if (client.TournamentsManager.MagicBallTimes == 5 && Struct.TournamentsManager.MaxMagicBall <= 5)
-                        {
-                            data.AddText("You've already reach the limit of MagicBall today, please come back tomorrow.");
+                            data.AddText("You've already reach the limit of PowerExpball today, please come back tomorrow.");
                             data.AddOption("Alright", 255);
                             data.AddAvatar(60);
                             data.FinalizeDialog();
@@ -2959,6 +2857,98 @@ namespace TheChosenProject.Game.MsgNpc
                         if (client.Inventory.HaveSpace(1))
                         {
                             Struct.TournamentsManager.Reward(client, 10021);
+                        }
+                        else
+                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
+
+                        break;
+                    }
+
+                #endregion
+                #region MegaMetsPack
+                case 44:
+                    {
+                        //if (client.TournamentsManager.VIPTimes == 3)
+                        //{
+                        //    data.AddText("You've already reach the limit of VIP today, please come back tomorrow.");
+                        //    data.AddOption("Alright", 255);
+                        //    data.AddAvatar(60);
+                        //    data.FinalizeDialog();
+                        //    break;
+                        //}
+                        data.AddText("\n                # you about to claim a MegaMetsPack #");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.MegaMetsPackTimes + "/5");
+                        data.AddText("\n Requiered Points: 10");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddOption("Exchange now.", 45);
+                        data.AddOption("I`ll~think~it~over.", 255);
+                        data.AddAvatar(60);
+                        data.FinalizeDialog();
+                        break;
+                    }
+                case 45:
+                    {
+                        if (client.TournamentsManager.MegaMetsPackTimes == 5 && Struct.TournamentsManager.MaxMegaMetsPack <= 5)
+                        {
+                            data.AddText("You've already reach the limit of MegaMetsPack today, please come back tomorrow.");
+                            data.AddOption("Alright", 255);
+                            data.AddAvatar(60);
+                            data.FinalizeDialog();
+                            break;
+                        }
+
+                        if (client.Inventory.HaveSpace(1))
+                        {
+                            Struct.TournamentsManager.Reward(client, 10111);
+                        }
+                        else
+                            client.SendSysMesage("There`s not enough space (1) in your inventory.");
+
+                        break;
+                    }
+
+                #endregion
+                #region Class5MoneyBag
+                case 47:
+                    {
+                        //if (client.TournamentsManager.GarmentTimes == 3)
+                        //{
+                        //    data.AddText("You've already reach the limit of stone today, please come back tomorrow.");
+                        //    data.AddOption("Alright", 255);
+                        //    data.AddAvatar(60);
+                        //    data.FinalizeDialog();
+                        //    break;
+                        //}
+                        data.AddText("\n                # you about to claim a Class5MoneyBag #");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n Your attempts: " + client.TournamentsManager.Class5MoneyBagTimes + "/5");
+                        data.AddText("\n Requiered Points: 15");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddText("\n You have: " + client.Player.TournamentsPoints + " TournamentsPoints");
+                        data.AddText("\n# ======================================================= #.");
+                        data.AddOption("Exchange now.", 48);
+                        data.AddOption("I`ll~think~it~over.", 255);
+                        data.AddAvatar(60);
+                        data.FinalizeDialog();
+                        break;
+                    }
+                case 48:
+                    {
+                        if (client.TournamentsManager.Class5MoneyBagTimes == 5 && Struct.TournamentsManager.MaxClass5MoneyBag <= 5)
+                        {
+                            data.AddText("You've already reach the limit of Class5MoneyBag today, please come back tomorrow.");
+                            data.AddOption("Alright", 255);
+                            data.AddAvatar(60);
+                            data.FinalizeDialog();
+                            break;
+                        }
+
+                        if (client.Inventory.HaveSpace(1))
+                        {
+                            Struct.TournamentsManager.Reward(client, 10201);
                         }
                         else
                             client.SendSysMesage("There`s not enough space (1) in your inventory.");
@@ -4060,49 +4050,49 @@ namespace TheChosenProject.Game.MsgNpc
                             data.FinalizeDialog();
                             break;
                         }
-                        //if (!Program.MacJoin.ContainsKey(client.OnLogin.MacAddress))
-                        //{
-
-                        if (client.Player.Money >= 2000000)
+                        if (!Program.MacJoin.ContainsKey(client.OnLogin.MacAddress))
                         {
-                            client.Player.Money -= 2000000;
-                            client.Teleport(148, 150, 1121);
-                            //Program.MacJoin.Add(client.OnLogin.MacAddress, client.Player.Name);
-                            data.AddText("\n# ------------------------------------------------------- #.");
-                            data.AddText("\n                [NOTE: SURVIVAL IS KEY]");
-                            data.AddText("If you fall in battle, you will forfeit the 20k CPs you paid to enter and any items in your inventory. Make sure not to carry anything valuable, or you risk losing it all.");
-                            data.AddText("\n# ------------------------------------------------------- #.");
-                            data.AddOption("Deal.", byte.MaxValue);
-                            data.AddAvatar(84).FinalizeDialog();
-                        }
-                        else client.SendSysMesage("You don't have fees to join please make sure that you have 2,000,000 ConquerMoney.");
 
-                        //}
-                        //else client.CreateBoxDialog($"You can't join a event while you have other player ({Program.MacJoin[client.OnLogin.MacAddress]}) joined to this event.");
+                            if (client.Player.Money >= 2000000)
+                            {
+                                client.Player.Money -= 2000000;
+                                client.Teleport(148, 150, 1121);
+                                Program.MacJoin.Add(client.OnLogin.MacAddress, client.Player.Name);
+                                data.AddText("\n# ------------------------------------------------------- #.");
+                                data.AddText("\n                [NOTE: SURVIVAL IS KEY]");
+                                data.AddText("If you fall in battle, you will forfeit the 20k CPs you paid to enter and any items in your inventory. Make sure not to carry anything valuable, or you risk losing it all.");
+                                data.AddText("\n# ------------------------------------------------------- #.");
+                                data.AddOption("Deal.", byte.MaxValue);
+                                data.AddAvatar(84).FinalizeDialog();
+                            }
+                            else client.SendSysMesage("You don't have fees to join please make sure that you have 2,000,000 ConquerMoney.");
+
+                        }
+                            else client.CreateBoxDialog($"You can't join a event while you have other player ({Program.MacJoin[client.OnLogin.MacAddress]}) joined to this event.");
                         break;
                     }
                 case 88:
                     {
 
-                        //if (!Program.MacJoin.ContainsKey(client.OnLogin.MacAddress))
-                        //{
-
-                        if (client.Player.Money >= 2000000)
+                        if (!Program.MacJoin.ContainsKey(client.OnLogin.MacAddress))
                         {
-                            client.Player.Money -= 2000000;
-                            client.Teleport(148, 150, 1121);
-                            //Program.MacJoin.Add(client.OnLogin.MacAddress, client.Player.Name);
-                            data.AddText("\n# ------------------------------------------------------- #.");
-                            data.AddText("\n                [NOTE: SURVIVAL IS KEY]");
-                            data.AddText("If you fall in battle, you will forfeit the 20k CPs you paid to enter and any items in your inventory. Make sure not to carry anything valuable, or you risk losing it all.");
-                            data.AddText("\n# ------------------------------------------------------- #.");
-                            data.AddOption("Deal.", byte.MaxValue);
-                            data.AddAvatar(84).FinalizeDialog();
-                        }
-                        else client.SendSysMesage("You don't have fees to join please make sure that you have 2000,000 ConquerPoints.");
 
-                        //}
-                        //else client.CreateBoxDialog($"You can't join a event while you have other player ({Program.MacJoin[client.OnLogin.MacAddress]}) joined to this event.");
+                            if (client.Player.Money >= 2000000)
+                            {
+                                client.Player.Money -= 2000000;
+                                client.Teleport(148, 150, 1121);
+                                Program.MacJoin.Add(client.OnLogin.MacAddress, client.Player.Name);
+                                data.AddText("\n# ------------------------------------------------------- #.");
+                                data.AddText("\n                [NOTE: SURVIVAL IS KEY]");
+                                data.AddText("If you fall in battle, you will forfeit the 20k CPs you paid to enter and any items in your inventory. Make sure not to carry anything valuable, or you risk losing it all.");
+                                data.AddText("\n# ------------------------------------------------------- #.");
+                                data.AddOption("Deal.", byte.MaxValue);
+                                data.AddAvatar(84).FinalizeDialog();
+                            }
+                            else client.SendSysMesage("You don't have fees to join please make sure that you have 2000,000 ConquerPoints.");
+
+                        }
+                        else client.CreateBoxDialog($"You can't join a event while you have other player ({Program.MacJoin[client.OnLogin.MacAddress]}) joined to this event.");
                         break;
                     }
                 case 50:
@@ -4152,11 +4142,11 @@ namespace TheChosenProject.Game.MsgNpc
                         if (client.DbDailyTraining.WeekOne < 1)
                         {
                             client.DbDailyTraining.WeekOne += 1;
-                            //client.DbDailyTraining.SwordMaster = 0;
-                            //client.DbDailyTraining.CityBosses = 0;
-                            //client.DbDailyTraining.ArenaWin = 0;
-                            //client.DbDailyTraining.ArenaLose = 0;
-                            //client.Player.ConquerPoints += 250;
+                            client.DbDailyTraining.SwordMaster = 0;
+                            client.DbDailyTraining.CityBosses = 0;
+                            client.DbDailyTraining.ArenaWin = 0;
+                            client.DbDailyTraining.ArenaLose = 0;
+                            client.Player.ConquerPoints += 250;
                             client.Player.Money += 10000000;
                             client.Player.SendUpdate(stream, client.Player.Money, MsgUpdate.DataType.Money);
                             client.DbDailyTraining.TotalCompleteWeekOne++;
@@ -4199,11 +4189,11 @@ namespace TheChosenProject.Game.MsgNpc
                         if (client.DbDailyTraining.WeekOne < 2)
                         {
                             client.DbDailyTraining.WeekOne += 1;
-                            //client.DbDailyTraining.SwordMaster = 0;
-                            //client.DbDailyTraining.CityBosses = 0;
-                            //client.DbDailyTraining.ArenaWin = 0;
-                            //client.DbDailyTraining.ArenaLose = 0;
-                            //client.Player.ConquerPoints += 2500;
+                            client.DbDailyTraining.SwordMaster = 0;
+                            client.DbDailyTraining.CityBosses = 0;
+                            client.DbDailyTraining.ArenaWin = 0;
+                            client.DbDailyTraining.ArenaLose = 0;
+                            client.Player.ConquerPoints += 2500;
 
                             client.Player.Money += 20000000;
 
@@ -4274,12 +4264,12 @@ namespace TheChosenProject.Game.MsgNpc
                         if (client.DbDailyTraining.WeekTwo < 1)
                         {
                             client.DbDailyTraining.WeekTwo += 1;
-                            //client.DbDailyTraining.SwordMaster = 0;
-                            //client.DbDailyTraining.OneGreatBoss = 0;
-                            //client.DbDailyTraining.CityBosses = 0;
-                            //client.DbDailyTraining.ArenaWin = 0;
-                            //client.DbDailyTraining.ArenaLose = 0;
-                            //client.Player.ConquerPoints += 5000;
+                            client.DbDailyTraining.SwordMaster = 0;
+                            client.DbDailyTraining.OneGreatBoss = 0;
+                            client.DbDailyTraining.CityBosses = 0;
+                            client.DbDailyTraining.ArenaWin = 0;
+                            client.DbDailyTraining.ArenaLose = 0;
+                            client.Player.ConquerPoints += 5000;
                             client.Player.Money += 20000000;
 
                             client.Player.SendUpdate(stream, client.Player.Money, MsgUpdate.DataType.Money);
@@ -4404,13 +4394,13 @@ namespace TheChosenProject.Game.MsgNpc
                         if (client.DbDailyTraining.WeekThree < 1)
                         {
                             client.DbDailyTraining.WeekThree += 1;
-                            //client.DbDailyTraining.NemesisTyrant = 0;
-                            //client.DbDailyTraining.SwordMaster = 0;
-                            //client.DbDailyTraining.OneGreatBoss = 0;
-                            //client.DbDailyTraining.CityBosses = 0;
-                            //client.DbDailyTraining.ArenaWin = 0;
-                            //client.DbDailyTraining.ArenaLose = 0;
-                            //client.Player.ConquerPoints += 10000;
+                            client.DbDailyTraining.NemesisTyrant = 0;
+                            client.DbDailyTraining.SwordMaster = 0;
+                            client.DbDailyTraining.OneGreatBoss = 0;
+                            client.DbDailyTraining.CityBosses = 0;
+                            client.DbDailyTraining.ArenaWin = 0;
+                            client.DbDailyTraining.ArenaLose = 0;
+                            client.Player.ConquerPoints += 10000;
                             client.Player.Money += 20000000;
                             client.Player.SendUpdate(stream, client.Player.Money, MsgUpdate.DataType.Money);
                             client.DbDailyTraining.TotalCompleteWeekThree++;
@@ -4608,7 +4598,7 @@ namespace TheChosenProject.Game.MsgNpc
                         break;
                     }
                 case 250:
-                    client.SendSysMesage("https://www.dsconquer.com/", MsgMessage.ChatMode.WebSite);
+                    client.SendSysMesage("https://www.uaconquer.online/", MsgMessage.ChatMode.WebSite);
                     break;
             }
         }
@@ -18727,10 +18717,8 @@ namespace TheChosenProject.Game.MsgNpc
                     dialog.Text("Greetings, valiant warrior! Your courage and strength have seen you through countless fierce battles against formidable bosses. It's time to reap the rewards of your hard-fought victories! You have earned " + client.Player.BossPoints + " points.");
                     dialog.Option("Claim 35 BossPoints (Rare Accessory)", 1);
                     dialog.Option("Claim 35 BossPoints (Rare Garment)", 2);
-                    dialog.Option("Claim 30 BossPoints (SmallLotteryTicketPack)", 3);
                     //dialog.Option("100 BossPoints (Rare-Mount)", 3);
-                    //dialog.Option("400 BossPoints (VIP6 Weekly)", 4);
-                    dialog.Option("Claim 10 BossPoints (Random Flowers)", 5);
+                    dialog.Option("400 BossPoints (VIP6 Weekly)", 4);
                     dialog.Option("Leave", byte.MaxValue);
                     dialog.AddAvatar(10).FinalizeDialog();
                     break;
@@ -18777,12 +18765,18 @@ namespace TheChosenProject.Game.MsgNpc
                         client.SendSysMesage("You don`t have enough points.");
                     break;
                 case 3:
-                    if (client.Player.BossPoints >= 30)
+                    if (client.Player.BossPoints >= 100)
                     {
                         if (client.Inventory.HaveSpace(1))
                         {
-                            client.Player.BossPoints -= 30;
-                            client.Inventory.Add(stream, 724002, 1, 0, 0, 0);
+                            client.Player.BossPoints -= 100;
+                            ItemType.DBItem[] array;
+                            array = ItemType.SteedMounts.Values.ToArray();
+                            int position3;
+                            position3 = ServerKernel.NextAsync(0, array.Length);
+                            uint soul_id;
+                            soul_id = array[position3].ID;
+                            client.Inventory.Add(stream, soul_id, 1, 0, 0, 0);
                             client.SendSysMesage("You`ve got the item! Check your inventory.");
                         }
                         else
@@ -18791,34 +18785,14 @@ namespace TheChosenProject.Game.MsgNpc
                     else
                         client.SendSysMesage("You don`t have enough points.");
                     break;
-                //case 4:
-                //    if (client.Player.BossPoints >= 400 && client.Player.VipLevel < 6)
-                //    {
-                //        client.Player.BossPoints -= 400;
-                //        client.Player.AddVIPLevel(6, DateTime.Now.AddDays(7.0), stream);
-                //        client.CreateBoxDialog("You`ve Successfuly upgrade your vip to level " + client.Player.VipLevel);
-                //        Program.SendGlobalPackets.Enqueue(new MsgServer.MsgMessage("#07#42 It was a pleasure to negotiate with [" + client.Player.Name + "], you he gain VIP 6 7 days trading BossPoints from TwinCity.", "ALLUSERS", "[System]", MsgServer.MsgMessage.MsgColor.white, MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-
-                //    }
-                //    else
-                //        client.SendSysMesage("You don`t have enough points.");
-                //    break;
-
-                case 5:
-                    if (client.Player.BossPoints >= 10)
+                case 4:
+                    if (client.Player.BossPoints >= 400 && client.Player.VipLevel < 6)
                     {
-                        client.Player.BossPoints -= 10;
-                        List<uint> list;
-                        list = new List<uint>();
-                        list.Add(754999);//999Tulips
-                        list.Add(753999);//999Orchids
-                        list.Add(751999);
-                        List<uint> listFlower;
-                        listFlower = list;
-                        uint reward;
-                        reward = listFlower[Core.Random.Next(0, listFlower.Count)];
-                        client.Inventory.Add(stream, reward, 1, 0, 0, 0);
-                        client.SendSysMesage("You`ve got the item! Check your inventory.");
+                        client.Player.BossPoints -= 400;
+                        client.Player.AddVIPLevel(6, DateTime.Now.AddDays(7.0), stream);
+                        client.CreateBoxDialog("You`ve Successfuly upgrade your vip to level " + client.Player.VipLevel);
+                        Program.SendGlobalPackets.Enqueue(new MsgServer.MsgMessage("#07#42 It was a pleasure to negotiate with [" + client.Player.Name + "], you he gain VIP 6 7 days trading BossPoints from TwinCity.", "ALLUSERS", "[System]", MsgServer.MsgMessage.MsgColor.white, MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+
                     }
                     else
                         client.SendSysMesage("You don`t have enough points.");
@@ -27106,20 +27080,20 @@ namespace TheChosenProject.Game.MsgNpc
                                 dialog.AddAvatar(50).FinalizeDialog();
                                 break;
                             }
-                            if (item4.Bound == 1)
-                            {
-                                dialog.AddText("Sorry, this item state is bound, you not allow to upgrade your bound items.");
-                                dialog.AddOption("Oh,~I~see.~Farewell.");
-                                dialog.AddAvatar(50).FinalizeDialog();
-                                break;
-                            }
-                            if (Database.ItemType.IsShield(item4.ITEM_ID) && Server.ItemsBase[item4.ITEM_ID].Level >= 120)
-                            {
-                                dialog.AddText("Sorry, this item not allow to upgrade your its already level 120 items.");
-                                dialog.AddOption("Oh,~I~see.~Farewell.");
-                                dialog.AddAvatar(50).FinalizeDialog();
-                                break;
-                            }
+                            //if (item4.Bound == 1)
+                            //{
+                            //    dialog.AddText("Sorry, this item state is bound, you not allow to upgrade your bound items.");
+                            //    dialog.AddOption("Oh,~I~see.~Farewell.");
+                            //    dialog.AddAvatar(50).FinalizeDialog();
+                            //    break;
+                            //}
+                            //if (Database.ItemType.IsShield(item4.ITEM_ID) && Server.ItemsBase[item4.ITEM_ID].Level >= 120)
+                            //{
+                            //    dialog.AddText("Sorry, this item not allow to upgrade your its already level 120 items.");
+                            //    dialog.AddOption("Oh,~I~see.~Farewell.");
+                            //    dialog.AddAvatar(50).FinalizeDialog();
+                            //    break;
+                            //}
                             byte lvl;
                             lvl = Server.ItemsBase[item4.ITEM_ID].Level;
                             if (lvl < 120)
@@ -35941,11 +35915,15 @@ namespace TheChosenProject.Game.MsgNpc
                             if (client.Player.ConquerPoints >= ServerKernel.CREATE_CLAN)
                             {
                                 client.Player.ConquerPoints -= ServerKernel.CREATE_CLAN;
-                                Clan.RegisterChangeName(client.Player.MyClan.ID, Input);
+                                Clan.RegisterChangeName(client,client.Player.MyClan.ID, Input);
                                 data.AddText("Done!~You~can~check~the~name~after~the~server~maintenance~tomorrow.");
                                 data.AddOption("Great!");
                                 data.AddAvatar(39);
                                 data.FinalizeDialog();
+                            }
+                            else
+                            {
+                                client.CreateBoxDialog($"You don't have enough {ServerKernel.CREATE_CLAN} Conquer Points (CPS) to create Clan.");
                             }
                         }
                         else
@@ -36139,7 +36117,7 @@ namespace TheChosenProject.Game.MsgNpc
                 case 2:
                     if (client.Player.MyClan == null)
                     {
-                        if (client.Player.Money >= 500000)
+                        if (client.Player.ConquerPoints >= 5000000)
                         {
 
                             if (client.Player.Level >= 50)
@@ -36159,8 +36137,8 @@ namespace TheChosenProject.Game.MsgNpc
                         }
                         else
                         {
-                            data.AddText("You don`t have enough money to create a Clan. Creating a Clan needs 500,000 silver. Half of which will be the Clan Fund.");
-                            data.AddText("~A Clan has to have money if you want to survive, you know. Can`t have a war without money!");
+                            data.AddText("You don`t have enough conquer points to create a Clan. Creating a Clan needs 5,000,000 conquer points. Half of which will be the Clan Fund.");
+                            data.AddText("~A Clan has to have conquer points if you want to survive, you know. Can`t have a war without conquer points!");
                             data.AddOption("I~see.", byte.MaxValue);
                             data.AddAvatar(6).FinalizeDialog();
                         }
@@ -36176,9 +36154,14 @@ namespace TheChosenProject.Game.MsgNpc
                 case 3:
                     if (client.Player.MyClan == null)
                     {
+                        if (client.Player.ConquerPoints <= ServerKernel.CREATE_CLAN)
+                        {
+                            client.CreateBoxDialog("Failed~to~create~a~Clan. You don't have enough Conquer Points (CPS) to create CLAN.");
+                            return;
+                        }
                         if (Clan.AllowCreateClan(Input))
                         {
-                            client.Player.Money -= 500000;
+                            client.Player.ConquerPoints -= ServerKernel.CREATE_CLAN;
                             client.Player.SendUpdate(stream, client.Player.Money, MsgUpdate.DataType.Money);
                             data.AddText("Congratulations! You have created a Clan successfully! You should protect your Clan and fight with your Clan members for glory");
                             data.AddText("~and honor!");
@@ -36266,7 +36249,7 @@ namespace TheChosenProject.Game.MsgNpc
                     {
                         if (client.Player.Level >= 90)
                         {
-                            if (client.Player.Money >= 1000000)
+                            if (client.Player.Money >= 10000000)
                             {
                                 if (client.Player.MyGuild == null)
                                 {

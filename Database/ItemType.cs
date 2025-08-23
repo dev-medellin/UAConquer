@@ -2149,19 +2149,19 @@ namespace TheChosenProject.Database
                 case Flags.ConquerItem.Inventory:
                     return 0;
                 case Flags.ConquerItem.Head:
-                    return 120;
+                    return 140;
                 case Flags.ConquerItem.Necklace:
-                    return 130;
+                    return 139;
                 case Flags.ConquerItem.Armor:
-                    return 120;
+                    return 140;
                 case Flags.ConquerItem.LeftWeapon:
-                    return 130;
+                    return 140;
                 case Flags.ConquerItem.RightWeapon:
-                    return 130;
+                    return 140;
                 case Flags.ConquerItem.Boots:
                     return 129;
                 case Flags.ConquerItem.Ring:
-                    return 126;
+                    return 136;
                 //case Flags.ConquerItem.Tower:
                 //    return 100;
                 //case Flags.ConquerItem.Fan:

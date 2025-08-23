@@ -2596,41 +2596,459 @@ namespace TheChosenProject.Game.MsgMonster
             //}
 
             #endregion Boss
-            #region RoyalPass Bosses
+            //#region RoyalPass Bosses
             //if (killer.Player.Map == 1121)
             //{
+            //    if (Family.ID == 20060 || Family.ID == 20160 || Family.ID == 20300 || Family.ID == 20070 || Family.ID == 6643)
+            //    {
+            //        if (killer.Player.DynamicID != killer.Player.UID)
+            //        {
+            //            if (Family.ID == 20300)
+            //                killer.DbDailyTraining.NemesisTyrant++;
+            //            killer.Player.RoyalPassPoints += 10;
+
+            //            if (Family.ID == 6643)
+            //                killer.DbDailyTraining.SwordMaster++;
+            //            killer.Player.RoyalPassPoints += 10;
+
+            //            if (Family.ID == 20060 || Family.ID == 20160 || Family.ID == 20300 || Family.ID == 20070)
+            //                killer.DbDailyTraining.CityBosses++;
+            //            killer.Player.RoyalPassPoints += 10;
+
+            //            List<uint> list;
+            //            list = new List<uint>();
+            //            list.Add(754009);//999Tulips
+            //            list.Add(753009);//999Orchids
+            //            list.Add(751009);
+            //            List<uint> listFlower;
+            //            listFlower = list;
+            //            uint reward;
+            //        #region Drop = SurpriseBox
+            //        for (int x = 0; x < 5; x++)
+            //            {
+            //                if (x <= 5 || (x > 2 && Role.Core.Rate(100)))
+            //                {
+            //                    uint id = 722178;//SurpriseBox
+
+            //                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //            #endregion
+            //        #region Drop = +4 Stone
+            //        //for (int x = 0; x < 3; x++)
+            //        //{
+            //        //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
+            //        //    {
+            //        //        uint id = 730004;//+3 Stone
+
+            //        //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //        //        DataItem.ITEM_ID = id;
+            //        //        Database.ItemType.DBItem DBItem;
+            //        //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //        //        {
+            //        //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //        //        }
+            //        //        DataItem.Color = Role.Flags.Color.Red;
+            //        //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //        //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //        //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //        //        {
+            //        //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //        //            if (killer.Map.EnqueueItem(DropItem))
+            //        //            {
+
+            //        //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //        //            }
+            //        //        }
+            //        //    }
+            //        //}
+            //        #endregion
+            //        #region Drop = +5 Stone
+            //        //for (int x = 0; x < 1; x++)
+            //        //{
+            //        //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
+            //        //    {
+            //        //        uint id = 730005;//+4 Stone
+
+            //        //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //        //        DataItem.ITEM_ID = id;
+            //        //        Database.ItemType.DBItem DBItem;
+            //        //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //        //        {
+            //        //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //        //        }
+            //        //        DataItem.Color = Role.Flags.Color.Red;
+            //        //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //        //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //        //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //        //        {
+            //        //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //        //            if (killer.Map.EnqueueItem(DropItem))
+            //        //            {
+
+            //        //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //        //            }
+            //        //        }
+            //        //    }
+            //        //}
+            //        #endregion
+            //        #region Drop = RoyalCPPack
+            //        //for (int x = 0; x < 1; x++)
+            //        //{
+            //        //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
+            //        //    {
+            //        //        uint id = 723411;//RoyalCPPack
+
+            //        //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //        //        DataItem.ITEM_ID = id;
+            //        //        Database.ItemType.DBItem DBItem;
+            //        //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //        //        {
+            //        //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //        //        }
+            //        //        DataItem.Color = Role.Flags.Color.Red;
+            //        //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //        //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //        //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //        //        {
+            //        //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //        //            if (killer.Map.EnqueueItem(DropItem))
+            //        //            {
+
+            //        //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //        //            }
+            //        //        }
+            //        //    }
+            //        //}
+            //        #endregion
+            //        #region Drop = DragonBallScrap
+            //        for (int x = 0; x < 10; x++)
+            //            {
+            //                if (x <= 10 || (x > 10 && Role.Core.Rate(45)))
+            //                {
+            //                    uint id = 710834;//Scrap
+
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //        #endregion
+            //            #region Drop = DragonBall
+            //                for (int x = 0; x < 3; x++)
+            //            {
+            //                if (x <= 3 || (x > 3 && Role.Core.Rate(100)))
+            //                {
+            //                    uint id = 1088000;//DB
+
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 9, X + 9);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 9, Y + 9);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //            #endregion
+            //        #region Drop = Metscroll
+            //        for (int x = 0; x < 10; x++)
+            //            {
+            //                if (x <= 10 || (x > 10 && Role.Core.Rate(100)))
+            //                {
+            //                    uint id = 720027;//DB
+
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 9, X + 9);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 9, Y + 9);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //            #endregion
+            //            #region Drop = Mets
+            //            for (int x = 0; x < 20; x++)
+            //            {
+            //                if (x <= 20 || (x > 20 && Role.Core.Rate(45)))
+            //                {
+            //                    uint id = 1088001;//Mets
+
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //            #endregion
+            //            #region Drop = Flowers
+            //            for (int x = 0; x < 5; x++)
+            //            {
+            //                if (x <= 5 || (x > 5 && Role.Core.Rate(100)))
+            //                {
+            //                    reward = listFlower[Core.Random.Next(0, listFlower.Count)];
+            //                    uint id = reward;
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = id;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                    DataItem.Color = Role.Flags.Color.Red;
+            //                    ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
+            //                    ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
+            //                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                    {
+            //                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                        if (killer.Map.EnqueueItem(DropItem))
+            //                        {
+
+            //                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //            #endregion
+            //            #region Drop = Gold
+            //            if (Role.Core.Rate(100))
+            //            {
+            //                for (ushort i = 0; i < 10; i++)
+            //                {
+            //                    uint amount = (uint)Program.GetRandom.Next(80000, 110000);
+            //                    var ItemID = Database.ItemType.MoneyItemID((uint)amount);
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                    DataItem.ITEM_ID = ItemID;
+            //                    Database.ItemType.DBItem DBItem;
+            //                    if (Database.Server.ItemsBase.TryGetValue(ItemID, out DBItem))
+            //                    {
+            //                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                    }
+            //                        DataItem.Color = Role.Flags.Color.Red;
+
+            //                        ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
+            //                        ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
+            //                        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                        {
+            //                            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, (ushort)(xx - Program.GetRandom.Next(5)), (ushort)(yy - Program.GetRandom.Next(5)), MsgFloorItem.MsgItem.ItemType.Money, amount, 0, Map, 0, false, GMap);
+            //                            if (killer.Map.EnqueueItem(DropItem))
+            //                            {
+
+            //                                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                            }
+            //                        }
+            //                }
+            //                //DropItemNull(ItemID, stream, MsgItem.ItemType.Money, amount);
+            //            }
+            //        #endregion
+            //            #region Drop = Emerald
+            //            for (int x = 0; x < 3; x++)
+            //                {
+            //                    if (x <= 3 || (x > 3 && Role.Core.Rate(45)))
+            //                    {
+            //                        uint id = 1080001;//Emerald
+
+            //                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                        DataItem.ITEM_ID = id;
+            //                        Database.ItemType.DBItem DBItem;
+            //                        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                        {
+            //                            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                        }
+            //                        DataItem.Color = Role.Flags.Color.Red;
+            //                        ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
+            //                        ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
+            //                        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                        {
+            //                            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                            if (killer.Map.EnqueueItem(DropItem))
+            //                            {
+
+            //                                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                            }
+            //                        }
+            //                    }
+            //                }
+            //            #endregion
+            //        #region Drop = MoonBox
+            //        for (int x = 0; x < 3; x++)
+            //                {
+            //                    if (x <= 5 || (x > 3 && Role.Core.Rate(100)))
+            //                    {
+            //                        uint id = 721080;//MoonBox
+
+            //                        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                        DataItem.ITEM_ID = id;
+            //                        Database.ItemType.DBItem DBItem;
+            //                        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                        {
+            //                            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                        }
+            //                        DataItem.Color = Role.Flags.Color.Red;
+            //                        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //                        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //                        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                        {
+            //                            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                            if (killer.Map.EnqueueItem(DropItem))
+            //                            {
+
+            //                                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                            }
+            //                        }
+            //                    }
+            //                }
+            //            #endregion
+            //            #region Drop = Proftoken
+            //            for (int x = 0; x < 5; x++)
+            //                {
+            //                    if (x <= 5 || (x > 5 && Role.Core.Rate(100)))
+            //                    {
+            //                        uint id = 722384;//SuperGemBox
+
+            //                        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+            //                        DataItem.ITEM_ID = id;
+            //                        Database.ItemType.DBItem DBItem;
+            //                        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+            //                        {
+            //                            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+            //                        }
+            //                        DataItem.Color = Role.Flags.Color.Red;
+            //                        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+            //                        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+            //                        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+            //                        {
+            //                            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+            //                            if (killer.Map.EnqueueItem(DropItem))
+            //                            {
+
+            //                                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+            //                            }
+            //                        }
+            //                    }
+            //                }
+            //            #endregion
+            //        killer.Player.BossPoints += 1;
+            //        string msg1 = $"{killer.Player.Name} killed the {Family.Name}, give him/her a +1 Boss Points and dropped massive reward at {killer.Map.Name} and more ... #35#35";
+            //        Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage(msg1, Game.MsgServer.MsgMessage.MsgColor.yellow, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
+            //    }
+            //    return;
+            //    }
+            //}
+            //#endregion
+            if (killer.Player.Map == 1121)
+            {
                 if (Family.ID == 20060 || Family.ID == 20160 || Family.ID == 20300 || Family.ID == 20070 || Family.ID == 6643)
                 {
                     if (killer.Player.DynamicID != killer.Player.UID)
                     {
-                        //if (Family.ID == 20300)
-                        //    killer.DbDailyTraining.NemesisTyrant++;
-                        //    killer.Player.RoyalPassPoints += 10;
+                        if (Family.ID == 20300)
+                            killer.DbDailyTraining.NemesisTyrant++;
+                        killer.Player.RoyalPassPoints += 10;
 
-                        //if (Family.ID == 6643)
-                        //    killer.DbDailyTraining.SwordMaster++;
-                        //    killer.Player.RoyalPassPoints += 10;
+                        if (Family.ID == 6643)
+                            killer.DbDailyTraining.SwordMaster++;
+                        killer.Player.RoyalPassPoints += 10;
 
-                        //if (Family.ID == 20060 || Family.ID == 20160 || Family.ID == 20300 || Family.ID == 20070)
-                        //    killer.DbDailyTraining.CityBosses++;
-                        //    killer.Player.RoyalPassPoints += 10;
+                        if (Family.ID == 20060 || Family.ID == 20160 || Family.ID == 20300 || Family.ID == 20070)
+                            killer.DbDailyTraining.CityBosses++;
+                        killer.Player.RoyalPassPoints += 10;
 
-                        List<uint> list;
-                        list = new List<uint>();
-                        list.Add(754009);//999Tulips
-                        list.Add(753009);//999Orchids
-                        list.Add(751009);
-                        List<uint> listFlower;
-                        listFlower = list;
-                        uint reward;
-                    #region Drop = SurpriseBox
-                    for (int x = 0; x < 5; x++)
+
+                        #region Drop = SuperGemBox
+                        for (int x = 0; x < 2; x++)
                         {
-                            if (x <= 5 || (x > 2 && Role.Core.Rate(100)))
+                            if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                             {
-                                uint id = 722178;//SurpriseBox
+                                uint id = 720135;//SuperGemBox
 
-                            MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
                                 DataItem.ITEM_ID = id;
                                 Database.ItemType.DBItem DBItem;
                                 if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
@@ -2653,376 +3071,101 @@ namespace TheChosenProject.Game.MsgMonster
                             }
                         }
                         #endregion
-                    #region Drop = +4 Stone
-                    //for (int x = 0; x < 3; x++)
-                    //{
-                    //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
-                    //    {
-                    //        uint id = 730004;//+3 Stone
-
-                    //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                    //        DataItem.ITEM_ID = id;
-                    //        Database.ItemType.DBItem DBItem;
-                    //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                    //        {
-                    //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                    //        }
-                    //        DataItem.Color = Role.Flags.Color.Red;
-                    //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                    //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                    //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                    //        {
-                    //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                    //            if (killer.Map.EnqueueItem(DropItem))
-                    //            {
-
-                    //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                    //            }
-                    //        }
-                    //    }
-                    //}
-                    #endregion
-                    #region Drop = +5 Stone
-                    //for (int x = 0; x < 1; x++)
-                    //{
-                    //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
-                    //    {
-                    //        uint id = 730005;//+4 Stone
-
-                    //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                    //        DataItem.ITEM_ID = id;
-                    //        Database.ItemType.DBItem DBItem;
-                    //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                    //        {
-                    //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                    //        }
-                    //        DataItem.Color = Role.Flags.Color.Red;
-                    //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                    //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                    //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                    //        {
-                    //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                    //            if (killer.Map.EnqueueItem(DropItem))
-                    //            {
-
-                    //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                    //            }
-                    //        }
-                    //    }
-                    //}
-                    #endregion
-                    #region Drop = RoyalCPPack
-                    //for (int x = 0; x < 1; x++)
-                    //{
-                    //    if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
-                    //    {
-                    //        uint id = 723411;//RoyalCPPack
-
-                    //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                    //        DataItem.ITEM_ID = id;
-                    //        Database.ItemType.DBItem DBItem;
-                    //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                    //        {
-                    //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                    //        }
-                    //        DataItem.Color = Role.Flags.Color.Red;
-                    //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                    //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                    //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                    //        {
-                    //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                    //            if (killer.Map.EnqueueItem(DropItem))
-                    //            {
-
-                    //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                    //            }
-                    //        }
-                    //    }
-                    //}
-                    #endregion
-                    #region Drop = DragonBallScrap
-                    for (int x = 0; x < 10; x++)
-                        {
-                            if (x <= 10 || (x > 10 && Role.Core.Rate(45)))
-                            {
-                                uint id = 710834;//Scrap
-
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = id;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                DataItem.Color = Role.Flags.Color.Red;
-                                ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
-                                ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
-                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                {
-                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                    if (killer.Map.EnqueueItem(DropItem))
-                                    {
-
-                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                    }
-                                }
-                            }
-                        }
-                    #endregion
-                        #region Drop = DragonBall
-                            for (int x = 0; x < 3; x++)
-                        {
-                            if (x <= 3 || (x > 3 && Role.Core.Rate(100)))
-                            {
-                                uint id = 1088000;//DB
-
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = id;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                DataItem.Color = Role.Flags.Color.Red;
-                                ushort xx = (ushort)Program.GetRandom.Next(X - 9, X + 9);
-                                ushort yy = (ushort)Program.GetRandom.Next(Y - 9, Y + 9);
-                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                {
-                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                    if (killer.Map.EnqueueItem(DropItem))
-                                    {
-
-                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                    }
-                                }
-                            }
-                        }
-                        #endregion
-                    #region Drop = Metscroll
-                    for (int x = 0; x < 10; x++)
-                        {
-                            if (x <= 10 || (x > 10 && Role.Core.Rate(100)))
-                            {
-                                uint id = 720027;//DB
-
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = id;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                DataItem.Color = Role.Flags.Color.Red;
-                                ushort xx = (ushort)Program.GetRandom.Next(X - 9, X + 9);
-                                ushort yy = (ushort)Program.GetRandom.Next(Y - 9, Y + 9);
-                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                {
-                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                    if (killer.Map.EnqueueItem(DropItem))
-                                    {
-
-                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                    }
-                                }
-                            }
-                        }
-                        #endregion
-                        #region Drop = Mets
-                        for (int x = 0; x < 20; x++)
-                        {
-                            if (x <= 20 || (x > 20 && Role.Core.Rate(45)))
-                            {
-                                uint id = 1088001;//Mets
-
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = id;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                DataItem.Color = Role.Flags.Color.Red;
-                                ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
-                                ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
-                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                {
-                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                    if (killer.Map.EnqueueItem(DropItem))
-                                    {
-
-                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                    }
-                                }
-                            }
-                        }
-                        #endregion
-                        #region Drop = Flowers
-                        for (int x = 0; x < 5; x++)
-                        {
-                            if (x <= 5 || (x > 5 && Role.Core.Rate(100)))
-                            {
-                                reward = listFlower[Core.Random.Next(0, listFlower.Count)];
-                                uint id = reward;
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = id;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                DataItem.Color = Role.Flags.Color.Red;
-                                ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
-                                ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
-                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                {
-                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                    if (killer.Map.EnqueueItem(DropItem))
-                                    {
-
-                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                    }
-                                }
-                            }
-                        }
-                        #endregion
-                        #region Drop = Gold
-                        if (Role.Core.Rate(100))
-                        {
-                            for (ushort i = 0; i < 10; i++)
-                            {
-                                uint amount = (uint)Program.GetRandom.Next(80000, 110000);
-                                var ItemID = Database.ItemType.MoneyItemID((uint)amount);
-                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                DataItem.ITEM_ID = ItemID;
-                                Database.ItemType.DBItem DBItem;
-                                if (Database.Server.ItemsBase.TryGetValue(ItemID, out DBItem))
-                                {
-                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                }
-                                    DataItem.Color = Role.Flags.Color.Red;
-                    
-                                    ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
-                                    ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
-                                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                    {
-                                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, (ushort)(xx - Program.GetRandom.Next(5)), (ushort)(yy - Program.GetRandom.Next(5)), MsgFloorItem.MsgItem.ItemType.Money, amount, 0, Map, 0, false, GMap);
-                                        if (killer.Map.EnqueueItem(DropItem))
-                                        {
-
-                                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                        }
-                                    }
-                            }
-                            //DropItemNull(ItemID, stream, MsgItem.ItemType.Money, amount);
-                        }
-                    #endregion
-                        #region Drop = Emerald
+                        #region Drop = +4 Stone
                         for (int x = 0; x < 3; x++)
+                        {
+                            if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                             {
-                                if (x <= 3 || (x > 3 && Role.Core.Rate(45)))
-                                {
-                                    uint id = 1080001;//Emerald
+                                uint id = 730004;//+3 Stone
 
                                 MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                    DataItem.ITEM_ID = id;
-                                    Database.ItemType.DBItem DBItem;
-                                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                    {
-                                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                    }
-                                    DataItem.Color = Role.Flags.Color.Red;
-                                    ushort xx = (ushort)Program.GetRandom.Next(X - 10, X + 10);
-                                    ushort yy = (ushort)Program.GetRandom.Next(Y - 10, Y + 10);
-                                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                    {
-                                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                        if (killer.Map.EnqueueItem(DropItem))
-                                        {
-
-                                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                        }
-                                    }
-                                }
-                            }
-                        #endregion
-                    #region Drop = MoonBox
-                    for (int x = 0; x < 3; x++)
-                            {
-                                if (x <= 5 || (x > 3 && Role.Core.Rate(100)))
+                                DataItem.ITEM_ID = id;
+                                Database.ItemType.DBItem DBItem;
+                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
                                 {
-                                    uint id = 721080;//MoonBox
-
-                                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                    DataItem.ITEM_ID = id;
-                                    Database.ItemType.DBItem DBItem;
-                                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                                    {
-                                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                    }
-                                    DataItem.Color = Role.Flags.Color.Red;
-                                    ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                                    ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                    {
-                                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                        if (killer.Map.EnqueueItem(DropItem))
-                                        {
-
-                                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                        }
-                                    }
+                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
                                 }
-                            }
-                        #endregion
-                        #region Drop = Proftoken
-                        for (int x = 0; x < 5; x++)
-                            {
-                                if (x <= 5 || (x > 5 && Role.Core.Rate(100)))
+                                DataItem.Color = Role.Flags.Color.Red;
+                                ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+                                ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
                                 {
-                                    uint id = 722384;//SuperGemBox
+                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
 
-                                    MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                                    DataItem.ITEM_ID = id;
-                                    Database.ItemType.DBItem DBItem;
-                                    if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+                                    if (killer.Map.EnqueueItem(DropItem))
                                     {
-                                        DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                                    }
-                                    DataItem.Color = Role.Flags.Color.Red;
-                                    ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                                    ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                                    if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                                    {
-                                        MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
 
-                                        if (killer.Map.EnqueueItem(DropItem))
-                                        {
-
-                                            DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                        }
+                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
                                     }
                                 }
                             }
+                        }
                         #endregion
-                    killer.Player.BossPoints += 1;
-                    string msg1 = $"{killer.Player.Name} killed the {Family.Name}, give him/her a +1 Boss Points and dropped massive reward at {killer.Map.Name} and more ... #35#35";
-                    Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage(msg1, Game.MsgServer.MsgMessage.MsgColor.yellow, Game.MsgServer.MsgMessage.ChatMode.System).GetArray(stream));
+                        #region Drop = +5 Stone
+                        for (int x = 0; x < 1; x++)
+                        {
+                            if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
+                            {
+                                uint id = 730005;//+4 Stone
+
+                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+                                DataItem.ITEM_ID = id;
+                                Database.ItemType.DBItem DBItem;
+                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+                                {
+                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+                                }
+                                DataItem.Color = Role.Flags.Color.Red;
+                                ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+                                ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+                                {
+                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+                                    if (killer.Map.EnqueueItem(DropItem))
+                                    {
+
+                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+                                    }
+                                }
+                            }
+                        }
+                        #endregion
+                        #region Drop = RoyalCPPack
+                        for (int x = 0; x < 1; x++)
+                        {
+                            if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
+                            {
+                                uint id = 723411;//RoyalCPPack
+
+                                MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+                                DataItem.ITEM_ID = id;
+                                Database.ItemType.DBItem DBItem;
+                                if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+                                {
+                                    DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+                                }
+                                DataItem.Color = Role.Flags.Color.Red;
+                                ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
+                                ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
+                                if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
+                                {
+                                    MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
+                                    if (killer.Map.EnqueueItem(DropItem))
+                                    {
+
+                                        DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
+                                    }
+                                }
+                            }
+                        }
+                        #endregion
+                    }
+                    return;
                 }
-                return;
-                }
-            //}
-            #endregion
-            if(Family.ID == 3737)
+            }
+            if (Family.ID == 3737)
             {
                 List<uint> list;
                 list = new List<uint>();
@@ -3347,15 +3490,15 @@ namespace TheChosenProject.Game.MsgMonster
 
             }
             #region Bosses
-            if (BossDatabase.Bosses.ContainsKey(Family.ID) && BossDatabase.Bosses[Family.ID].Alive)
+            if (BossDatabase.Bosses.ContainsKey(Family.ID) /*&& BossDatabase.Bosses[Family.ID].Alive*/)
             {
                 LookFace mesh;
                 mesh = (LookFace)Family.Mesh;
-                if (mesh == LookFace.TwinCityBoss 
-                    || mesh == LookFace.CastleCityBoss 
-                    || mesh == LookFace.ApeCityBoss 
-                    || mesh == LookFace.DesertCityBoss 
-                    || mesh == LookFace.BirdCityBoss 
+                if (mesh == LookFace.TwinCityBoss
+                    || mesh == LookFace.CastleCityBoss
+                    || mesh == LookFace.ApeCityBoss
+                    || mesh == LookFace.DesertCityBoss
+                    || mesh == LookFace.BirdCityBoss
                     )
                 {
                     Boss boss;
@@ -3368,13 +3511,9 @@ namespace TheChosenProject.Game.MsgMonster
                             killer.CreateBoxDialog("You`ve~killed~15~" + Family.Name + ".~Now~go~find~DailyQuestEnvoy!.");
                     }
                     //killer.DbDailyTraining.CityBosses++;
-                    List<uint> list;
-                    list = new List<uint>();
-                    list.Add(754999);//999Tulips
-                    list.Add(753999);//999Orchids
-                    List<uint> listFlower;
-                    listFlower = list;
-                    uint reward;
+
+
+
                     if (killer.Player.DynamicID != killer.Player.UID)
                     {
                         for (int x = 0; x < boss.Items.Count; x++)
@@ -3401,57 +3540,28 @@ namespace TheChosenProject.Game.MsgMonster
                                     DropItem2.SendAll(stream, MsgDropID.Visible);
                             }
                         }
-                        
+
                     }
                     #region Drop = +1
-                    //for (int x = 0; x < 20; x++)
-                    //{
-                    //    if (x <= 20 || (x > 20 && Role.Core.Rate(45)))
-                    //    {
-                    //        Database.ItemType.DBItem DbItem = null;
-                    //        byte ID_Quality;
-                    //        bool ID_Special;
-
-                    //        uint id = Family.ItemGenerator.GenerateItemId(Map, out ID_Quality, out ID_Special, out DbItem);
-                    //        //uint plus = 1;
-
-                    //        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                    //        DataItem.ITEM_ID = id;
-                    //        Database.ItemType.DBItem DBItem;
-                    //        if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                    //        {
-                    //            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                    //            DataItem.Plus = 1;
-
-                    //        }
-                    //        DataItem.Color = Role.Flags.Color.Red;
-                    //        ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                    //        ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                    //        if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                    //        {
-                    //            MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                    //            if (killer.Map.EnqueueItem(DropItem))
-                    //            {
-
-                    //                DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                    //            }
-                    //        }
-                    //    }
-                    //}
-                    #endregion
-                    #region Drop = DragonballPiece
-                    for (int x = 0; x < 10; x++)
+                    for (int x = 0; x < 20; x++)
                     {
-                        if (x <= 10 || (x > 10 && Role.Core.Rate(45)))
+                        if (x <= 20 || (x > 20 && Role.Core.Rate(45)))
                         {
-                            uint id = 710834;//DragonballPiece
+                            Database.ItemType.DBItem DbItem = null;
+                            byte ID_Quality;
+                            bool ID_Special;
+
+                            uint id = Family.ItemGenerator.GenerateItemId(Map, out ID_Quality, out ID_Special, out DbItem);
+                            //uint plus = 1;
+
                             MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
                             DataItem.ITEM_ID = id;
                             Database.ItemType.DBItem DBItem;
                             if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
                             {
                                 DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+                                DataItem.Plus = 1;
+
                             }
                             DataItem.Color = Role.Flags.Color.Red;
                             ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
@@ -3469,42 +3579,12 @@ namespace TheChosenProject.Game.MsgMonster
                         }
                     }
                     #endregion
-                    #region Drop = Dragonball
+                    #region Drop = DonationPoints
                     for (int x = 0; x < 2; x++)
                     {
-                        if (x <= 2 || (x > 2 && Role.Core.Rate(45)))
+                        if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                         {
-                            uint id = 1088000;//MeteorScroll
-
-                            MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                            DataItem.ITEM_ID = id;
-                            Database.ItemType.DBItem DBItem;
-                            if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
-                            {
-                                DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                            }
-                            DataItem.Color = Role.Flags.Color.Red;
-                            ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
-                            ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
-                            if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
-                            {
-                                MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
-
-                                if (killer.Map.EnqueueItem(DropItem))
-                                {
-                                    DropItem.SendAll(stream, MsgFloorItem.MsgDropID.Visible);
-                                }
-                            }
-                        }
-                    }
-                    #endregion
-                    #region Drop = MeteorScroll
-                    for (int x = 0; x < 5; x++)
-                    {
-                        if (x <= 5 || (x > 5 && Role.Core.Rate(45)))
-                        {
-                            uint id = 720027;//MeteorScroll
-
+                            uint id = 722178;//DonationPoints
                             MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
                             DataItem.ITEM_ID = id;
                             Database.ItemType.DBItem DBItem;
@@ -3528,12 +3608,12 @@ namespace TheChosenProject.Game.MsgMonster
                         }
                     }
                     #endregion
-                    #region Drop = Meteor
-                    for (int x = 0; x < 10; x++)
+                    #region Drop = DonationPoint
+                    for (int x = 0; x < 2; x++)
                     {
-                        if (x <= 10 || (x > 10 && Role.Core.Rate(45)))
+                        if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                         {
-                            uint id = 1088001;//Meteor
+                            uint id = 722178;//DonationPoint
 
                             MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
                             DataItem.ITEM_ID = id;
@@ -3558,13 +3638,13 @@ namespace TheChosenProject.Game.MsgMonster
                         }
                     }
                     #endregion
-                    #region Drop = Flowers
-                    for (int x = 0; x < 3; x++)
+                    #region Drop = SuperGemBox
+                    for (int x = 0; x < 2; x++)
                     {
-                        if (x <= 3 || (x > 3 && Role.Core.Rate(45)))
+                        if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                         {
-                            reward = listFlower[Core.Random.Next(0, listFlower.Count)];
-                            uint id = reward;
+                            uint id = 720135;//SuperGemBox
+
                             MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
                             DataItem.ITEM_ID = id;
                             Database.ItemType.DBItem DBItem;
@@ -3588,26 +3668,27 @@ namespace TheChosenProject.Game.MsgMonster
                         }
                     }
                     #endregion
-                    #region Drop = Gold
-                    if (Role.Core.Rate(100))
+                    #region Drop = RTG
+                    for (int x = 0; x < 2; x++)
                     {
-                        uint amount = (uint)Program.GetRandom.Next(100000);
-                        var ItemID = Database.ItemType.MoneyItemID((uint)amount);
-                        MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
-                        DataItem.ITEM_ID = ItemID;
-                        Database.ItemType.DBItem DBItem;
-                        if (Database.Server.ItemsBase.TryGetValue(ItemID, out DBItem))
+                        if (x <= 5 || (x > 2 && Role.Core.Rate(45)))
                         {
-                            DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
-                        }
-                        DataItem.Color = Role.Flags.Color.Red;
-                        for (ushort i = 0; i < 10; i++)
-                        {
+                            uint id = 700072;//GloryGem
+
+                            MsgServer.MsgGameItem DataItem = new MsgServer.MsgGameItem();
+                            DataItem.ITEM_ID = id;
+                            Database.ItemType.DBItem DBItem;
+                            if (Database.Server.ItemsBase.TryGetValue(id, out DBItem))
+                            {
+                                DataItem.Durability = DataItem.MaximDurability = DBItem.Durability;
+                            }
+                            DataItem.Color = Role.Flags.Color.Red;
                             ushort xx = (ushort)Program.GetRandom.Next(X - 7, X + 7);
                             ushort yy = (ushort)Program.GetRandom.Next(Y - 7, Y + 7);
                             if (killer.Map.AddGroundItem(ref xx, ref yy, 3))
                             {
-                                MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, (ushort)(xx - Program.GetRandom.Next(5)), (ushort)(yy - Program.GetRandom.Next(5)), MsgFloorItem.MsgItem.ItemType.Money, amount, 0, Map, 0, false, GMap);
+                                MsgFloorItem.MsgItem DropItem = new MsgFloorItem.MsgItem(DataItem, xx, yy, MsgFloorItem.MsgItem.ItemType.Item, 0, DynamicID, Map, killer.Player.UID, true, GMap);
+
                                 if (killer.Map.EnqueueItem(DropItem))
                                 {
 
@@ -3615,7 +3696,6 @@ namespace TheChosenProject.Game.MsgMonster
                                 }
                             }
                         }
-                        //DropItemNull(ItemID, stream, MsgItem.ItemType.Money, amount);
                     }
                     #endregion
 

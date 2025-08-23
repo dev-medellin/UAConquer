@@ -1819,19 +1819,23 @@ namespace TheChosenProject.Game.MsgServer
                                                                     }, null);
                                                                 }
                                                                 break;
-                                                                //if (DBItem.ConquerPointsWorth < 1)
-                                                                //    break;
-                                                                //int value;
-                                                                //value = DBItem.ConquerPointsWorth;
-                                                                //if (client.Player.ConquerPoints >= DBItem.ConquerPointsWorth)
-                                                                //{
-                                                                //    byte plus;
-                                                                //    plus = 0;
-                                                                //    if (DBItem.ID >= 730001 && DBItem.ID <= 730008)
-                                                                //        plus = (byte)(DBItem.ID % 10);
-                                                                //    client.Player.ConquerPoints -= DBItem.ConquerPointsWorth;
-                                                                //    client.Inventory.Add(DBItem.ID, plus, DBItem, stream);
-                                                                //}
+                                                            default:
+                                                                {
+                                                                    if (DBItem.ConquerPointsWorth < 1)
+                                                                        break;
+                                                                    int value;
+                                                                    value = DBItem.ConquerPointsWorth;
+                                                                    if (client.Player.ConquerPoints >= DBItem.ConquerPointsWorth)
+                                                                    {
+                                                                        byte plus;
+                                                                        plus = 0;
+                                                                        if (DBItem.ID >= 730001 && DBItem.ID <= 730008)
+                                                                            plus = (byte)(DBItem.ID % 10);
+                                                                        client.Player.ConquerPoints -= DBItem.ConquerPointsWorth;
+                                                                        client.Inventory.Add(DBItem.ID, plus, DBItem, stream);
+                                                                    }
+                                                                    break;
+                                                                }
                                                         }
                                                         break;
                                                     }
@@ -1895,27 +1899,6 @@ namespace TheChosenProject.Game.MsgServer
                                                                         }
                                                                     }, null);
                                                                     break;
-                                                            }
-                                                            break;
-                                                        case 2888:
-                                                            if (client.Player.ChampionPoints < DBItem.GoldWorth)
-                                                            {
-                                                                client.Player.MessageBox("You got " + client.Player.ChampionPoints + " Divine Points its not enough to buy this item", delegate
-                                                                {
-                                                                 
-                                                                }, null);
-                                                            }
-                                                            else
-                                                            {
-                                                                client.Player.MessageBox("You got " + client.Player.ChampionPoints + " Divine Points Click 'OK' to pay\n(" + DBItem.Name + ")", delegate
-                                                                {
-                                                                    if (client.Player.ChampionPoints >= DBItem.GoldWorth)
-                                                                    {
-                                                                        client.Player.ChampionPoints -= DBItem.GoldWorth;
-                                                                        client.Inventory.Add(DBItem.ID, 0, DBItem, stream);
-                                                                        client.Player.SendUpdate(stream, client.Player.ChampionPoints, MsgUpdate.DataType.RaceShopPoints);
-                                                                    }
-                                                                }, null);
                                                             }
                                                             break;
                                                         default:

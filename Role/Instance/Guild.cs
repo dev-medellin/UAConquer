@@ -1185,6 +1185,7 @@ namespace TheChosenProject.Role.Instance
                 Info.Level = MyArsenal.GetGuildLevel;
                 AddPlayer(client.Player, stream);
                 GuildPoll.TryAdd(Info.GuildID, this);
+                client.Player.Money -= 10000000;
             }
         }
 

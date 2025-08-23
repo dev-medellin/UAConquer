@@ -129,26 +129,15 @@ namespace TheChosenProject.Game.MsgMonster
                 {
                     MonsterRole monster;
                     monster = map_mob as MonsterRole;
-                    if (!monster.Alive && monster.State == MobStatus.Respawning)
+                    if (!map_mob.Alive && monster.State == MobStatus.Respawning)
                     {
                         if (BossDatabase.Bosses.ContainsKey(monster.Family.ID))
                             continue;
-
                         if (timer > monster.RespawnStamp && !client.Map.MonsterOnTile(monster.RespawnX, monster.RespawnY))
                         {
                             monster.Respawn();
-                            using (var rec = new ServerSockets.RecycledPacket())
-                            {
-                                var stream = rec.GetStream();
-                                if (monster.Family.ID == 8500)
-                                {
-                                    Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("WaterLord has spawned in Adventure Islands at (520,735), Kill him and get The CleanWater.", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
-                                    //Program.DiscordWaterLord.Enqueue("WaterLord has spawned in Adventure Islands at (520,735), Kill him and get The CleanWater.");
-                                }
-                            }
                             client.Map.SetMonsterOnTile(monster.X, monster.Y, true);
                         }
-                        continue;
                     }
                     if ((monster.Family.Settings & MonsterSettings.Guard) == MonsterSettings.Guard || (monster.Family.Settings & MonsterSettings.Reviver) == MonsterSettings.Reviver || (monster.Family.Settings & MonsterSettings.Lottus) == MonsterSettings.Lottus)
                         continue;

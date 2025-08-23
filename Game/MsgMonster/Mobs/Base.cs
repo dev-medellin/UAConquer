@@ -115,32 +115,12 @@ namespace TheChosenProject.Mobs
             using (var rec = new ServerSockets.RecycledPacket())
             {
                 var stream = rec.GetStream();
+                string msg = Mob.Name + " has spawned! in NorthPass City at (" + X + "," + Y + ")! Hurry and kill it.";
                 Role.GameMap.EnterMap((int)MapID);
-                string msg = "";
                 Database.Server.AddMapMonster2(stream, Database.Server.ServerMaps[MapID], (uint)ID, X, Y, 1, 1, 1, 0, true, Game.MsgFloorItem.MsgItemPacket.EffectMonsters.None, "", this);
                 Game.MsgFloorItem.MsgItemPacket effect = Game.MsgFloorItem.MsgItemPacket.Create();
                 effect.m_UID = (uint)Game.MsgFloorItem.MsgItemPacket.EffectMonsters.Night;
                 effect.DropType = MsgDropID.Earth;
-                if (ID == IDMonster.ThrillingSpook)
-                {
-                     msg = Mob.Name + " has spawned! in Market at (" + X + "," + Y + ")! Hurry and kill it.";
-                }
-                else if (ID == IDMonster.TeratoDragon)
-                {
-                    msg = Mob.Name + " has spawned! in Twin City (Altar) at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
-                else if (ID == IDMonster.SnowBanshee)
-                {
-                    msg = Mob.Name + " has spawned! in Grotto 2 at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
-                else if (ID == IDMonster.SowrdMaster)
-                {
-                    msg = Mob.Name + " has spawned! in Upgraded Area at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
-
                 if (Type == BossType.City)
                 {
                     Program.MonsterCity.TryAdd(ID, this);
@@ -159,32 +139,14 @@ namespace TheChosenProject.Mobs
                     }
                     else
                     {
-                        //client.Send(new Game.MsgServer.MsgMessage(msg, Game.MsgServer.MsgMessage.MsgColor.orange, Game.MsgServer.MsgMessage.ChatMode.BroadcastMessage).GetArray(stream));
-                        //client.Send(stream.ItemPacketCreate(effect));
+
                         //if (ID == IDMonster.ThrillingSpook)
                         //{
-                        //    msg = "Thrilling Spook has spawned and terrify the world! (Join from Market) at (245,153).";
+                        //    msg = "Thrilling Spook has spawned and terrify the world! (Join from market) at (245,153).";
                         //    client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(245, 153, 1036, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
                         //}
-                        //if (ID == IDMonster.TeratoDragon)
-                        //{
-                        //    msg = "Terato Dragon has spawned and terrify the world! (Join from Altar) at (555,597).";
-                        //    client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(555, 597, 1002, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
-                        //}
-                        //if (ID == IDMonster.SnowBanshee)
-                        //{
-                        //    msg = "Terato Dragon has spawned and terrify the world! (Join from Altar) at (555,597).";
-                        //    client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(555, 597, 1002, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
-                        //}
-                        //if (ID == IDMonster.SowrdMaster)
-                        //{
-                        //    msg = "Terato Dragon has spawned and terrify the world! (Join from Altar) at (555,597).";
-                        //    client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(555, 597, 1002, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
-                        //}
                         //else
-                        //client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(424, 378, 1002, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
-                        client.Send(new Game.MsgServer.MsgMessage(msg, Game.MsgServer.MsgMessage.MsgColor.orange, Game.MsgServer.MsgMessage.ChatMode.BroadcastMessage).GetArray(stream));
-                        client.Send(stream.ItemPacketCreate(effect));
+                        client.Player.MessageBox("", new Action<Client.GameClient>(user => user.Teleport(424, 378, 1002, 0)), null, 180, (Game.MsgServer.MsgStaticMessage.Messages)ID);
                     }
                 }
             }
@@ -198,27 +160,7 @@ namespace TheChosenProject.Mobs
             MapName = map.Name;
             if (loc != "")
             {
-                string msg = "";
-
-                if (ID == IDMonster.ThrillingSpook)
-                {
-                    msg = Mob.Name + " is still alive in at (" + X + "," + Y + ")! Hurry and kill it.";
-                }
-                else if (ID == IDMonster.TeratoDragon)
-                {
-                    msg = Mob.Name + " is still alive in Twin City (Altar) at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
-                else if (ID == IDMonster.SnowBanshee)
-                {
-                    msg = Mob.Name + " is still alive in Grotto 2 at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
-                else if (ID == IDMonster.SowrdMaster)
-                {
-                    msg = Mob.Name + " is still alive in Upgraded Area at (" + X + "," + Y + ")! Hurry and kill it.";
-
-                }
+                string msg = Mob.Name + " is still alive in NorthPass City at " + loc + ".";
 
                 Game.MsgFloorItem.MsgItemPacket effect = Game.MsgFloorItem.MsgItemPacket.Create();
                 effect.m_UID = (uint)Game.MsgFloorItem.MsgItemPacket.EffectMonsters.Night;

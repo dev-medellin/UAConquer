@@ -72,8 +72,14 @@ namespace TheChosenProject.Role.Instance
             return 11;
         }
 
-        public static void RegisterChangeName(uint clanid, string name)
+        public static void RegisterChangeName(GameClient client,uint clanid, string name)
         {
+            if (client.Player.ConquerPoints < ServerKernel.CREATE_CLAN)
+            {
+                client.CreateBoxDialog($"You don't have enough {ServerKernel.CREATE_CLAN} Conquer Points (CPS) to create Clan.");
+                return;
+            }
+                
             if (!ChangeNameRecords.ContainsKey(clanid))
                 ChangeNameRecords.TryAdd(clanid, name);
             else

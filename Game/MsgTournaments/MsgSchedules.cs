@@ -847,34 +847,21 @@ namespace TheChosenProject.Game.MsgTournaments
             #endregion
             #region Boss
 
-            //if ((DateTime.Now.DayOfWeek == DayOfWeek.Monday) && Now64.Hour % 4 == 0 && Now64.Minute == 15 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.SnowBanshee);
-
-            //if ((DateTime.Now.DayOfWeek == DayOfWeek.Tuesday) && Now64.Hour % 4 == 0 && Now64.Minute == 25 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.TeratoDragon);
-
-            //if ((DateTime.Now.DayOfWeek == DayOfWeek.Wednesday) && Now64.Hour % 4 == 0 && Now64.Minute == 35 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.NemesisTyrant);
-
-            //if ((DateTime.Now.DayOfWeek == DayOfWeek.Thursday) && Now64.Hour % 4 == 0 && Now64.Minute == 45 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.ThrillingSpook);
-
-            //if ((DateTime.Now.DayOfWeek == DayOfWeek.Friday) && Now64.Hour % 4 == 0 && Now64.Minute == 55 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.SowrdMaster);
-
-            //if (Now64.Minute == 15 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.SowrdMaster);
-
-            //if (Now64.Minute == 25 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.TeratoDragon);
-
-            //if (Now64.Minute == 35 && Now64.Second < 1)
-            //    MobsHandler.Generate(IDMonster.ThrillingSpook);
-
-            if (Now64.Hour == 20 && Now64.Minute == 35 && Now64.Second < 1)
-            {
+            if (Now64.Hour % 4 == 3 && Now64.Minute == 27 && Now64.Second < 1)
                 MobsHandler.Generate(IDMonster.SnowBanshee);
-            }
+
+            if (Now64.Hour % 4 == 0 && Now64.Minute == 25 && Now64.Second < 1)
+                MobsHandler.Generate(IDMonster.TeratoDragon);
+
+            if (Now64.Hour % 4 == 0 && Now64.Minute == 35 && Now64.Second < 1)
+                MobsHandler.Generate(IDMonster.NemesisTyrant);
+
+            if (Now64.Hour % 4 == 0 && Now64.Minute == 45 && Now64.Second < 1)
+                MobsHandler.Generate(IDMonster.ThrillingSpook);
+
+            if (Now64.Hour % 4 == 0 && Now64.Minute == 55 && Now64.Second < 1)
+                MobsHandler.Generate(IDMonster.SowrdMaster);
+
 
             //if (Now64.Hour == 8 && Now64.Minute == 5 && Now64.Second < 1)
             //    MobsHandler.Generate(IDMonster.GuildBeast);
